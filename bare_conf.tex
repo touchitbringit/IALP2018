@@ -359,18 +359,18 @@
 % use a multiple column layout for up to two different
 % affiliations
 
-\author{\IEEEauthorblockN{Authors Name/s per 1st Affiliation (Author)}
-\IEEEauthorblockA{line 1 (of Affiliation): dept. name of organization\\
-line 2: name of organization, acronyms acceptable\\
-line 3: City, Country\\
-line 4: Email: name@xyz.com}
-\and
-\IEEEauthorblockN{Authors Name/s per 2nd Affiliation (Author)}
-\IEEEauthorblockA{line 1 (of Affiliation): dept. name of organization\\
-line 2: name of organization, acronyms acceptable\\
-line 3: City, Country\\
-line 4: Email: name@xyz.com}
-}
+% \author{\IEEEauthorblockN{Lalitia Apsari (Author)}
+% \IEEEauthorblockA{Department of Descriptive Linguistics\\
+% University of Indonesia\\
+% Depok, Indonesia\\
+% Email: lalitia.apsari@ui.ac.id}
+% \and
+% \IEEEauthorblockN{Totok Suhardijanto, M.Hum., Ph.D. (Author)}
+% \IEEEauthorblockA{Department of Descriptive Linguistics\\
+% University of Indonesia\\
+% Depok, Indonesia\\
+% Email: totok.suhardijanto@ui.ac.id}
+% }
 
 % conference papers do not typically use \thanks and this command
 % is locked out in conference mode. If really needed, such as for
@@ -428,28 +428,400 @@ component; formatting; style; styling;
 % creates the second title. It will be ignored for other modes.
 \IEEEpeerreviewmaketitle
 
-
+=========================================
+==========================================
+cite-citet-citep, foto ga nongol, reference figure di dlm text, betulin rumus.
+==========================================
+==========================================
 
 \section{Introduction}
 % no \IEEEPARstart
-This demo file is intended to serve as a ``starter file''
-for IEEE conference papers produced under \LaTeX\ using
-IEEEtran.cls version 1.7 and later.
 
-All manuscripts must be in English. These guidelines include complete descriptions of the fonts, spacing, and related information for producing your proceedings manuscripts. Please follow them and if you have any questions, direct them to the production editor in charge of your proceedings at Conference Publishing Services (CPS): Phone +1 (714) 821-8380 or Fax +1 (714) 761-1784.
+There are several concepts that relate syntactic structures of a sentence with human's cognition, such as dependency. In a \textit{dependency} theory, every linguistic unit is connected with each other by a link that represents direct asymmetrical syntactic relation forming an iterative structure attaching all the constituents within a sentence \citep{tesniere1959elements}. This syntax framework contributes greatly to the discussion on how far a language development is shaped by the mechanical constraints of human cognition, particularly in relation to language acquisition and language application, as suggested by \cite{plotkin2000language}. \cite{heringer1993dependency} proposed a linear distance that represents dependency between two words or constituents, which has been adopted into modern computational methods of quantifying dependency. This linear distance is measured by counting the constituents involved between the connected constituents. However, another important aspect in measuring dependency, in addition to the linear distance, is the position of the \textit{head} in regards to its \textit{dependent}, or the \textit{head directionality}. 
+
 % You must have at least 2 lines in the paragraph with the drop letter
 % (should never be an issue)
 
-\subsection{Subsection Heading Here}
-Subsection text here.
+\subsection{Measuring dependency}
+
+Words are the main constituents of syntax that carry with them the grammatical relation that connect one word with another \citep{tesniere1959elements}. The term \textit{dependency} itself is a derivative of a connection that refers to an asymmetrical relation between a superordinate and its subordinate (\citealp{hudson1984word, heringer1993dependency, tesniere1959elements}). \citet{tesniere1959elements, hudson1984word, liu2009chinese} have all described in detail what a dependency structure between two constituents looks like. It can be summarized from these references that a dependency structure consists of a binary and asymmetrical relation between two linguistic units and the type of a dependency relation is usually indicated using a label on top of an arc linking the two constituents, as shown in \pic~\ref{fig:tautandependensi}. An arrow pointing from a more superior constituent to a more inferior one represents the hierarchical relation between two constituents. The governor is also more commonly called as a \textit{head} and the subordinate is generally called a \textit{dependent}. In a more complex and recursive structure of dependency relations, such as a sentence, the sentence head is usually called a \textit{root}.
+
+\begin{figure}
+	\centering \includegraphics[width=0.8
+	\textwidth] {pics/tautandependensi.png} \caption{Elements of a dependency relation} 
+\label{fig:tautandependensi} \end{figure}
+
+The arc in \pic~\ref{fig:tautandependensi} illustrates how a constituent must be kept active in working memory until both constituents are realized in an utterance, which result in the integration of meanings carried by both constituents \citep{hudson2003psychological, liu2008dependency}. Therefore, the greater the dependency distance, the heavier the burden borne by the working memory. To measure a dependency distance (DD), a sentence is treated as a string of constituents $C_{1}...C_{i}...C_{n}$. Each constituent has a significant index that corresponds its position within the given sentence. For example, $C_{1}$ indicates that the constituent is located on the first position in the sentence. There are different approaches of measuring dependency distance. Largely, they involve the value of DD, which is obtained by subtracting directly linked constituents \citep{liu2008dependency, liu2017dependency, futrell2015large}.
+
+Previous substantial studies on measuring dependency, \cite{gildea2010grammars} and \cite{futrell2015large}, used dependency length (DL) as their main approach. DL is the sum of absolute DD of an entire sentence, which can be defined as follows:
+
+\begin{align}\label{eq:bola}
+	\displaystyle\sum_{i=1}^{n-1} |DD_i|
+\end{align}
+
+While other notable studies used a different approach called the mean dependency distance (MDD) \citep{liu2008dependency, liu2017dependency} which divides DL with the number of dependency relations of an entire sentence. MDD can be defined as follows:
+
+\begin{align}\label{eq:bola}
+	\frac{1}{n-1} \displaystyle\sum_{i=1}^{n-1} |DD_i|
+\end{align}
 
 
-\subsubsection{Subsubsection Heading Here}
-Subsubsection text here.
 
-\section{Type style and Fonts}
-Wherever Times is specified, Times Roman or Times New Roman may be used. If neither is available on your system, please use the font closest in appearance to Times. Avoid using bit-mapped fonts if possible. True-Type 1 or Open Type fonts are preferred. Please embed symbol fonts, as well, for math, etc.
+\subsection{Head directionality in Indonesian language}
 
+
+Hingga saat ini, belum ada konvensi mengenai direksionalitas induk terkait hierarki dan pengolahan dalam memori kerja. Namun, beberapa kajian telah dilakukan untuk memberikan penjelasan tambahan mengenai penerapan aturan tata bahasa. Beberapa penelitian pada awal berkembangnya teori dependensi, menemukan bahwa sebuah bahasa cenderung menerapkan arah relasi yang konsisten, baik itu \gls{diawali-induk} (\textit{head-first} atau \textit{head-initial}) maupun \gls{diakhiri-induk} (\textit{head-last} atau \textit{head-final})\footnote{Seperti yang dijelaskan sebelumnya, induk (\textit{head}) di sini sedikit berbeda dengan induk (\textit{heads}) pada teori struktur frasa. Sehingga, bentuk relasi dependensi diawali atau diakhiri induk yang dibahas pada bagian ini terbatas hanya pada penerapannya berdasarkan teori dependensi dan bukan struktur frasa.} (\citealp{hawkins1994performance, radford1997syntactic, vennemann1994linguistic}). Tindakan yang konsisten ini juga diasumsikan sebagai penerapan tata bahasa sebagai strategi untuk meminimalkan jarak antara induk dan konstituen terikatnya (\citealp{hawkins1994performance, frazier1985syntactic}). \cite{liu2010dependency} juga telah berupaya untuk memberikan validitas berdasarkan data mengenai arah dependensi dan kaitannya dengan klasifikasi topologis sebuah bahasa.
+
+\begin{figure}
+	\centering \includegraphics[width=0.5
+	\textwidth] {pics/samebranching.png} \caption{\Gls{percabangan-searah} atau \textit{same-branching}} 
+\label{fig:samebranching} \end{figure}
+
+\begin{figure}
+	\centering \includegraphics[width=0.5
+	\textwidth] {pics/mixedbranching.png} \caption{\Gls{percabangan-beda-arah} atau \textit{mixed-branching}} 
+\label{fig:mixedbranching} \end{figure}
+
+Perbandingan percabangan pada \pic~\ref{fig:samebranching} dan \pic~\ref{fig:mixedbranching} mengilustrasikan tautan-tautan yang dibentuk oleh masing-masing tipe percabangan. Percabangan searah atau \textit{same branching} dengan satu relasi yang berkelanjutan tidak mungkin akan secara konsisten terjadi, terutama pada kalimat yang lebih panjang sehingga asumsi ini dipertanyakan oleh \cite{temperley2008dependency} yang menganggap bahwa percabangan searah ini tidak selalu optimal dalam menggambarkan penampilan bahasa. \cite{temperley2008dependency} meneruskan asumsi ini berdasarkan penelitian \cite{dryer1992greenbergian} terhadap 625 bahasa yang mengungkapkan bahwa percabangan searah yang konvensional tidak dapat menggambarkan dengan baik aplikasi tata bahasa pada ujaran nyata dalam kajian penampilan bahasa. \cite{dryer1992greenbergian} menggambarkan karakter tata bahasa mengenai hal ini sebagai berikut: frasa yang mengandung banyak konstituen cenderung memiliki percabangan searah, sedangkan arah dependensi frasa yang hanya mengandung satu konstituen ditemukan tidak konsisten. Kajian \cite{dryer1992greenbergian} yang dikutip dalam \cite{gildea2010grammars} memperlihatkan dengan bukti empiris adanya gabungan percabangan searah dan percabangan beda arah (\textit{mixed branching}) untuk menghasilkan keseimbangan antara arah dependensi positif (diawali induk) dan dependensi negatif (diakhiri induk) dalam mendapatkan nilai panjang dependensi terkecil (\pic~\ref{fig:balancedbranching}).
+
+\begin{figure}
+	\centering \includegraphics[width=0.8
+	\textwidth] {pics/balancedbranching.png} \caption{Keseimbangan direksionalitas induk} 
+\label{fig:balancedbranching} \end{figure}
+=========================================
+==========================================
+
+\section{Methods}
+
+The written data, obtained from a partnership with an Indonesian technology company called Dattabot, consists of 9311 sentences of various news articles published from 2008 to 2018. The spoken data, obtained from partnerships with various journalists across the country, consists of 10.219 sentences of live reports, interviews, and other spontaneous utterances (all in the journalistic domain) recorded from 2010 to 2018. The main challenge in including spoken data is because computational parsers are mostly trained to parse written data. Therefore, sentences with specific features of spoken language, such as hesitations, fillers, etc., are not included in the corpus. These two sets of corpora are preprocessed, parsed, and cleaned using UDPipe \citep{udpipe2017} and manual verifications. UDPipe \citep{udpipe2017} is a trainable pipeline for tokenization, tagging, lemmatization and dependency parsing of CoNLL-U files based on dependency treebanks provided by Universal Dependencies 2.0 \citep{nivre2017universal} that are contextually adjusted for many languages, including Indonesian.
+
+=========================================
+==========================================
+
+Data jurnalistik ragam tulis yang diterima dari hasil kerja sama dengan perusahaan media monitoring Dattabot berbentuk teks elektronik hasil pemindaian media cetak dengan pendekatan komputasional \textit{Optical Character Recognition} (OCR). Sedangkan, data jurnalistik ragam lisan yang diterima berupa rekaman audio yang selanjutnya diolah terlebih dahulu dalam salah satu tahap persiapan data menggunakan metode komputasional dengan bantuan Google Speech API dan diverifikasi kembali secara manual. Tahap berikutnya memanfaatkan UDPipe \citep{udpipe2017} yang merupakan sebuah kerangka kerja yang dapat dilatih ulang untuk pengkategorian konstituen kalimat (\textit{token}), penguraian lemma, dan penguraian kalimat. Kerangka kerja UDPipe digunakan sebagai langkah penguraian kalimat komputasional dan dijalankan sebagai paket CRAN pihak ketiga UDPipe versi 0.5 \citep{udpipe2017manual} pada bahasa pemrograman R (versi 3.3.3) \citep{r2017project}. Bahasa pemrograman R ini dijalankan dengan RStudio \citep{rstudio2017}, sebuah perangkat lunak sumber terbuka. 
+
+Umumnya, kerangka kerja atau pendekatan penguraian kalimat dalam ranah linguistik komputasional memanfaatkan teori konstituensi sebagai dasar teori dan pengembangannya sehingga menghasilkan uraian kalimat berdasarkan struktur frasanya. Kerangka kerja penguraian kalimat UDPipe menggunakan dasar bank pohon struktur dependensi dari koleksi Universal Dependencies 2.0 \citep{nivre2017universal} dengan memadukan lemma dan fitur morfologis lainnya dari kerangka kerja MorphInd yang kontekstual terhadap data bahasa Indonesia \citep{larasati2011indonesian}. Kerangka kerja penguraian kalimat berdasarkan dependensi saat ini masih terus dikembangkan secara intensif sehingga masih memiliki kekurangan dalam aspek menangani keambiguitasan makna konstituen, bentuk bahasa informal, dan masalah tuturan nyata lainnya. Kekurangan ini menuntut tahapan verifikasi manual untuk memastikan kualitas data. Meskipun begitu, hasil uji model terhadap bahasa Indonesia memiliki akurasi 74,3\%-80,6\% \citep{udpipe2017}. Setelah melalui proses penguraian kalimat, seluruh tahapan-tahapan berikutnya yang mencakup anotasi nilai DL dan MDD, seleksi dan klasifikasi data, analisis teks, pemaparan pola DL dan MDD, serta uji signifikansi memanfaatkan bahasa pemrograman R (versi 3.3.3) \citep{r2017project} dan Python (versi 3.6.3) (Python Core Team, 2017).
+
+Direksionalitas induk berkaitan dengan hierarki relasi antara induk dan konstituen terikatnya. Seperti yang dijelaskan pada bab sebelumnya dan divisualisasikan pada \pic~\ref{fig:tautandependensi}, relasi antara dua konstituen dihubungkan dengan sebuah tautan yang memiliki panah. Arah panah tersebut merepresentasikan hierarki relasi antara keduanya. Arah panah ke kanan menandakan tautan yang bernilai positif yang mewakili bentuk relasi diawali induk. Sebaliknya, arah panah ke kiri menandakan tautan yang bernilai negatif yang mewakili bentuk relasi diakhiri induk. Hal ini dapat dilihat juga pada visualisasi dari dua kalimat contoh yang diambil dari data ragam tulis (\pic~\ref{fig:contohtulis}) dan ragam lisan (\pic~\ref{fig:contohlisan}). Kedua visualisasi ini mengandung tautan-tautan dengan anotasi positif ($+$) dan anotasi negatif ($-$) (yang juga dibedakan oleh warna biru dan merah) untuk memberikan gambaran terhadap perbedaan direksionalitas induk dalam sebuah kalimat. Sebagai contoh, \pic~\ref{fig:contohtulis} memiliki 4 tautan dependensi positif dan 1 tautan dependensi negatif, sehingga pada kalimat ini relasi di mana induk direalisasikan sebelum konstituen terikat mendominasi kalimat tersebut. Pada level dependensi utama atau simpai pusat, \textit{menggelar} memiliki 2 tautan dependensi positif terhadap \textit{program} dan \textit{Cassina} serta 0 tautan dependensi negatif.
+
+Simpai pusat merepresentasikan relasi-relasi utama dalam sebuah kalimat berdasarkan dependensi. Pada kalimat yang lebih kompleks, simpai pusat juga memberikan gambaran terhadap relasi-relasi utama, namun terkadang banyak relasi pada cabang yang tidak terwakili. Oleh karena itu, pemaparan kedua analisis direksionalitas induk pada relasi-relasi secara keseluruhan dan pada simpai pusat penting untuk disampaikan. Pada tahap anotasi DL, setiap relasi antara dua konstituen dalam sebuah kalimat sudah diberikan anotasi positif maupun negatif. Oleh sebab itu, pada tahap ini hanya perlu dilakukan agregasi data terhadap relasi-relasi bernilai positif dan relasi-relasi bernilai negatif. Tahap analisis ini didasarkan pada pembahasan mengenai percabangan searah dan percabangan beda arah yang dibahas oleh \cite{temperley2008dependency} dan \cite{dryer1992greenbergian} untuk melihat adanya kecenderungan dalam menerapkan tipe percabangan keduanya. Uji hipotesis untuk bagian analisis ini dilakukan dengan pendekatan penghitungan statistika deskriptif.
+
+=========================================
+==========================================
+
+\begin{itemize}
+\item To analyze the basic comparison between written (formal) and spoken (spontaneous) language, the corpora are first classified into two sets: written data and spoken data.
+\item To investigate the possible influence sentence length may have on dependency distances (and syntactic construction). This study considers approaches from similar studies \citep{oya2011syntactic, jiang2015effects} and classifies both sets of corpora into five categories:
+\begin{itemize}
+\item Sentences with 5 constituents or less.
+\item Sentences with 6 to 10 constituents.
+\item Sentences with 11 to 20 constituents.
+\item Sentences with 21 to 30 constituents.
+\item Sentences with more than 30 constituents.
+\end{itemize}
+\end{itemize}
+
+\section{Results}
+
+
+=========================================
+==========================================
+
+Pada hubungan dua konstituen secara umum, setiap tautan dependensi ikut diperhitungkan dari segi frekuensi maupun jaraknya. Sebagai contoh, \pic~\ref{fig:ts6841} dan \pic~\ref{fig:ls7375} merupakan dua kalimat yang ditemukan pada korpus data ragam tulis dan lisan. Dalam \pic~\ref{fig:ts6841}, seluruh tautan dependensinya adalah positif, dalam arti induk menempati posisi sebelum konstituen terikatnya (diawali induk). Kalimat ini memiliki frekuensi dependensi positif sebanyak 5 dengan jarak masing-masing adalah 1, 2, 3, 1, dan 1 serta frekuensi dependensi negatif sebanyak 0. Sebaliknya, \pic~\ref{fig:ls7375} hanya memiliki tautan dependensi negatif, dalam arti induk menempati posisi setelah konstituen terikatnya (diakhiri induk). Kalimat ini memiliki frekuensi dependensi positif sebanyak 0 serta frekuensi dependensi negatif sebanyak 5 dengan jarak masing-masing adalah 5, 4, 3, 2, dan 1.
+
+\begin{figure}
+\centering
+
+\begin{subfigure}{.32\linewidth}
+  \centering
+  \includegraphics[width=1\linewidth] {pics/ts6841.jpg} 
+	\caption{T\textit{umum}a}
+	\label{fig:ts6841} 
+\end{subfigure}
+%
+\begin{subfigure}{.46\linewidth}
+  \centering
+  \includegraphics[width=1\linewidth]{pics/ls7375.jpg} 
+	\caption{L\textit{umum}a}
+	\label{fig:ls7375} 
+\end{subfigure}
+
+\caption{Contoh perbedaan relasi diawali dan diakhiri induk pada hubungan dua konstituen secara umum}
+\label{fig:umumcontoh}
+\end{figure}
+
+Pada uji hipotesis ini, kecenderungan dilihat dari segi frekuensi dan jarak dependensi. Seperti contoh yang dijabarkan di atas, frekuensi tidak selalu berkorelasi secara linear terhadap jarak sehingga kecenderungan pada satu aspek dapat berbeda dengan aspek lainnya. Meskipun kalimat yang tidak memiliki salah satu bentuk relasi diawali maupun diakhiri induk seperti di atas tidak banyak ditemukan, banyak kalimat dalam kedua korpus data yang didominasi oleh salah satu bentuk sehingga menarik untuk dikaji kecenderungannya.
+
+\begin{figure}
+\centering
+
+\begin{subfigure}{.7\linewidth}
+  \centering
+  \includegraphics[width=1\linewidth] {pics/tulis_DLposneg.png} 
+	\caption{Grafik panjang dependensi positif dan negatif data ragam tulis}
+	\label{fig:tulis_DLposneg} 
+\end{subfigure}
+%
+\begin{subfigure}{.7\linewidth}
+  \centering
+  \includegraphics[width=1\linewidth]{pics/lisan_DLposneg.png} 
+	\caption{Grafik panjang dependensi positif dan negatif data ragam lisan}
+	\label{fig:lisan_DLposneg} 
+\end{subfigure}
+
+\caption{Grafik jumlah konstituen (sumbu $x$) terhadap panjang dependensi kalimat (sumbu $y$) untuk relasi diawali induk atau dependensi positif (biru) dan relasi diakhiri induk atau dependensi negatif (merah) korpus data ragam tulis (atas) dan lisan (bawah). Satu kalimat memiliki satu titik yang mewakili panjang dependensi positif dan satu titik yang mewakili dependensi negatif. Garis regresi yang terbentuk merupakan gambaran rata-rata yang didapatkan dari seluruh titik setiap aspek dependensi.}
+\label{fig:DL_posneg}
+\end{figure}
+
+Berdasarkan \pic~\ref{fig:tulis_DLposneg} dan \pic~\ref{fig:lisan_DLposneg}, kedua korpus data menunjukkan garis regresi tautan dependensi positif yang berada jauh di atas garis regresi tautan dependensi negatif. Pada kalimat dengan jumlah konstituen yang semakin banyak, jarak antara keduanya semakin jauh. Seperti yang dijelaskan sebelumnya, panjang dependensi cukup sensitif terhadap panjang kalimat dan keduanya memiliki hubungan linear. Dalam sebuah kalimat, perbandingan jumlah bentuk relasi diawali dan diakhiri induk saling berkaitan. Hal ini berarti ada kecenderungan preferensi terhadap bentuk relasi diawali induk dan menandakan kesesuaian data observasi dengan tata bahasa yang berlaku. Namun, pada grafik arah depensi ragam lisan (\pic~\ref{fig:lisan_DLposneg}), jarak garis regresi tautan dependensi positif dan negatif terlihat lebih dekat dibandingkan ragam tulis. Grafik ini juga memperlihatkan adanya kurva parabola terbuka ke bawah sehingga muncul asumsi adanya nilai tertinggi atau ambang batas (\textit{threshold}) terhadap panjang dependensi negatif pada korpus data ragam lisan. Berdasarkan korpus data yang terkumpul, dugaan ambang batas tautan dependensi negatif ini menimbulkan asumsi bahwa mulai panjang kalimat tertentu, panjang dependensi negatif dalam sebuah kalimat mungkin tidak akan melebihi nilai tertentu juga. 
+
+\begin{table}
+\begin{center}
+\caption{Frekuensi selisih panjang dependensi positif dan negatif pada hubungan dua konstituen secara umum}  \label{tab:DLposneg}
+\begin{tabular}{p{1.1cm} p{1.2cm} p{1.2cm} p{1.3cm} p{1.3cm}}
+\hline
+Length & Written (+ \textgreater -) & Written (+ \textless -) & Spoken (+ \textgreater -) & Spoken (+ \textless -) \\ \hline
+\textless= 5 & 164 & 221 & 1188 & 1354 \\
+6 - 10 & 992 & 646 &1469 & 1349 \\
+11 - 20 & 3145 & 952 & 1858 & 1014 \\
+21 - 30 & 1854 & 200 & 644 & 166 \\
+31 - 40 & 558 & 36 & 204 & 37 \\
+\textgreater 40 & 201 & 5 & 89 & 7 \\ \hline
+ \end{tabular}
+ \end{center}
+ \end{table}
+ 
+\tab~\ref{tab:DLposneg} berisi frekuensi kalimat dengan melihat apakah kalimat tersebut memiliki panjang dependensi positif yang lebih jauh atau sebaliknya. Hal ini berarti kalimat yang memiliki panjang dependensi positif dan negatif sama jauh tidak diikutsertakan dalam analisis. Jumlah kalimat dalam \tab~\ref{tab:DLposneg} dihitung berdasarkan selisih panjang dependensinya. Berdasarkan tabel ini, kalimat yang panjang dependensi positifnya lebih besar dari negatif ditemukan lebih banyak mulai dari panjang kalimat 6 konstituen. Hal ini memperlihatkan adanya kecenderungan terhadap bentuk relasi diawali induk. Selain itu, rasio perbandingan pada ragam tulis jauh lebih besar dibandingkan ragam lisan. Pada kategori kalimat terpanjang, jumlah kalimat yang panjang dependensi positifnya lebih besar dapat mencapai 40 kali lebih banyak.  Temuan ini menunjukkan bahwa penutur cenderung lebih banyak menempatkan induk pada posisi sebelum konstituen terikatnya. Seiring bertambahnya jumlah konstituen, rasio frekuensi tautan dependensi positif dan negatif semakin besar pada kedua ragam. Namun, perbedaan rasio dari setiap kategori jumlah konstituen pada ragam lisan tidak sejauh ragam tulis. 
+
+\begin{table}
+\begin{center}
+\caption{Frekuensi tautan dependensi positif dan negatif pada hubungan antara dua konstituen secara umum}  \label{tab:tautanposneg}
+\begin{tabular}{p{1.1cm} p{1.2cm} p{1.2cm} p{1.3cm} p{1.3cm}}
+    \hline
+Length & Written (+) & Written (-) & Spoken (+) & Spoken (-) \\ \hline
+\textless= 5 & 677 & 700 & 2841 & 2764 \\
+6 - 10 & 7023 & 5715 & 7649 & 6918 \\
+11 - 20 & 35597 & 24426 & 15554 & 12898 \\
+21 - 30 & 31036 & 18163 & 7564 & 5939 \\
+31 - 40 & 12904 & 6968 & 3232 & 2414 \\
+\textgreater 40 & 6583 & 3240 & 1928 & 1426 \\ \hline
+   \end{tabular}
+\end{center}
+\end{table}
+
+\tab~\ref{tab:tautanposneg} merupakan tabel yang berisi frekuensi tautan dependensi positif dan negatif dalam kedua korpus data. Frekuensi ini hanya menggambarkan jumlah kemunculan tautan dan tidak memiliki jarak dependensi. Pada tabel ini, tautan-tautan dependensi tidak dikelompokkan per kalimat sehingga dapat memberikan gambaran jumlah tautan yang ada dalam keseluruhan korpus. Data ragam tulis menunjukkan bahwa mulai dari panjang kalimat 6 konstituen, frekuensi tautan dependensi negatif lebih sedikit dibandingkan tautan dependensi positif. Meskipun begitu, tautan dependensi positif lebih banyak pada semua klasifikasi dalam ragam lisan. 
+
+Pada kategori kalimat terpanjang dalam ragam tulis, frekuensi tautan dependensi positif dapat mencapai dua kali tautan dependensi negatif. Sementara pada ragam lisan, perbandingan terbesar hanya mencapai 1,35 banding 1 sehingga juga menunjukkan bahwa kecenderungan bentuk relasi diawali induk lebih terlihat pada data ragam tulis. Rasio dengan jumlah tautan dependensi pada tabel ini memperlihatkan perbandingan yang tidak seekstrim rasio dengan jumlah kalimat pada tabel sebelumnya. Temuan ini memperkuat temuan sebelumnya bahwa penutur bahasa Indonesia cenderung menempatkan posisi induk sebelum konstituen terikatnya. Temuan ini juga menunjukkan bahwa panjang dependensi dari tautan dependensi positif dapat memiliki nilai yang jauh lebih besar terlepas dari perbendingan jumlahnya terhadap tautan dependensi negatif dalam satu kalimat.
+
+\begin{table}
+\begin{center}
+\caption{Jarak dependensi seluruh tautan antara dua konstituen}  \label{tab:deskriptif-konstituen}
+\begin{tabular}{c l l l l l l l l l}
+\hline
+ & \multicolumn{4}{c}{+} & \multicolumn{4}{c}{-} & \\  \cline{2-9}  
+Length & min & med	& max & mean & min & med & max & mean & \\ \cline{1-10}  
+\textless= 5 	& 1 & 1 & 4 & 1,409 	& 1 & 1 & 4 & 1,606 & \multirow{6}{*}{Written}\\
+6 - 10 		& 1 & 1 & 9 & 1,866 	& 1 & 1 & 9 & 1,948 & \\
+11 - 20 		& 1 & 1 & 19 & 2,468 & 1 & 1 & 19 & 2,147 & \\
+21 - 30 		& 1 & 1 & 29 & 2,971 & 1 & 1 & 29 & 2,241 & \\ 
+31 - 40 		& 1 & 1 & 39 & 3,597 & 1 & 1 & 37 & 2,299 & \\
+\textgreater 40 & 1 & 1 & 68 & 4,22 	& 1 & 1 & 55 & 2,282 & \\ 
+\hline
+\textless= 5 	& 1 & 1 & 4 & 1,466 	& 1 & 1 & 4 & 1,534 & \multirow{6}{*}{Spoken}\\
+6 - 10 		& 1 & 1 & 9 & 1,933 	& 1 & 1 & 9 & 2,071 & \\
+11 - 20 		& 1 & 2 & 19 & 2,535 & 1 & 1 & 19 & 2,321 & \\
+21 - 30 		& 1 & 2 & 28 & 3,263 & 1 & 1 & 27 & 2,5 & \\ 
+31 - 40 		& 1 & 2 & 37 & 3,718 & 1 & 1 & 32 & 2,657 & \\
+\textgreater 40 & 1 & 2 & 66 & 4,067 	& 1 & 1 & 46 & 2,438 & \\ 
+\hline
+   \end{tabular}
+\end{center}
+\end{table}
+
+ \tab~\ref{tab:deskriptif-konstituen} mencakup jarak dependensi dari seluruh tautan yang ada dalam kedua korpus data dan tidak dikelompokkan berdasarkan kalimatnya. Tabel ini mendukung temuan sebelumnya dan memperlihatkan bahwa rata-rata jarak dependensi positif lebih jauh dibandingkan dependensi negatif, terutama pada kalimat yang semakin panjang. Perbandingan ini mulai terlihat pada kategori panjang kalimat 11 konstituen dan meningkat seiring bertambahnya jumlah konstituen. Pada kategori kalimat terpanjang, perbandingan jarak antara dependensi positif dan negatif juga semakin jauh. Pada \tab~\ref{tab:deskriptif-konstituen}, terlihat bahwa hampir semua nilai tengah jarak dependensi sama atau sangat mendekati nilai minimum terutama pada ragam tulis. Hal ini menunjukkan bahwa ada kecenderungan banyaknya dua konstituen yang saling berdampingan sehingga menghasilkan nilai minimum atau 1. Pada kategori kalimat terpanjang dalam kedua ragam (\textgreater 40 konstituen), rata-rata jarak dependensi negatif lebih pendek dibandingkan kategori sebelumnya (31-40 konstituen). Meskipun demikian, perbedaan yang signifikan (\textit{P} \textless 0.05) hanya ditemukan pada ragam lisan. Hal ini berarti pada ragam lisan, mulai panjang kalimat tertentu (yang berdasarkan data ini adalah sekitar 40 konstituen) jarak dependensi negatif tidak akan melebihi nilai tertentu. 
+
+\begin{table}
+\begin{center}
+\caption{Rata-rata jarak dependensi positif dan negatif seluruh tautan antara dua konstituen}  \label{tab:deskriptif-mdd}
+\begin{tabular}{c l l l l l l l l l}
+\hline
+ & \multicolumn{4}{c}{+} & \multicolumn{4}{c}{-} & \\  \cline{2-9}  
+Length & min 	& med	& max 	& mean 	& min 	& med 	& max 	& mean 	& \\ \cline{1-10}  
+\textless= 5 	& 1 		& 1 		& 3,5	 	& 1,372 	& 1 		& 1,5 	& 4	 	& 1,545 	&\multirow{6}{*}{Tulis}\\
+6 - 10 		& 1 		& 1,667	& 5,2 	& 1,839 	& 1 		& 1,667 	& 9	 	& 1,895 	& 	\\
+11 - 20 		& 1 		& 2,25 	& 7,25 	& 2,432 	& 1 		& 1,875 	& 10	 	& 2,117 	& 	\\
+21 - 30 		& 1 		& 3,765 	& 10,278 	& 2,97 	& 1 		& 2 		& 12,75	& 2,212 	& 	\\ 
+31 - 40 		& 1,458 	& 3,368 	& 9,933	& 3,595 	& 1 		& 2 		& 8		& 2,272 	& 	\\
+\textgreater 40 	& 1,929 	& 3,756	& 10,567 	& 4,154 	& 1 		& 2 		& 7,111	& 2,258 	& 	\\ 
+\hline
+\textless= 5 	& 1 		& 1 		& 4	 	& 1,378 	& 1 		& 1,33 	& 4		& 1,456 	& \multirow{6}{*}{Lisan}\\
+6 - 10 		& 1 		& 1,714	& 5,6 	& 1,867 	& 1 		& 1,8		& 9		& 2,003 	& \\
+11 - 20 		& 1 		& 2,286 	& 9,625 	& 2,479 	& 1 		& 2 		& 6,818	& 2,255 	& \\
+21 - 30 		& 1,4 	& 3	 	& 8,412 	& 3,252	& 1 		& 2,188	& 8,636	& 2,447 	& \\ 
+31 - 40 		& 1,556 	& 3,512 	& 7,25	& 3,719 	& 1 		& 2,27	& 8,803	& 2,612 	& \\
+\textgreater 40 	& 2,174 	& 3,865	& 6,895 	& 3,957 	& 1,059 	& 2,294	& 4,2		& 2,363 	& \\ 
+\hline
+   \end{tabular}
+\end{center}
+\end{table}
+
+Nilai-nilai pada \tab~\ref{tab:deskriptif-mdd} didapatkan dengan menghitung rata-rata jarak dependensi positif dan negatif pada setiap kalimat. Distribusi nilai minimum, tengah dan maksimum pada ragam lisan lebih merata dibandingkan ragam tulis yang nilai tengahnya terlihat lebih mendekati nilai minimum terutama pada kalimat yang semakin panjang (mulai terlihat pada panjang kalimat 11 konstituen). Mulai panjang kalimat tersebut, rata-rata jarak dependensi pada ragam tulis juga terlihat lebih pendek. Hal ini mendukung temuan sebelumnya bahwa dibandingkan ragam lisan, bahasa Indonesia ragam tulis lebih memperlihatkan upaya untuk meningkatkan efisiensi kalimat dengan mendekatkan konstituen-konstituen yang memiliki tautan dependensi sehingga menghasilkan panjang dan jarak dependensi yang lebih pendek terutama pada kalimat yang lebih panjang. Seperti \tab~\ref{tab:deskriptif-konstituen}, tabel ini juga memperlihatkan bahwa tautan dependensi negatif memiliki rata-rata jarak yang lebih pendek. Rasio perbandingan dependensi positif dan negatif pada ragam lisan juga tidak sebesar data ragam tulis. 
+
+%%-----------------------------------------------------------------------------%
+\subsection{Bentuk relasi diakhiri induk cenderung berjarak lebih pendek pada simpai pusat}
+%%-----------------------------------------------------------------------------%
+Sesuai dengan batasan penelitian ini, bagian analisis ini difokuskan hanya pada simpai pusat dengan kelas kata akar berupa kata kerja atau verba. \pic~\ref{fig:ls1436} dan \pic~\ref{fig:ls1460} merupakan dua kalimat yang ditemukan pada korpus data ragam lisan. \pic~\ref{fig:akarcontoh} menampilkan contoh perbedaan penempatan klausa terikat \textit{kalau boleh tahu}. Klausa terikat \textit{kalau boleh tahu} pada kalimat L\textit{akar}a (\pic~\ref{fig:ls1436}) dan L\textit{akar}b (\pic~\ref{fig:ls1460}) berada pada posisi yang berbeda namun tidak mengubah makna kalimat. Contoh serupa yang menggambarkan perbedaan letak klausa terikat atau perbedaan urutan kata juga sempat dijabarkan oleh \citet[hlm. 209]{sneddon2010indonesian} dalam buku \textit{Indonesian Reference Grammar}.
+
+\begin{figure}
+\centering
+
+\begin{subfigure}{.4\linewidth}
+  \centering
+  \includegraphics[width=1\linewidth] {pics/ls1436.jpg} 
+	\caption{L\textit{akar}a}
+	\label{fig:ls1436} 
+\end{subfigure}
+%
+\begin{subfigure}{.58\linewidth}
+  \centering
+  \includegraphics[width=1\linewidth]{pics/ls1460.jpg} 
+	\caption{L\textit{akar}b}
+	\label{fig:ls1460} 
+\end{subfigure}
+
+\caption{Contoh perbedaan penempatan klausa pada data ragam lisan}
+\label{fig:akarcontoh}
+\end{figure}
+
+Pada kalimat L\textit{akar}b, konstituen-konstiuen yang membentuk klausa \textit{kalau boleh tahu} secara kolektif memiliki relasi dependensi utama negatif terhadap akar \textit{ordernya}. Sesuai dengan bentuk relasi induk dan konstituen terikat berdasarkan teori dependensi yang dijabarkan oleh \cite{tesniere1959elements}, klausa terikat pada posisi awal kalimat ini harus disimpan dalam memori kerja terlebih dahulu hingga akar direalisasikan. Karena akar mengandung informasi utama, perbedaan kedua kalimat ini juga dapat memberikan sedikit gambaran bagaimana perbedaan proses memori kerja terkait penyimpanan informasi yang merupakan argumen inti kalimat.
+
+\begin{figure}
+\centering
+
+\begin{subfigure}{.7\linewidth}
+  \centering
+  \includegraphics[width=1\linewidth] {pics/tulisroot_DLposneg.png} 
+	\caption{Grafik panjang dependensi positif dan negatif simpai pusat data ragam tulis}
+	\label{fig:tulisroot_DLposneg} 
+\end{subfigure}
+%
+\begin{subfigure}{.7\linewidth}
+  \centering
+  \includegraphics[width=1\linewidth]{pics/lisanroot_DLposneg.png} 
+	\caption{Grafik panjang dependensi positif dan negatif simpai pusat data ragam lisan}
+	\label{fig:lisanroot_DLposneg} 
+\end{subfigure}
+
+\caption{Grafik jumlah konstituen (sumbu $x$) terhadap panjang dependensi simpai pusat akar verbal (sumbu $y$) untuk relasi diawali induk atau dependensi positif (biru) dan relasi diakhiri induk atau dependensi negatif (merah) korpus data ragam tulis (atas) dan lisan (bawah). Satu simpai pusat memiliki satu titik yang mewakili panjang dependensi positif dan satu titik yang mewakili dependensi negatif. Garis regresi yang terbentuk merupakan gambaran rata-rata yang didapatkan dari seluruh titik setiap aspek dependensi.}
+\label{fig:rootDL_posneg}
+\end{figure}
+
+\newpage
+\pic~\ref{fig:tulisroot_DLposneg} dan \pic~\ref{fig:lisanroot_DLposneg} merupakan grafik panjang dependensi positif dan negatif yang didapat pada simpai pusat kalimat dengan akar berupa verba. Kalimat dengan akar verbal ditemukan sebanyak 84,61\% atau sebanyak 7874 kalimat pada data ragam tulis dan 70,91\% atau sebanyak 7239 kalimat pada data ragam lisan. Mayoritas frekuensi kemunculan akar verbal ini menjadi dasar untuk melihat bagaimana penutur menyusun informasi utama dengan meninjau tautan-tautan dependensi utama (simpai pusat). Oleh sebab itu, semua klausa yang mungkin terikat pada simpai cabang dianggap mengikuti induknya seperti pada contoh uraian relasi klausa \textit{kalau boleh tahu} dan akarnya di atas (\pic~\ref{fig:akarcontoh}). \pic~\ref{fig:rootDL_posneg} menunjukkan adanya konsistensi pada tingkat tautan dependensi utama dan keseluruhan kalimat. Grafik ini memperlihatkan bahwa penutur juga cenderung memilih untuk menekan penggunaan bentuk relasi diakhiri induk terutama pada kalimat panjang. Berbeda dengan \pic~\ref{fig:DL_posneg} yang pada klasifikasi kalimat menengah sudah cukup terlihat perbedaan antara panjang dependensi positif dan negatif, grafik ini menunjukkan panjang dependensi positif dan negatif saling tumpang tindih sehingga perlu ditinjau lebih dalam. Meskipun begitu, serupa dengan \pic~\ref{fig:DL_posneg}, garis regresi panjang dependensi negatif mengindikasikan adanya ambang batas pada nilai tertentu terutama pada data ragam lisan.
+
+\begin{table}
+\begin{center}
+\caption{Frekuensi selisih panjang dependensi positif dan negatif pada simpai pusat akar verbal}  \label{tab:DLpusatposneg}
+\begin{tabular}{p{1.1cm} p{1.2cm} p{1.2cm} p{1.3cm} p{1.3cm}}
+\hline
+Length & Written (+ \textgreater -) & Written (+ \textless -) & Spoken (+ \textgreater -) & Spoken (+ \textless -) \\ \hline
+\textless= 5 	& 57	 	& 180 	& 393 & 1008 \\
+6 - 10 		& 475 	& 796	& 655 & 1356 \\ 
+11 - 20 		& 1638	& 1804	& 964 & 1336 \\
+21 - 30 		& 1028	& 778	& 384 & 291 \\
+31 - 40 		& 325	& 177	& 121 & 85 \\
+\textgreater 40 	& 137	& 37	 	& 61 & 30 \\ \hline
+   \end{tabular}
+\end{center}
+\end{table}
+
+\tab~\ref{tab:DLpusatposneg} berisi jumlah-jumlah kalimat dengan melihat apakah kalimat tersebut memiliki panjang dependensi positif yang lebih jauh atau sebaliknya pada simpai pusat yang memiliki akar verbal. Berbeda dengan \tab~\ref{tab:DLposneg}, kalimat yang panjang dependensi positifnya lebih jauh ditemukan lebih banyak pada kalimat-kalimat panjang (mulai 21 konstituen). Pada ragam tulis, frekuensi keseluruhan hampir seimbang sedangkan pada ragam lisan cukup berbeda jauh (total frekuensi di mana panjang dependensi negatif lebih jauh dari panjang dependensi positif sebanyak dua kali lipat dibandingkan sebaliknya). 
+
+\begin{table}
+\begin{center}
+\caption{Frekuensi tautan dependensi positif dan negatif pada simpai pusat akar verbal}  \label{tab:tautanpusatposneg}
+\begin{tabular}{p{1.1cm} p{1.2cm} p{1.2cm} p{1.3cm} p{1.3cm}}
+    \hline
+Length & Written (+) & Written (-) & Spoken (+) & Spoken (-) \\ \hline
+\textless= 5 	& 201	& 412 & 1204 & 2151 \\
+6 - 10 		& 1917	& 2532 & 2998 & 4433 \\
+11 - 20 		& 6914 	& 7144 & 4753 & 5570 \\
+21 - 30 		& 4455	& 3691 & 1869 & 1754 \\
+31 - 40 		& 1528	& 1031 & 540 & 461 \\
+\textgreater 40 	& 625	& 321 & 315 & 258 \\ \hline
+   \end{tabular}
+\end{center}
+\end{table}
+
+\tab~\ref{tab:tautanpusatposneg} memperlihatkan bahwa pada simpai pusat akar verbal, kecenderungan menempatkan induk pada posisi sebelum konstituen terikatnya juga baru terlihat pada panjang kalimat mulai 21 konstituen. Pada kalimat-kalimat yang lebih pendek dari itu, frekuensi tautan dependensi negatif yang merepresentasikan bentuk relasi diakhiri induk justru lebih banyak. Pada data ragam tulis, total frekuensi dependensi negatif juga lebih banyak dibandingkan dependensi positif namun rasionya tidak seekstrim pada \tab~\ref{tab:DLpusatposneg}.
+
+\begin{table}
+\begin{center}
+\begin{footnotesize}
+\caption{Jarak dependensi seluruh tautan antarkonstituen pada simpai pusat akar verbal}  \label{tab:deskriptif-konstituenpusat}
+\begin{tabular}{c l l l l l l l l l}
+\hline
+ & \multicolumn{4}{c}{+} & \multicolumn{4}{c}{-} & \\  \cline{2-9}  
+Length & min 	& med	& max 	& mean 	& min 	& med 	& max 	& mean 	& \\ \cline{1-10}  
+\textless= 5 	& 1 		& 1 		& 3	 	& 1,428 	& 1 		& 1		& 4	 	& 1,748 	&\multirow{6}{*}{Tulis}\\
+6 - 10 		& 1 		& 2		& 9	 	& 2,336 	& 1 		& 2	 	& 9	 	& 2,571 	& 	\\
+11 - 20 		& 1 		& 3	 	& 18	 	& 4,083	& 1 		& 2	 	& 19	 	& 3,61 	& 	\\
+21 - 30 		& 1 		& 4	 	& 27	 	& 6,265	& 1 		& 3 		& 29		& 4,793 	& 	\\ 
+31 - 40 		& 1	 	& 6	 	& 38		& 9,046 	& 1 		& 3 		& 37		& 5,925 	& 	\\
+\textgreater 40 	& 1	 	& 9		& 68	 	& 12,88 	& 1 		& 3 		& 44		& 6,791 	& 	\\ 
+\hline
+\textless= 5 	& 1 		& 1 		& 4	 	& 1,482 	& 1 		& 1	 	& 4		& 1,69 	& \multirow{6}{*}{Lisan}\\
+6 - 10 		& 1 		& 2		& 9	 	& 2,28 	& 1 		& 2		& 9		& 2,618 	& \\
+11 - 20 		& 1 		& 3 		& 19	 	& 3,826 	& 1 		& 2 		& 18		& 3,658 	& \\
+21 - 30 		& 1	 	& 4	 	& 26	 	& 6,413	& 1 		& 3		& 27		& 4,789 	& \\ 
+31 - 40 		& 1	 	& 6	 	& 35		& 8,638 	& 1 		& 4		& 32		& 6,505 	& \\
+\textgreater 40 	& 1	 	& 7		& 66	 	& 10,27 	& 1	 	& 3		& 46		& 5,852 	& \\ 
+\hline
+   \end{tabular}
+   \end{footnotesize}
+\end{center}
+\end{table}
+
+\tab~\ref{tab:deskriptif-konstituenpusat} mencakup jarak dependensi dari seluruh tautan pada simpai pusat akar verbal dan tidak dikelompokkan berdasarkan kalimatnya. Tabel ini memperlihatkan bahwa rata-rata jarak dependensi positif lebih jauh dibandingkan dependensi negatif, terutama pada kalimat yang semakin panjang. Seperti pada \tab~\ref{tab:deskriptif-konstituen}, perbandingan ini mulai terlihat pada kategori panjang kalimat 11 konstituen dan meningkat seiring bertambahnya jumlah konstituen. Pada kategori kalimat terpanjang, perbandingan jarak antara dependensi positif dan negatif juga semakin jauh. Keserupaan temuan pada simpai pusat akar verbal dan pada hubungan dua konstituen secara umum (\tab~\ref{tab:deskriptif-konstituen}) menunjukkan bahwa meskipun frekuensi dependensi negatif lebih banyak (terutama pada ragam lisan), tautan dependensi negatif ditemukan berjarak lebih pendek. Nilai tengah untuk semua ragam dan kategori panjang kalimat juga lebih mendekati ke nilai minimum, terutama pada ragam tulis. Pada kategori kalimat terpanjang ragam lisan (\textgreater 40 konstituen), rata-rata jarak dependensi negatif lebih pendek dibandingkan kategori sebelumnya (31-40 konstituen) dan perbedaan ini signifikan (\textit{P} \textless 0.05). Serupa dengan \tab~\ref{tab:deskriptif-konstituen}, mulai panjang kalimat tertentu (yang berdasarkan data ini adalah sekitar 40 konstituen), jarak dependensi negatif pada simpai pusat ragam lisan juga tidak akan melebihi nilai tertentu. 
+
+\begin{table}
+\begin{center}
+\begin{footnotesize}
+\caption{Rata-rata jarak dependensi positif dan negatif pada simpai pusat akar verbal}  \label{tab:deskriptif-mddpusat}
+\begin{tabular}{c l l l l l l l l l}
+\hline
+ & \multicolumn{4}{c}{+} & \multicolumn{4}{c}{-} & \\  \cline{2-9}  
+Length & min 	& med	& max 	& mean 	& min 	& med 	& max 	& mean 	& \\ \cline{1-10}  
+\textless= 5 	& 1 		& 1 		& 3	 	& 1,363	& 1 		& 1,5		& 4	 	& 1,632	&\multirow{6}{*}{Tulis}\\
+6 - 10 		& 1 		& 2		& 7	 	& 2,091	& 1 		& 2	 	& 9	 	& 2,385	& 	\\
+11 - 20 		& 1 		& 3	 	& 16	 	& 3,545	& 1 		& 2,75 	& 19	 	& 3,36 	& 	\\
+21 - 30 		& 1 		& 5	 	& 19,5 	& 5,514	& 1 		& 3,333	& 28		& 4,442	& 	\\ 
+31 - 40 		& 1	 	& 7,5	 	& 26		& 8,044	& 1 		& 4		& 36		& 5,448	& 	\\
+\textgreater 40 	& 1	 	& 11,1	& 34,286	& 11,84	& 1 		& 4,2		& 42		& 6,264	& 	\\ 
+\hline
+\textless= 5 	& 1 		& 1 		& 3		& 1,327	& 1 		& 1,5 	& 4		& 1,531	& \multirow{6}{*}{Lisan}\\
+6 - 10 		& 1 		& 1,667	& 5,6		& 1,801	& 1 		& 2		& 9		& 2,603	& \\
+11 - 20 		& 1 		& 2,286	& 7,167	& 2,479	& 1 		& 2,125	& 6,818	& 2,315	& \\
+21 - 30 		& 1,4	 	& 3,118	& 8,412	& 3,375	& 1 		& 2,182	& 8,636	& 2,460	& \\ 
+31 - 40 		& 1,947	& 3,643	& 7,25	& 3,879	& 1 		& 2,353	& 7,5		& 2,688	& \\
+\textgreater 40 	& 2,147	 & 4,051	& 8,697	& 4,156	& 1,059	& 2,357	& 5,053	& 2,47	& \\ 
+\hline
+   \end{tabular}
+   \end{footnotesize}
+\end{center}
+\end{table}
+
+Hasil pada \tab~\ref{tab:deskriptif-mddpusat} didapatkan dengan menghitung rata-rata jarak dependensi positif dan negatif pada simpai pusat akar verbal setiap kalimat. Seperti \tab~\ref{tab:deskriptif-mdd}, distribusi nilai minimum, tengah dan maksimum pada ragam lisan juga lebih merata dibandingkan ragam tulis yang nilai tengahnya terlihat lebih mendekati nilai minimum terutama pada kalimat yang semakin panjang (mulai terlihat pada panjang kalimat 11 konstituen). Namun, perbedaannya terletak pada rata-rata jarak dependensi. Pada simpai pusat ini, rata-rata jarak dependensi ragam tulis jauh lebih besar dibandingkan ragam lisan. Seperti \tab~\ref{tab:deskriptif-konstituenpusat}, tabel ini juga memperlihatkan bahwa tautan dependensi negatif memiliki rata-rata jarak yang lebih pendek untuk kedua ragam. 
+
+%%-----------------------------------------------------------------------------%
+\subsection{Percabangan searah dan keseimbangan antara tautan dependensi positif dan negatif}
+%%-----------------------------------------------------------------------------%
+Pada tinjauan pustaka, pergerakan panah yang merepresentasikan direksionalitas induk dibahas menjadi dua tipe, yaitu percabangan searah (\textit{same-brancing}) dan percabangan beda arah (\textit{mixed-branching}) (\citealp{hawkins1994performance, frazier1985syntactic}). Namun, dengan jumlah konstituen yang semakin banyak dan kalimat yang semakin kompleks, direksionalitas induk tidak bisa digolongkan secara biner (hanya percabangan searah saja atau hanya percabangan beda arah saja) (\citealp{dryer1992greenbergian, temperley2008dependency}). \cite{gildea2010grammars} menjelaskan mengenai konsep keseimbangan antara tautan dependensi positif dan negatif dalam mendapatkan panjang dependensi terpendek yang juga dianalisis oleh \citep{dryer1992greenbergian}. Berdasarkan data penelitian ini, temuan yang didapatkan mendukung asumsi yang dikemukakan \cite{dryer1992greenbergian} bahwa arah dependensi tidak bisa digolongkan secara biner pada tataran kalimat, terutama pada kalimat yang semakin panjang. Namun, berdasarkan analisis dengan pemetaan kepadatan selisih antara panjang dependensi positif dan negatif, belum ditemukan kecenderungan terhadap bentuk keseimbangan tersebut. 
+
+Pada ragam tulis, pemetaan kepadatan sangat menyebar sehingga tidak membentuk pola tertentu, sedangkan pada ragam lisan, pemetaan kepadatan terlalu memusat pada kalimat dengan jumlah konstituen sedikit sehingga juga tidak membentuk pola tertentu. Untuk mencari kecenderungan pada data seperti ini, perlu dilakukan pencarian fungsi matematis untuk menguji tingkat kesalahan (\textit{error rate}) yang lebih kecil antara kedua kemungkinan (percabangan searah atau keseimbangan dependensi positif dan negatif). Namun, pencarian fungsi matematis tersebut berada di luar batasan penelitian ini dan di luar ranah linguistik sehingga perlu dilakukan analisis lebih lanjut dari segi pembentukan model statistika. Asumsi sementara yang dapat diambil bertitik tolak dari grafik perbandingan panjang dependensi positif dan negatif pada \pic~\ref{fig:DL_posneg} dan \pic~\ref{fig:rootDL_posneg} yang dapat memberikan gambaran adanya kecenderungan untuk menghindari tautan dependensi negatif, terutama pada kalimat yang semakin panjang.
+
+=========================================
+==========================================
 
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.
@@ -536,7 +908,20 @@ Wherever Times is specified, Times Roman or Times New Roman may be used. If neit
 
 
 \section{Conclusion}
-The conclusion goes here. this is more of the conclusion
+
+=========================================
+==========================================
+
+Direksionalitas induk dapat menyebabkan nilai dependensi tersebut menjadi positif atau negatif. Anotasi positif menandakan bentuk relasi induk sebelum konstituen terikat (diawali induk), sedangkan anotasi negatif menandakan bentuk relasi induk setelah konstituen terikat (diakhiri induk). Berdasarkan aturan struktur frasa dalam tata bahasa yang ada (\citealp{kridalaksana2002struktur, sneddon2010indonesian}), bahasa Indonesia tergolong bahasa yang memilih bentuk relasi diawali induk dibandingkan diakhiri induk. Namun, belum ada penelitian dengan skala cukup besar yang dapat memberikan informasi ini dengan memanfaatkan data ujaran nyata karena penerapannya dalam ujaran nyata dapat bersifat tidak gramatikal namun tetap diterima. Bentuk relasi diawali induk tidak selalu menjadi preferensi pada semua bahasa karena beberapa bahasa memiliki aturan tata bahasa yang menuntut induk muncul setelah konstituen terikat atau diakhiri induk. Meskipun belum ada konvensi dan bukti empiris yang menunjukkan bahwa bentuk diawali induk lebih memudahkan proses memori kerja, \cite{futrell2015large} menunjukkan bukti empiris bahwa bahasa-bahasa yang cenderung menggunakan bentuk relasi ini memiliki tingkat pengurangan panjang dependensi lebih tinggi dibandingkan bahasa-bahasa yang cenderung menggunakan bentuk relasi diakhiri induk. 
+
+Didukung oleh hasil penelitian ini, bahasa Indonesia menunjukkan adanya kecenderungan dalam bahasa Indonesia bahwa induk menempati posisi sebelum konstituen terikatnya} pada hubungan antara dua konstituen yang memiliki tautan langsung secara umum. Temuan ini ditandai oleh konsistensi frekuensi dan jarak dari panjang dependensi positif yang semakin besar dibandingkan panjang dependensi negatif terutama pada kalimat yang memiliki jumlah konstituen lebih banyak. Namun, pada argumen utama dengan akar verbal (yang terlihat pada simpai pusat), tidak terlihat ada kecenderungan induk menempati posisi sebelum konstituen terikatnya. Bentuk relasi diakhiri induk lebih banyak ditemukan pada kalimat dengan jumlah konstituen kurang dari 20. Sebaliknya, bentuk relasi diawali induk lebih banyak ditemukan pada kalimat yang panjang. Hal ini dapat dikaitkan dengan salah satu karakter bahasa Indonesia yang memiliki urutan kata bebas (\citealp{stack2005word, postman2004processing}). Hal ini menyebabkan dalam kondisi tertentu, urutan konstituen tersebut dapat berubah dan kalimat masih dapat diterima \citep[pp. 209-268]{sneddon2010indonesian}. 
+
+Posisi induk terhadap konstituen terikat juga berkaitan dengan pola percabangan. Berdasarkan pemetaan dan visualisasi, kecenderungan bahasa Indonesia memanfaatkan strategi percabangan searah atau memanfaatkan strategi menyeimbangkan dependensi positif dan negatif belum terpapar dengan jelas. Penelitian lebih lanjut yang melibatkan pencarian tingkat kesalahan (\textit{margin of error}) dengan fungsi matematis perlu dilakukan untuk menjawab pertanyaan ini. Meskipun begitu, analisis kualitatif terhadap kalimat-kalimat panjang dalam ragam tulis memperlihatkan banyaknya relasi dependensi antarinduk yang bergerak menuju satu arah tertentu, sehingga menunjukkan adanya indikasi bahwa kalimat-kalimat panjang dalam bahasa Indonesia ragam tulis menerapkan strategi percabangan searah.
+
+
+
+=========================================
+==========================================
 
 % conference papers do not normally have an appendix
 
