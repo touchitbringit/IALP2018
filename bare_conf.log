@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.18)  16 JUL 2018 23:46
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.18)  16 JUL 2018 23:55
+>>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -91,11 +95,39 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtmpitemindent=\dimen116
 \c@IEEEbiography=\count90
 \@IEEEtranrubishbin=\box26
-) (./bare_conf.aux
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-LaTeX Warning: Label `eq:bola' multiply defined.
-
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+))
+\Gin@req@height=\dimen117
+\Gin@req@width=\dimen118
+)
+(./bare_conf.aux)
 \openout1 = `bare_conf.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 351.
@@ -110,6 +142,69 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 351.
 LaTeX Font Info:    ... okay on input line 351.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 351.
 LaTeX Font Info:    ... okay on input line 351.
+
+(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count92
+\scratchdimen=\dimen119
+\scratchbox=\box27
+\nofMPsegments=\count93
+\nofMParguments=\count94
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count95
+\MPscratchDim=\dimen120
+\MPnumerator=\count96
+\makeMPintoPDFobject=\count97
+\everyMPtoPDFconversion=\toks17
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 407.
 
@@ -159,6 +254,16 @@ e 447.
 LaTeX Warning: Citation `hudson1984word' on page 1 undefined on input line 447.
 
 
+<<<<<<< Updated upstream
+=======
+LaTeX Warning: Reference `fig:tautandependensi' on page 1 undefined on input li
+ne 447.
+
+
+Underfull \hbox (badness 3271) in paragraph at lines 447--448
+[]\OT1/ptm/m/n/10 Words are the main con-stituents of syn-tax that
+ []
+>>>>>>> Stashed changes
 
 LaTeX Warning: Citation `heringer1993dependency' on page 1 undefined on input l
 ine 447.
@@ -183,6 +288,7 @@ LaTeX Warning: Citation `liu2009chinese' on page 1 undefined on input line 447.
 l.447 ...ng the two constituents, as shown in \pic
                                                   ~\ref{fig:tautandependensi...
 
+<<<<<<< Updated upstream
 ? s
 OK, entering \scrollmode...
 ./bare_conf.tex:450: Undefined control sequence.
@@ -193,27 +299,18 @@ of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
+=======
+<pics/tautandependensi.png, id=1, 433.62pt x 99.37125pt>
+File: pics/tautandependensi.png Graphic file (type png)
+>>>>>>> Stashed changes
 
-./bare_conf.tex:451: Missing number, treated as zero.
-<to be read again> 
-                   ]
-l.451 	\textwidth]
-                   {pics/tautandependensi.png} \caption{Elements of a depend...
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+<use pics/tautandependensi.png>
+Package pdftex.def Info: pics/tautandependensi.png used on input line 451.
+(pdftex.def)             Requested size: 391.41605pt x 89.7047pt.
 
-./bare_conf.tex:451: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   ]
-l.451 	\textwidth]
-                   {pics/tautandependensi.png} \caption{Elements of a depend...
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
+Overfull \hbox (155.81569pt too wide) in paragraph at lines 450--451
+ [][] 
+ []
 
 ./bare_conf.tex:454: Undefined control sequence.
 l.454 The arc in \pic
@@ -225,12 +322,26 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+<<<<<<< Updated upstream
 LaTeX Warning: Citation `hudson2003psychological' on page 1 undefined on input 
 line 454.
 
 
 LaTeX Warning: Citation `liu2008dependency' on page 1 undefined on input line 4
 54.
+=======
+LaTeX Warning: Reference `fig:tautandependensi' on page 1 undefined on input li
+ne 454.
+
+./bare_conf.tex:454: Undefined control sequence.
+l.454 ...nings carried by both constituents \citep
+                                                  {hudson2003psychological, ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+>>>>>>> Stashed changes
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 454.
@@ -376,6 +487,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
+<<<<<<< Updated upstream
 
 LaTeX Warning: Citation `hawkins1994performance' on page 1 undefined on input l
 ine 470.
@@ -391,6 +503,42 @@ line 470.
 ./bare_conf.tex:470: Undefined control sequence.
 l.470 ...d that this consistency, as shown in \pic
                                                   ~\ref{fig:samebranching}, ...
+=======
+./bare_conf.tex:473: Undefined control sequence.
+l.473 ...arah relasi yang konsisten, baik itu \gls
+                                                  {diawali-induk} (\textit{h...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bare_conf.tex:473: Undefined control sequence.
+l.473 ...} atau \textit{head-initial}) maupun \gls
+                                                  {diakhiri-induk} (\textit{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 473.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 473.
+./bare_conf.tex:473: Undefined control sequence.
+l.473 ...ensi dan bukan struktur frasa.} (\citealp
+                                                  {hawkins1994performance, r...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bare_conf.tex:473: Undefined control sequence.
+l.473 ...induk dan konstituen terikatnya (\citealp
+                                                  {hawkins1994performance, f...
+>>>>>>> Stashed changes
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -398,22 +546,61 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+<<<<<<< Updated upstream
 LaTeX Warning: Citation `hawkins1994performance' on page 1 undefined on input l
 ine 470.
 
+=======
+LaTeX Warning: Citation `liu2010dependency' on page 1 undefined on input line 4
+73.
+>>>>>>> Stashed changes
 
 LaTeX Warning: Citation `frazier1985syntactic' on page 1 undefined on input lin
 e 470.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:473: Undefined control sequence.
 l.473 	\centering \includegraphics
                                   [width=0.5
+=======
+Underfull \hbox (badness 2277) in paragraph at lines 473--474
+\OT1/ptm/m/it/10 initial\OT1/ptm/m/n/10 ) maupun diakhiri-induk (\OT1/ptm/m/it/
+10 head-last \OT1/ptm/m/n/10 atau \OT1/ptm/m/it/10 head-
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 473--474
+\OT1/ptm/m/n/10 juga di-a-sum-sikan se-ba-gai pen-er-a-pan tata ba-hasa se-
+ []
+
+[1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <./pics/tautandependensi.png>]
+<pics/samebranching.png, id=19, 1140.26pt x 277.035pt>
+File: pics/samebranching.png Graphic file (type png)
+
+<use pics/samebranching.png>
+Package pdftex.def Info: pics/samebranching.png used on input line 477.
+(pdftex.def)             Requested size: 244.6341pt x 59.43454pt.
+
+Overfull \hbox (9.03374pt too wide) in paragraph at lines 476--477
+ [][] 
+ []
+
+./bare_conf.tex:477: Undefined control sequence.
+<argument> ...ype \endcsname }{\ignorespaces \Gls 
+                                                  {percabangan-searah} atau ...
+l.477 ...gan-searah} atau \textit{same-branching}}
+                                                  
+>>>>>>> Stashed changes
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:474: Missing number, treated as zero.
 <to be read again> 
                    ]
@@ -438,11 +625,19 @@ two letters. (See Chapter 27 of The TeXbook.)
 ./bare_conf.tex:478: Undefined control sequence.
 l.478 	\centering \includegraphics
                                   [width=0.5
+=======
+./bare_conf.tex:477: Undefined control sequence.
+<argument> \ignorespaces \Gls 
+                              {percabangan-searah} atau \textit {same-branch...
+l.477 ...gan-searah} atau \textit{same-branching}}
+                                                  
+>>>>>>> Stashed changes
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
+<<<<<<< Updated upstream
 
 ./bare_conf.tex:479: Missing number, treated as zero.
 <to be read again> 
@@ -476,6 +671,24 @@ ne 482.
 ./bare_conf.tex:482: Undefined control sequence.
 l.482 ... same branching and mixed branching (\pic
                                                   ~\ref{fig:mixedbranching})...
+=======
+
+<pics/mixedbranching.png, id=20, 1147.28625pt x 488.82625pt>
+File: pics/mixedbranching.png Graphic file (type png)
+
+<use pics/mixedbranching.png>
+Package pdftex.def Info: pics/mixedbranching.png used on input line 482.
+(pdftex.def)             Requested size: 244.6341pt x 104.23036pt.
+
+Overfull \hbox (9.03374pt too wide) in paragraph at lines 481--482
+ [][] 
+ []
+
+./bare_conf.tex:482: Undefined control sequence.
+<argument> ...ype \endcsname }{\ignorespaces \Gls 
+                                                  {percabangan-beda-arah} at...
+l.482 ...beda-arah} atau \textit{mixed-branching}}
+                                                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -483,8 +696,39 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ./bare_conf.tex:482: Undefined control sequence.
+<argument> \ignorespaces \Gls 
+                              {percabangan-beda-arah} atau \textit {mixed-br...
+l.482 ...beda-arah} atau \textit{mixed-branching}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./bare_conf.tex:485: Undefined control sequence.
+l.485 Perbandingan percabangan pada \pic
+                                        ~\ref{fig:samebranching} dan \pic~\r...
+>>>>>>> Stashed changes
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<<<<<<< Updated upstream
+./bare_conf.tex:482: Undefined control sequence.
 l.482 ...d the shortest dependency distances (\pic
                                                   ~\ref{fig:balancedbranchin...
+=======
+
+LaTeX Warning: Reference `fig:samebranching' on page 2 undefined on input line 
+485.
+
+./bare_conf.tex:485: Undefined control sequence.
+l.485 ...ada \pic~\ref{fig:samebranching} dan \pic
+                                                  ~\ref{fig:mixedbranching} ...
+>>>>>>> Stashed changes
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -492,6 +736,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+<<<<<<< Updated upstream
 LaTeX Warning: Citation `gildea2010grammars' on page 1 undefined on input line 
 482.
 
@@ -531,6 +776,71 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 ./bare_conf.tex:491: Undefined control sequence.
 l.491 ..., parsed, and cleaned using UDPipe \citep
+=======
+LaTeX Warning: Reference `fig:mixedbranching' on page 2 undefined on input line
+ 485.
+
+
+LaTeX Warning: Citation `temperley2008dependency' on page 2 undefined on input 
+line 485.
+
+
+LaTeX Warning: Citation `temperley2008dependency' on page 2 undefined on input 
+line 485.
+
+
+LaTeX Warning: Citation `dryer1992greenbergian' on page 2 undefined on input li
+ne 485.
+
+
+LaTeX Warning: Citation `dryer1992greenbergian' on page 2 undefined on input li
+ne 485.
+
+
+LaTeX Warning: Citation `dryer1992greenbergian' on page 2 undefined on input li
+ne 485.
+
+
+LaTeX Warning: Citation `gildea2010grammars' on page 2 undefined on input line 
+485.
+
+./bare_conf.tex:485: Undefined control sequence.
+l.485 ...n nilai panjang dependensi terkecil (\pic
+                                                  ~\ref{fig:balancedbranchin...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:balancedbranching' on page 2 undefined on input l
+ine 485.
+
+<pics/balancedbranching.png, id=21, 1459.4525pt x 314.17375pt>
+File: pics/balancedbranching.png Graphic file (type png)
+
+<use pics/balancedbranching.png>
+Package pdftex.def Info: pics/balancedbranching.png used on input line 489.
+(pdftex.def)             Requested size: 391.41605pt x 84.25757pt.
+
+Overfull \hbox (155.81569pt too wide) in paragraph at lines 488--489
+ [][] 
+ []
+
+
+Overfull \hbox (5.63524pt too wide) in paragraph at lines 491--493
+[]\OT1/ptm/m/n/10 =========================================
+ []
+
+
+Overfull \hbox (1.27513pt too wide) in paragraph at lines 491--493
+\OT1/ptm/m/n/10 ========================================== 
+ []
+
+./bare_conf.tex:496: Undefined control sequence.
+l.496 ..., parsed, and cleaned using UDPipe \citep
+>>>>>>> Stashed changes
                                                   {udpipe2017} and manual ve...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -538,8 +848,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:491: Undefined control sequence.
 l.491 ...} and manual verifications. UDPipe \citep
+=======
+./bare_conf.tex:496: Undefined control sequence.
+l.496 ...} and manual verifications. UDPipe \citep
+>>>>>>> Stashed changes
                                                   {udpipe2017} is a trainabl...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -547,8 +862,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:491: Undefined control sequence.
 l.491 ...ided by Universal Dependencies 2.0 \citep
+=======
+./bare_conf.tex:496: Undefined control sequence.
+l.496 ...ided by Universal Dependencies 2.0 \citep
+>>>>>>> Stashed changes
                                                   {nivre2017universal} that ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -557,17 +877,30 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+<<<<<<< Updated upstream
 Overfull \hbox (5.63524pt too wide) in paragraph at lines 493--495
+=======
+Overfull \hbox (5.63524pt too wide) in paragraph at lines 498--500
+>>>>>>> Stashed changes
 []\OT1/ptm/m/n/10 =========================================
  []
 
 
+<<<<<<< Updated upstream
 Overfull \hbox (1.27513pt too wide) in paragraph at lines 493--495
 \OT1/ptm/m/n/10 ========================================== 
  []
 
 ./bare_conf.tex:496: Undefined control sequence.
 l.496 ...hap berikutnya memanfaatkan UDPipe \citep
+=======
+Overfull \hbox (1.27513pt too wide) in paragraph at lines 498--500
+\OT1/ptm/m/n/10 ========================================== 
+ []
+
+./bare_conf.tex:501: Undefined control sequence.
+l.501 ...hap berikutnya memanfaatkan UDPipe \citep
+>>>>>>> Stashed changes
                                                   {udpipe2017} yang merupaka...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -575,8 +908,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:496: Undefined control sequence.
 l.496 ...CRAN pihak ketiga UDPipe versi 0.5 \citep
+=======
+./bare_conf.tex:501: Undefined control sequence.
+l.501 ...CRAN pihak ketiga UDPipe versi 0.5 \citep
+>>>>>>> Stashed changes
                                                   {udpipe2017manual} pada ba...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -584,8 +922,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:496: Undefined control sequence.
 l.496 ...bahasa pemrograman R (versi 3.3.3) \citep
+=======
+./bare_conf.tex:501: Undefined control sequence.
+l.501 ...bahasa pemrograman R (versi 3.3.3) \citep
+>>>>>>> Stashed changes
                                                   {r2017project}. Bahasa pem...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -593,8 +936,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:496: Undefined control sequence.
 l.496 ...an R ini dijalankan dengan RStudio \citep
+=======
+./bare_conf.tex:501: Undefined control sequence.
+l.501 ...an R ini dijalankan dengan RStudio \citep
+>>>>>>> Stashed changes
                                                   {rstudio2017}, sebuah pera...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -602,8 +950,15 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:498: Undefined control sequence.
 l.498 ...koleksi Universal Dependencies 2.0 \citep
+=======
+[2 <./pics/samebranching.png> <./pics/mixedbranching.png> <./pics/balancedbranc
+hing.png>]
+./bare_conf.tex:503: Undefined control sequence.
+l.503 ...koleksi Universal Dependencies 2.0 \citep
+>>>>>>> Stashed changes
                                                   {nivre2017universal} denga...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -611,8 +966,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:498: Undefined control sequence.
 l.498 ...ual terhadap data bahasa Indonesia \citep
+=======
+./bare_conf.tex:503: Undefined control sequence.
+l.503 ...ual terhadap data bahasa Indonesia \citep
+>>>>>>> Stashed changes
                                                   {larasati2011indonesian}. ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -620,8 +980,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:498: Undefined control sequence.
 l.498 ...sia memiliki akurasi 74,3\%-80,6\% \citep
+=======
+./bare_conf.tex:503: Undefined control sequence.
+l.503 ...sia memiliki akurasi 74,3\%-80,6\% \citep
+>>>>>>> Stashed changes
                                                   {udpipe2017}. Setelah mela...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -629,8 +994,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:498: Undefined control sequence.
 l.498 ...bahasa pemrograman R (versi 3.3.3) \citep
+=======
+./bare_conf.tex:503: Undefined control sequence.
+l.503 ...bahasa pemrograman R (versi 3.3.3) \citep
+>>>>>>> Stashed changes
                                                   {r2017project} dan Python ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -638,8 +1008,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:500: Undefined control sequence.
 l.500 ...sebelumnya dan divisualisasikan pada \pic
+=======
+./bare_conf.tex:505: Undefined control sequence.
+l.505 ...sebelumnya dan divisualisasikan pada \pic
+>>>>>>> Stashed changes
                                                   ~\ref{fig:tautandependensi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -647,8 +1022,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:500: Undefined control sequence.
 l.500 ... yang diambil dari data ragam tulis (\pic
+=======
+
+LaTeX Warning: Reference `fig:tautandependensi' on page 3 undefined on input li
+ne 505.
+
+./bare_conf.tex:505: Undefined control sequence.
+l.505 ... yang diambil dari data ragam tulis (\pic
+>>>>>>> Stashed changes
                                                   ~\ref{fig:contohtulis}) da...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -657,11 +1041,19 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+<<<<<<< Updated upstream
 LaTeX Warning: Reference `fig:contohtulis' on page 2 undefined on input line 50
 0.
 
 ./bare_conf.tex:500: Undefined control sequence.
 l.500 ...f{fig:contohtulis}) dan ragam lisan (\pic
+=======
+LaTeX Warning: Reference `fig:contohtulis' on page 3 undefined on input line 50
+5.
+
+./bare_conf.tex:505: Undefined control sequence.
+l.505 ...f{fig:contohtulis}) dan ragam lisan (\pic
+>>>>>>> Stashed changes
                                                   ~\ref{fig:contohlisan}). K...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -670,11 +1062,19 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+<<<<<<< Updated upstream
 LaTeX Warning: Reference `fig:contohlisan' on page 2 undefined on input line 50
 0.
 
 ./bare_conf.tex:500: Undefined control sequence.
 l.500 ...alam sebuah kalimat. Sebagai contoh, \pic
+=======
+LaTeX Warning: Reference `fig:contohlisan' on page 3 undefined on input line 50
+5.
+
+./bare_conf.tex:505: Undefined control sequence.
+l.505 ...alam sebuah kalimat. Sebagai contoh, \pic
+>>>>>>> Stashed changes
                                                   ~\ref{fig:contohtulis} mem...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -683,6 +1083,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+<<<<<<< Updated upstream
 LaTeX Warning: Reference `fig:contohtulis' on page 2 undefined on input line 50
 0.
 
@@ -701,16 +1102,45 @@ Underfull \hbox (badness 2126) in paragraph at lines 502--503
 
 [2]
 Overfull \hbox (5.63524pt too wide) in paragraph at lines 504--506
+=======
+LaTeX Warning: Reference `fig:contohtulis' on page 3 undefined on input line 50
+5.
+
+
+LaTeX Warning: Citation `temperley2008dependency' on page 3 undefined on input 
+line 507.
+
+
+LaTeX Warning: Citation `dryer1992greenbergian' on page 3 undefined on input li
+ne 507.
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 507--508
+[]\OT1/ptm/m/n/10 Simpai pusat merep-re-sen-tasikan relasi-relasi utama
+ []
+
+
+Overfull \hbox (5.63524pt too wide) in paragraph at lines 509--511
+>>>>>>> Stashed changes
 []\OT1/ptm/m/n/10 =========================================
  []
 
 
+<<<<<<< Updated upstream
 Overfull \hbox (1.27513pt too wide) in paragraph at lines 504--506
 \OT1/ptm/m/n/10 ========================================== 
  []
 
 ./bare_conf.tex:509: Undefined control sequence.
 l.509 ...rs approaches from similar studies \citep
+=======
+Overfull \hbox (1.27513pt too wide) in paragraph at lines 509--511
+\OT1/ptm/m/n/10 ========================================== 
+ []
+
+./bare_conf.tex:514: Undefined control sequence.
+l.514 ...rs approaches from similar studies \citep
+>>>>>>> Stashed changes
                                                   {oya2011syntactic, jiang20...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -719,17 +1149,30 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+<<<<<<< Updated upstream
 Overfull \hbox (5.63524pt too wide) in paragraph at lines 522--524
+=======
+Overfull \hbox (5.63524pt too wide) in paragraph at lines 527--529
+>>>>>>> Stashed changes
 []\OT1/ptm/m/n/10 =========================================
  []
 
 
+<<<<<<< Updated upstream
 Overfull \hbox (1.27513pt too wide) in paragraph at lines 522--524
 \OT1/ptm/m/n/10 ========================================== 
  []
 
 ./bare_conf.tex:525: Undefined control sequence.
 l.525 ...nsi maupun jaraknya. Sebagai contoh, \pic
+=======
+Overfull \hbox (1.27513pt too wide) in paragraph at lines 527--529
+\OT1/ptm/m/n/10 ========================================== 
+ []
+
+./bare_conf.tex:530: Undefined control sequence.
+l.530 ...nsi maupun jaraknya. Sebagai contoh, \pic
+>>>>>>> Stashed changes
                                                   ~\ref{fig:ts6841} dan \pic...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -737,8 +1180,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:525: Undefined control sequence.
 l.525 ...ai contoh, \pic~\ref{fig:ts6841} dan \pic
+=======
+
+LaTeX Warning: Reference `fig:ts6841' on page 3 undefined on input line 530.
+
+./bare_conf.tex:530: Undefined control sequence.
+l.530 ...ai contoh, \pic~\ref{fig:ts6841} dan \pic
+>>>>>>> Stashed changes
                                                   ~\ref{fig:ls7375} merupaka...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -746,8 +1197,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:525: Undefined control sequence.
 l.525 ...us data ragam tulis dan lisan. Dalam \pic
+=======
+
+LaTeX Warning: Reference `fig:ls7375' on page 3 undefined on input line 530.
+
+./bare_conf.tex:530: Undefined control sequence.
+l.530 ...us data ragam tulis dan lisan. Dalam \pic
+>>>>>>> Stashed changes
                                                   ~\ref{fig:ts6841}, seluruh...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -755,8 +1214,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:525: Undefined control sequence.
 l.525 ...ensi negatif sebanyak 0. Sebaliknya, \pic
+=======
+
+LaTeX Warning: Reference `fig:ts6841' on page 3 undefined on input line 530.
+
+./bare_conf.tex:530: Undefined control sequence.
+l.530 ...ensi negatif sebanyak 0. Sebaliknya, \pic
+>>>>>>> Stashed changes
                                                   ~\ref{fig:ls7375} hanya me...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -765,31 +1232,56 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:530: LaTeX Error: Environment subfigure undefined.
+=======
+LaTeX Warning: Reference `fig:ls7375' on page 3 undefined on input line 530.
+
+
+./bare_conf.tex:535: LaTeX Error: Environment subfigure undefined.
+>>>>>>> Stashed changes
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+<<<<<<< Updated upstream
 l.530 \begin{subfigure}
+=======
+l.535 \begin{subfigure}
+>>>>>>> Stashed changes
                        {.32\linewidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:530: Missing number, treated as zero.
 <to be read again> 
                    }
 l.530 \begin{subfigure}{.32\linewidth}
+=======
+./bare_conf.tex:535: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.535 \begin{subfigure}{.32\linewidth}
+>>>>>>> Stashed changes
                                       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:530: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
 l.530 \begin{subfigure}{.32\linewidth}
+=======
+./bare_conf.tex:535: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.535 \begin{subfigure}{.32\linewidth}
+>>>>>>> Stashed changes
                                       
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -798,6 +1290,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:532: Undefined control sequence.
 l.532   \includegraphics
                         [width=1\linewidth] {pics/ts6841.jpg}
@@ -830,44 +1323,80 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 
 ./bare_conf.tex:535: LaTeX Error: \begin{figure} on input line 527 ended by \en
+=======
+<pics/ts6841.jpg, id=28, 222.1098pt x 363.9999pt>
+File: pics/ts6841.jpg Graphic file (type jpg)
+ <use pics/ts6841.jpg>
+Package pdftex.def Info: pics/ts6841.jpg used on input line 537.
+(pdftex.def)             Requested size: 235.60036pt x 386.13243pt.
+
+
+./bare_conf.tex:540: LaTeX Error: \begin{figure} on input line 532 ended by \en
+>>>>>>> Stashed changes
 d{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+<<<<<<< Updated upstream
 l.535 \end{subfigure}
+=======
+l.540 \end{subfigure}
+>>>>>>> Stashed changes
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:537: LaTeX Error: Environment subfigure undefined.
+=======
+./bare_conf.tex:542: LaTeX Error: Environment subfigure undefined.
+>>>>>>> Stashed changes
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+<<<<<<< Updated upstream
 l.537 \begin{subfigure}
+=======
+l.542 \begin{subfigure}
+>>>>>>> Stashed changes
                        {.46\linewidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:537: Missing number, treated as zero.
 <to be read again> 
                    }
 l.537 \begin{subfigure}{.46\linewidth}
+=======
+./bare_conf.tex:542: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.542 \begin{subfigure}{.46\linewidth}
+>>>>>>> Stashed changes
                                       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:537: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
 l.537 \begin{subfigure}{.46\linewidth}
+=======
+./bare_conf.tex:542: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.542 \begin{subfigure}{.46\linewidth}
+>>>>>>> Stashed changes
                                       
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -876,6 +1405,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:539: Undefined control sequence.
 l.539   \includegraphics
                         [width=1\linewidth]{pics/ls7375.jpg}
@@ -908,44 +1438,80 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 
 ./bare_conf.tex:542: LaTeX Error: \begin{figure} on input line 527 ended by \en
+=======
+<pics/ls7375.jpg, id=29, 330.033pt x 280.4076pt>
+File: pics/ls7375.jpg Graphic file (type jpg)
+ <use pics/ls7375.jpg>
+Package pdftex.def Info: pics/ls7375.jpg used on input line 544.
+(pdftex.def)             Requested size: 235.60036pt x 200.17328pt.
+
+
+./bare_conf.tex:547: LaTeX Error: \begin{figure} on input line 532 ended by \en
+>>>>>>> Stashed changes
 d{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+<<<<<<< Updated upstream
 l.542 \end{subfigure}
+=======
+l.547 \end{subfigure}
+>>>>>>> Stashed changes
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:553: LaTeX Error: Environment subfigure undefined.
+=======
+./bare_conf.tex:558: LaTeX Error: Environment subfigure undefined.
+>>>>>>> Stashed changes
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+<<<<<<< Updated upstream
 l.553 \begin{subfigure}
+=======
+l.558 \begin{subfigure}
+>>>>>>> Stashed changes
                        {.7\linewidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:553: Missing number, treated as zero.
 <to be read again> 
                    }
 l.553 \begin{subfigure}{.7\linewidth}
+=======
+./bare_conf.tex:558: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.558 \begin{subfigure}{.7\linewidth}
+>>>>>>> Stashed changes
                                      
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:553: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
 l.553 \begin{subfigure}{.7\linewidth}
+=======
+./bare_conf.tex:558: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.558 \begin{subfigure}{.7\linewidth}
+>>>>>>> Stashed changes
                                      
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -954,6 +1520,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:555: Undefined control sequence.
 l.555   \includegraphics
                         [width=1\linewidth] {pics/tulis_DLposneg.png}
@@ -1011,18 +1578,34 @@ you left one out. Proceed, with fingers crossed.
 
 
 ./bare_conf.tex:558: LaTeX Error: \begin{figure} on input line 550 ended by \en
+=======
+<pics/tulis_DLposneg.png, id=30, 733.74126pt x 600.2425pt>
+File: pics/tulis_DLposneg.png Graphic file (type png)
+
+<use pics/tulis_DLposneg.png>
+Package pdftex.def Info: pics/tulis_DLposneg.png used on input line 560.
+(pdftex.def)             Requested size: 235.60036pt x 192.7318pt.
+
+
+./bare_conf.tex:563: LaTeX Error: \begin{figure} on input line 555 ended by \en
+>>>>>>> Stashed changes
 d{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+<<<<<<< Updated upstream
 l.558 \end{subfigure}
+=======
+l.563 \end{subfigure}
+>>>>>>> Stashed changes
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:558: Missing } inserted.
 <inserted text> 
                 }
@@ -1036,30 +1619,52 @@ my insertion and my current dilemma will both disappear.
 
 
 ./bare_conf.tex:560: LaTeX Error: Environment subfigure undefined.
+=======
+
+./bare_conf.tex:565: LaTeX Error: Environment subfigure undefined.
+>>>>>>> Stashed changes
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+<<<<<<< Updated upstream
 l.560 \begin{subfigure}
+=======
+l.565 \begin{subfigure}
+>>>>>>> Stashed changes
                        {.7\linewidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:560: Missing number, treated as zero.
 <to be read again> 
                    }
 l.560 \begin{subfigure}{.7\linewidth}
+=======
+./bare_conf.tex:565: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.565 \begin{subfigure}{.7\linewidth}
+>>>>>>> Stashed changes
                                      
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:560: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
 l.560 \begin{subfigure}{.7\linewidth}
+=======
+./bare_conf.tex:565: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.565 \begin{subfigure}{.7\linewidth}
+>>>>>>> Stashed changes
                                      
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1068,6 +1673,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:562: Undefined control sequence.
 l.562   \includegraphics
                         [width=1\linewidth]{pics/lisan_DLposneg.png}
@@ -1125,18 +1731,34 @@ you left one out. Proceed, with fingers crossed.
 
 
 ./bare_conf.tex:565: LaTeX Error: \begin{figure} on input line 550 ended by \en
+=======
+<pics/lisan_DLposneg.png, id=31, 733.74126pt x 601.24625pt>
+File: pics/lisan_DLposneg.png Graphic file (type png)
+
+<use pics/lisan_DLposneg.png>
+Package pdftex.def Info: pics/lisan_DLposneg.png used on input line 567.
+(pdftex.def)             Requested size: 235.60036pt x 193.0541pt.
+
+
+./bare_conf.tex:570: LaTeX Error: \begin{figure} on input line 555 ended by \en
+>>>>>>> Stashed changes
 d{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+<<<<<<< Updated upstream
 l.565 \end{subfigure}
+=======
+l.570 \end{subfigure}
+>>>>>>> Stashed changes
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:565: Missing } inserted.
 <inserted text> 
                 }
@@ -1154,6 +1776,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 567.
 ./bare_conf.tex:571: Undefined control sequence.
 l.571 Berdasarkan \pic
+=======
+./bare_conf.tex:576: Undefined control sequence.
+l.576 Berdasarkan \pic
+>>>>>>> Stashed changes
                       ~\ref{fig:tulis_DLposneg} dan \pic~\ref{fig:lisan_DLpo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1161,8 +1787,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:571: Undefined control sequence.
 l.571 ...an \pic~\ref{fig:tulis_DLposneg} dan \pic
+=======
+
+LaTeX Warning: Reference `fig:tulis_DLposneg' on page 3 undefined on input line
+ 576.
+
+./bare_conf.tex:576: Undefined control sequence.
+l.576 ...an \pic~\ref{fig:tulis_DLposneg} dan \pic
+>>>>>>> Stashed changes
                                                   ~\ref{fig:lisan_DLposneg},...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1170,8 +1805,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:571: Undefined control sequence.
 l.571 ...ada grafik arah depensi ragam lisan (\pic
+=======
+
+LaTeX Warning: Reference `fig:lisan_DLposneg' on page 3 undefined on input line
+ 576.
+
+./bare_conf.tex:576: Undefined control sequence.
+l.576 ...ada grafik arah depensi ragam lisan (\pic
+>>>>>>> Stashed changes
                                                   ~\ref{fig:lisan_DLposneg})...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1179,25 +1823,53 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 LaTeX Font Info:    Try loading font information for OML+ptm on input line 578.
+=======
+
+LaTeX Warning: Reference `fig:lisan_DLposneg' on page 3 undefined on input line
+ 576.
+
+[3]
+Underfull \vbox (badness 7047) has occurred while \output is active []
+
+ [4 <./pics/ts6841.jpg> <./pics/ls7375.jpg> <./pics/tulis_DLposneg.png> <./pics
+/lisan_DLposneg.png>]
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 583.
+>>>>>>> Stashed changes
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <8> not available
+<<<<<<< Updated upstream
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 578.
 
 Underfull \hbox (badness 1708) in paragraph at lines 578--578
+=======
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 583.
+
+Underfull \hbox (badness 1708) in paragraph at lines 583--583
+>>>>>>> Stashed changes
 []\OT1/ptm/m/n/8 Spoken (+
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 1708) in paragraph at lines 578--578
 []\OT1/ptm/m/n/8 Spoken (+
  []
 
 ./bare_conf.tex:589: Undefined control sequence.
 l.589 \tab
+=======
+Underfull \hbox (badness 1708) in paragraph at lines 583--583
+[]\OT1/ptm/m/n/8 Spoken (+
+ []
+
+./bare_conf.tex:594: Undefined control sequence.
+l.594 \tab
+>>>>>>> Stashed changes
           ~\ref{tab:DLposneg} berisi frekuensi kalimat dengan melihat apakah...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1205,8 +1877,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:589: Undefined control sequence.
 l.589 ...dalam analisis. Jumlah kalimat dalam \tab
+=======
+
+LaTeX Warning: Reference `tab:DLposneg' on page 5 undefined on input line 594.
+
+./bare_conf.tex:594: Undefined control sequence.
+l.594 ...dalam analisis. Jumlah kalimat dalam \tab
+>>>>>>> Stashed changes
                                                   ~\ref{tab:DLposneg} dihitu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1214,6 +1894,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 [3]
 Underfull \hbox (badness 10000) in paragraph at lines 596--596
 []\OT1/ptm/m/n/8 Written
@@ -1221,6 +1902,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 596--596
 
 ./bare_conf.tex:607: Undefined control sequence.
 l.607 \tab
+=======
+
+LaTeX Warning: Reference `tab:DLposneg' on page 5 undefined on input line 594.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
+[]\OT1/ptm/m/n/8 Written
+ []
+
+./bare_conf.tex:612: Undefined control sequence.
+l.612 \tab
+>>>>>>> Stashed changes
           ~\ref{tab:tautanposneg} merupakan tabel yang berisi frekuensi taut...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1228,8 +1921,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:618: Undefined control sequence.
 l.618 ... & 1,409 	& 1 & 1 & 4 & 1,606 & \multirow
+=======
+
+LaTeX Warning: Reference `tab:tautanposneg' on page 5 undefined on input line 6
+12.
+
+./bare_conf.tex:623: Undefined control sequence.
+l.623 ... & 1,409 	& 1 & 1 & 4 & 1,606 & \multirow
+>>>>>>> Stashed changes
                                                   {6}{*}{Written}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1237,8 +1939,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:625: Undefined control sequence.
 l.625 ... & 1,466 	& 1 & 1 & 4 & 1,534 & \multirow
+=======
+./bare_conf.tex:630: Undefined control sequence.
+l.630 ... & 1,466 	& 1 & 1 & 4 & 1,534 & \multirow
+>>>>>>> Stashed changes
                                                   {6}{*}{Spoken}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1247,12 +1954,21 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+<<<<<<< Updated upstream
 Overfull \hbox (57.1027pt too wide) in paragraph at lines 614--633
  [][] 
  []
 
 ./bare_conf.tex:636: Undefined control sequence.
 l.636  \tab
+=======
+Overfull \hbox (57.1027pt too wide) in paragraph at lines 619--638
+ [][] 
+ []
+
+./bare_conf.tex:641: Undefined control sequence.
+l.641  \tab
+>>>>>>> Stashed changes
            ~\ref{tab:deskriptif-konstituen} mencakup jarak dependensi dari s...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1260,8 +1976,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:636: Undefined control sequence.
 l.636 ... dan negatif juga semakin jauh. Pada \tab
+=======
+
+LaTeX Warning: Reference `tab:deskriptif-konstituen' on page 5 undefined on inp
+ut line 641.
+
+./bare_conf.tex:641: Undefined control sequence.
+l.641 ... dan negatif juga semakin jauh. Pada \tab
+>>>>>>> Stashed changes
                                                   ~\ref{tab:deskriptif-konst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1269,10 +1994,20 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+LaTeX Warning: Reference `tab:deskriptif-konstituen' on page 5 undefined on inp
+ut line 641.
+
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
+<<<<<<< Updated upstream
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 636.
 ./bare_conf.tex:645: Undefined control sequence.
 l.645 ...2 	& 1 		& 1,5 	& 4	 	& 1,545 	&\multirow
+=======
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 641.
+./bare_conf.tex:650: Undefined control sequence.
+l.650 ...2 	& 1 		& 1,5 	& 4	 	& 1,545 	&\multirow
+>>>>>>> Stashed changes
                                                   {6}{*}{Tulis}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1280,8 +2015,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:652: Undefined control sequence.
 l.652 ... 	& 1 		& 1,33 	& 4		& 1,456 	& \multirow
+=======
+./bare_conf.tex:657: Undefined control sequence.
+l.657 ... 	& 1 		& 1,33 	& 4		& 1,456 	& \multirow
+>>>>>>> Stashed changes
                                                   {6}{*}{Lisan}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1290,12 +2030,25 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+<<<<<<< Updated upstream
 Overfull \hbox (82.43964pt too wide) in paragraph at lines 641--660
  [][] 
  []
 
 ./bare_conf.tex:663: Undefined control sequence.
 l.663 Nilai-nilai pada \tab
+=======
+Overfull \hbox (82.43964pt too wide) in paragraph at lines 646--665
+ [][] 
+ []
+
+
+Underfull \vbox (badness 1406) has occurred while \output is active []
+
+ [5]
+./bare_conf.tex:668: Undefined control sequence.
+l.668 Nilai-nilai pada \tab
+>>>>>>> Stashed changes
                            ~\ref{tab:deskriptif-mdd} didapatkan dengan mengh...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1303,8 +2056,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:663: Undefined control sequence.
 l.663 ... kalimat yang lebih panjang. Seperti \tab
+=======
+
+LaTeX Warning: Reference `tab:deskriptif-mdd' on page 6 undefined on input line
+ 668.
+
+./bare_conf.tex:668: Undefined control sequence.
+l.668 ... kalimat yang lebih panjang. Seperti \tab
+>>>>>>> Stashed changes
                                                   ~\ref{tab:deskriptif-konst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1312,9 +2074,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 [4]
 ./bare_conf.tex:668: Undefined control sequence.
 l.668 ...a akar berupa kata kerja atau verba. \pic
+=======
+
+LaTeX Warning: Reference `tab:deskriptif-konstituen' on page 6 undefined on inp
+ut line 668.
+
+./bare_conf.tex:673: Undefined control sequence.
+l.673 ...a akar berupa kata kerja atau verba. \pic
+>>>>>>> Stashed changes
                                                   ~\ref{fig:ls1436} dan \pic...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1322,8 +2093,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:668: Undefined control sequence.
 l.668 ...tau verba. \pic~\ref{fig:ls1436} dan \pic
+=======
+
+LaTeX Warning: Reference `fig:ls1436' on page 6 undefined on input line 673.
+
+./bare_conf.tex:673: Undefined control sequence.
+l.673 ...tau verba. \pic~\ref{fig:ls1436} dan \pic
+>>>>>>> Stashed changes
                                                   ~\ref{fig:ls1460} merupaka...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1331,8 +2110,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:668: Undefined control sequence.
 l.668 ...emukan pada korpus data ragam lisan. \pic
+=======
+
+LaTeX Warning: Reference `fig:ls1460' on page 6 undefined on input line 673.
+
+./bare_conf.tex:673: Undefined control sequence.
+l.673 ...emukan pada korpus data ragam lisan. \pic
+>>>>>>> Stashed changes
                                                   ~\ref{fig:akarcontoh} mena...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1340,8 +2127,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:668: Undefined control sequence.
 l.668 ... tahu} pada kalimat L\textit{akar}a (\pic
+=======
+
+LaTeX Warning: Reference `fig:akarcontoh' on page 6 undefined on input line 673
+.
+
+./bare_conf.tex:673: Undefined control sequence.
+l.673 ... tahu} pada kalimat L\textit{akar}a (\pic
+>>>>>>> Stashed changes
                                                   ~\ref{fig:ls1436}) dan L\t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1349,8 +2145,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:668: Undefined control sequence.
 l.668 ...ef{fig:ls1436}) dan L\textit{akar}b (\pic
+=======
+
+LaTeX Warning: Reference `fig:ls1436' on page 6 undefined on input line 673.
+
+./bare_conf.tex:673: Undefined control sequence.
+l.673 ...ef{fig:ls1436}) dan L\textit{akar}b (\pic
+>>>>>>> Stashed changes
                                                   ~\ref{fig:ls1460}) berada ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1358,8 +2162,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:668: Undefined control sequence.
 l.668 ...n kata juga sempat dijabarkan oleh \citet
+=======
+
+LaTeX Warning: Reference `fig:ls1460' on page 6 undefined on input line 673.
+
+./bare_conf.tex:673: Undefined control sequence.
+l.673 ...n kata juga sempat dijabarkan oleh \citet
+>>>>>>> Stashed changes
                                                   [hlm. 209]{sneddon2010indo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1368,31 +2180,53 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:673: LaTeX Error: Environment subfigure undefined.
+=======
+./bare_conf.tex:678: LaTeX Error: Environment subfigure undefined.
+>>>>>>> Stashed changes
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+<<<<<<< Updated upstream
 l.673 \begin{subfigure}
+=======
+l.678 \begin{subfigure}
+>>>>>>> Stashed changes
                        {.4\linewidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:673: Missing number, treated as zero.
 <to be read again> 
                    }
 l.673 \begin{subfigure}{.4\linewidth}
+=======
+./bare_conf.tex:678: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.678 \begin{subfigure}{.4\linewidth}
+>>>>>>> Stashed changes
                                      
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:673: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
 l.673 \begin{subfigure}{.4\linewidth}
+=======
+./bare_conf.tex:678: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.678 \begin{subfigure}{.4\linewidth}
+>>>>>>> Stashed changes
                                      
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1401,6 +2235,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:675: Undefined control sequence.
 l.675   \includegraphics
                         [width=1\linewidth] {pics/ls1436.jpg}
@@ -1433,44 +2268,80 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 
 ./bare_conf.tex:678: LaTeX Error: \begin{figure} on input line 670 ended by \en
+=======
+<pics/ls1436.jpg, id=43, 280.8894pt x 304.2567pt>
+File: pics/ls1436.jpg Graphic file (type jpg)
+ <use pics/ls1436.jpg>
+Package pdftex.def Info: pics/ls1436.jpg used on input line 680.
+(pdftex.def)             Requested size: 235.60036pt x 255.21176pt.
+
+
+./bare_conf.tex:683: LaTeX Error: \begin{figure} on input line 675 ended by \en
+>>>>>>> Stashed changes
 d{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+<<<<<<< Updated upstream
 l.678 \end{subfigure}
+=======
+l.683 \end{subfigure}
+>>>>>>> Stashed changes
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:680: LaTeX Error: Environment subfigure undefined.
+=======
+./bare_conf.tex:685: LaTeX Error: Environment subfigure undefined.
+>>>>>>> Stashed changes
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+<<<<<<< Updated upstream
 l.680 \begin{subfigure}
+=======
+l.685 \begin{subfigure}
+>>>>>>> Stashed changes
                        {.58\linewidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:680: Missing number, treated as zero.
 <to be read again> 
                    }
 l.680 \begin{subfigure}{.58\linewidth}
+=======
+./bare_conf.tex:685: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.685 \begin{subfigure}{.58\linewidth}
+>>>>>>> Stashed changes
                                       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:680: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
 l.680 \begin{subfigure}{.58\linewidth}
+=======
+./bare_conf.tex:685: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.685 \begin{subfigure}{.58\linewidth}
+>>>>>>> Stashed changes
                                       
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1479,6 +2350,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:682: Undefined control sequence.
 l.682   \includegraphics
                         [width=1\linewidth]{pics/ls1460.jpg}
@@ -1511,48 +2383,88 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 
 ./bare_conf.tex:685: LaTeX Error: \begin{figure} on input line 670 ended by \en
+=======
+<pics/ls1460.jpg, id=44, 414.5889pt x 326.6604pt>
+File: pics/ls1460.jpg Graphic file (type jpg)
+ <use pics/ls1460.jpg>
+Package pdftex.def Info: pics/ls1460.jpg used on input line 687.
+(pdftex.def)             Requested size: 235.60036pt x 185.63512pt.
+
+
+./bare_conf.tex:690: LaTeX Error: \begin{figure} on input line 675 ended by \en
+>>>>>>> Stashed changes
 d{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+<<<<<<< Updated upstream
 l.685 \end{subfigure}
+=======
+l.690 \end{subfigure}
+>>>>>>> Stashed changes
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
+<<<<<<< Updated upstream
 LaTeX Warning: Citation `tesniere1959elements' on page 5 undefined on input lin
 e 691.
 
 
 ./bare_conf.tex:696: LaTeX Error: Environment subfigure undefined.
+=======
+LaTeX Warning: Citation `tesniere1959elements' on page 6 undefined on input lin
+e 696.
+
+
+./bare_conf.tex:701: LaTeX Error: Environment subfigure undefined.
+>>>>>>> Stashed changes
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+<<<<<<< Updated upstream
 l.696 \begin{subfigure}
+=======
+l.701 \begin{subfigure}
+>>>>>>> Stashed changes
                        {.7\linewidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:696: Missing number, treated as zero.
 <to be read again> 
                    }
 l.696 \begin{subfigure}{.7\linewidth}
+=======
+./bare_conf.tex:701: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.701 \begin{subfigure}{.7\linewidth}
+>>>>>>> Stashed changes
                                      
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:696: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
 l.696 \begin{subfigure}{.7\linewidth}
+=======
+./bare_conf.tex:701: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.701 \begin{subfigure}{.7\linewidth}
+>>>>>>> Stashed changes
                                      
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1561,6 +2473,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:698: Undefined control sequence.
 l.698   \includegraphics
                         [width=1\linewidth] {pics/tulisroot_DLposneg.png}
@@ -1618,18 +2531,34 @@ you left one out. Proceed, with fingers crossed.
 
 
 ./bare_conf.tex:701: LaTeX Error: \begin{figure} on input line 693 ended by \en
+=======
+<pics/tulisroot_DLposneg.png, id=45, 770.88pt x 645.41125pt>
+File: pics/tulisroot_DLposneg.png Graphic file (type png)
+
+<use pics/tulisroot_DLposneg.png>
+Package pdftex.def Info: pics/tulisroot_DLposneg.png used on input line 703.
+(pdftex.def)             Requested size: 235.60036pt x 197.249pt.
+
+
+./bare_conf.tex:706: LaTeX Error: \begin{figure} on input line 698 ended by \en
+>>>>>>> Stashed changes
 d{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+<<<<<<< Updated upstream
 l.701 \end{subfigure}
+=======
+l.706 \end{subfigure}
+>>>>>>> Stashed changes
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:701: Missing } inserted.
 <inserted text> 
                 }
@@ -1643,30 +2572,52 @@ my insertion and my current dilemma will both disappear.
 
 
 ./bare_conf.tex:703: LaTeX Error: Environment subfigure undefined.
+=======
+
+./bare_conf.tex:708: LaTeX Error: Environment subfigure undefined.
+>>>>>>> Stashed changes
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+<<<<<<< Updated upstream
 l.703 \begin{subfigure}
+=======
+l.708 \begin{subfigure}
+>>>>>>> Stashed changes
                        {.7\linewidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:703: Missing number, treated as zero.
 <to be read again> 
                    }
 l.703 \begin{subfigure}{.7\linewidth}
+=======
+./bare_conf.tex:708: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.708 \begin{subfigure}{.7\linewidth}
+>>>>>>> Stashed changes
                                      
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:703: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
 l.703 \begin{subfigure}{.7\linewidth}
+=======
+./bare_conf.tex:708: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.708 \begin{subfigure}{.7\linewidth}
+>>>>>>> Stashed changes
                                      
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1675,6 +2626,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:705: Undefined control sequence.
 l.705   \includegraphics
                         [width=1\linewidth]{pics/lisanroot_DLposneg.png}
@@ -1732,18 +2684,34 @@ you left one out. Proceed, with fingers crossed.
 
 
 ./bare_conf.tex:708: LaTeX Error: \begin{figure} on input line 693 ended by \en
+=======
+<pics/lisanroot_DLposneg.png, id=46, 765.86125pt x 645.41125pt>
+File: pics/lisanroot_DLposneg.png Graphic file (type png)
+
+<use pics/lisanroot_DLposneg.png>
+Package pdftex.def Info: pics/lisanroot_DLposneg.png used on input line 710.
+(pdftex.def)             Requested size: 235.60036pt x 198.53911pt.
+
+
+./bare_conf.tex:713: LaTeX Error: \begin{figure} on input line 698 ended by \en
+>>>>>>> Stashed changes
 d{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+<<<<<<< Updated upstream
 l.708 \end{subfigure}
+=======
+l.713 \end{subfigure}
+>>>>>>> Stashed changes
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:708: Missing } inserted.
 <inserted text> 
                 }
@@ -1757,6 +2725,11 @@ my insertion and my current dilemma will both disappear.
 
 ./bare_conf.tex:715: Undefined control sequence.
 l.715 \pic
+=======
+[6 <./pics/ls1436.jpg> <./pics/ls1460.jpg>]
+./bare_conf.tex:720: Undefined control sequence.
+l.720 \pic
+>>>>>>> Stashed changes
           ~\ref{fig:tulisroot_DLposneg} dan \pic~\ref{fig:lisanroot_DLposneg...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1764,8 +2737,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:715: Undefined control sequence.
 l.715 \pic~\ref{fig:tulisroot_DLposneg} dan \pic
+=======
+
+LaTeX Warning: Reference `fig:tulisroot_DLposneg' on page 7 undefined on input 
+line 720.
+
+./bare_conf.tex:720: Undefined control sequence.
+l.720 \pic~\ref{fig:tulisroot_DLposneg} dan \pic
+>>>>>>> Stashed changes
                                                 ~\ref{fig:lisanroot_DLposneg...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1773,8 +2755,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:715: Undefined control sequence.
 l.715 ...lau boleh tahu} dan akarnya di atas (\pic
+=======
+
+LaTeX Warning: Reference `fig:lisanroot_DLposneg' on page 7 undefined on input 
+line 720.
+
+./bare_conf.tex:720: Undefined control sequence.
+l.720 ...lau boleh tahu} dan akarnya di atas (\pic
+>>>>>>> Stashed changes
                                                   ~\ref{fig:akarcontoh}). \p...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1782,8 +2773,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:715: Undefined control sequence.
 l.715 ...di atas (\pic~\ref{fig:akarcontoh}). \pic
+=======
+
+LaTeX Warning: Reference `fig:akarcontoh' on page 7 undefined on input line 720
+.
+
+./bare_conf.tex:720: Undefined control sequence.
+l.720 ...di atas (\pic~\ref{fig:akarcontoh}). \pic
+>>>>>>> Stashed changes
                                                   ~\ref{fig:rootDL_posneg} m...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1791,8 +2791,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:715: Undefined control sequence.
 l.715 ...pada kalimat panjang. Berbeda dengan \pic
+=======
+
+LaTeX Warning: Reference `fig:rootDL_posneg' on page 7 undefined on input line 
+720.
+
+./bare_conf.tex:720: Undefined control sequence.
+l.720 ...pada kalimat panjang. Berbeda dengan \pic
+>>>>>>> Stashed changes
                                                   ~\ref{fig:DL_posneg} yang ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1800,8 +2809,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:715: Undefined control sequence.
 l.715 ...alam. Meskipun begitu, serupa dengan \pic
+=======
+
+LaTeX Warning: Reference `fig:DL_posneg' on page 7 undefined on input line 720.
+
+
+./bare_conf.tex:720: Undefined control sequence.
+l.720 ...alam. Meskipun begitu, serupa dengan \pic
+>>>>>>> Stashed changes
                                                   ~\ref{fig:DL_posneg}, gari...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1810,17 +2828,34 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 1708) in paragraph at lines 722--722
+=======
+LaTeX Warning: Reference `fig:DL_posneg' on page 7 undefined on input line 720.
+
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 727--727
+>>>>>>> Stashed changes
 []\OT1/ptm/m/n/8 Spoken (+
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 1708) in paragraph at lines 722--722
 []\OT1/ptm/m/n/8 Spoken (+
  []
 
 ./bare_conf.tex:733: Undefined control sequence.
 l.733 \tab
+=======
+Underfull \hbox (badness 1708) in paragraph at lines 727--727
+[]\OT1/ptm/m/n/8 Spoken (+
+ []
+
+./bare_conf.tex:738: Undefined control sequence.
+l.738 \tab
+>>>>>>> Stashed changes
           ~\ref{tab:DLpusatposneg} berisi jumlah-jumlah kalimat dengan melih...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1828,8 +2863,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:733: Undefined control sequence.
 l.733 ...memiliki akar verbal. Berbeda dengan \tab
+=======
+
+LaTeX Warning: Reference `tab:DLpusatposneg' on page 7 undefined on input line 
+738.
+
+./bare_conf.tex:738: Undefined control sequence.
+l.738 ...memiliki akar verbal. Berbeda dengan \tab
+>>>>>>> Stashed changes
                                                   ~\ref{tab:DLposneg}, kalim...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1837,6 +2881,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 [5]
 Underfull \hbox (badness 10000) in paragraph at lines 740--740
 []\OT1/ptm/m/n/8 Written
@@ -1844,6 +2889,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 740--740
 
 ./bare_conf.tex:751: Undefined control sequence.
 l.751 \tab
+=======
+
+LaTeX Warning: Reference `tab:DLposneg' on page 7 undefined on input line 738.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 745--745
+[]\OT1/ptm/m/n/8 Written
+ []
+
+./bare_conf.tex:756: Undefined control sequence.
+l.756 \tab
+>>>>>>> Stashed changes
           ~\ref{tab:tautanpusatposneg} memperlihatkan bahwa pada simpai pusa...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1851,8 +2908,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:751: Undefined control sequence.
 l.751 ... namun rasionya tidak seekstrim pada \tab
+=======
+
+LaTeX Warning: Reference `tab:tautanpusatposneg' on page 7 undefined on input l
+ine 756.
+
+./bare_conf.tex:756: Undefined control sequence.
+l.756 ... namun rasionya tidak seekstrim pada \tab
+>>>>>>> Stashed changes
                                                   ~\ref{tab:DLpusatposneg}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1860,8 +2926,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:761: Undefined control sequence.
 l.761 ...428 	& 1 		& 1		& 4	 	& 1,748 	&\multirow
+=======
+
+LaTeX Warning: Reference `tab:DLpusatposneg' on page 7 undefined on input line 
+756.
+
+./bare_conf.tex:766: Undefined control sequence.
+l.766 ...428 	& 1 		& 1		& 4	 	& 1,748 	&\multirow
+>>>>>>> Stashed changes
                                                   {6}{*}{Tulis}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1869,8 +2944,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:768: Undefined control sequence.
 l.768 ...482 	& 1 		& 1	 	& 4		& 1,69 	& \multirow
+=======
+./bare_conf.tex:773: Undefined control sequence.
+l.773 ...482 	& 1 		& 1	 	& 4		& 1,69 	& \multirow
+>>>>>>> Stashed changes
                                                   {6}{*}{Lisan}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1879,12 +2959,21 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+<<<<<<< Updated upstream
 Overfull \hbox (50.43884pt too wide) in paragraph at lines 757--777
  [][] 
  []
 
 ./bare_conf.tex:780: Undefined control sequence.
 l.780 \tab
+=======
+Overfull \hbox (50.43884pt too wide) in paragraph at lines 762--782
+ [][] 
+ []
+
+./bare_conf.tex:785: Undefined control sequence.
+l.785 \tab
+>>>>>>> Stashed changes
           ~\ref{tab:deskriptif-konstituenpusat} mencakup jarak dependensi da...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1892,8 +2981,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:780: Undefined control sequence.
 l.780 ...t yang semakin panjang. Seperti pada \tab
+=======
+
+LaTeX Warning: Reference `tab:deskriptif-konstituenpusat' on page 7 undefined o
+n input line 785.
+
+./bare_conf.tex:785: Undefined control sequence.
+l.785 ...t yang semakin panjang. Seperti pada \tab
+>>>>>>> Stashed changes
                                                   ~\ref{tab:deskriptif-konst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1901,8 +2999,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:780: Undefined control sequence.
 l.780 ...hubungan dua konstituen secara umum (\tab
+=======
+
+LaTeX Warning: Reference `tab:deskriptif-konstituen' on page 7 undefined on inp
+ut line 785.
+
+./bare_conf.tex:785: Undefined control sequence.
+l.785 ...hubungan dua konstituen secara umum (\tab
+>>>>>>> Stashed changes
                                                   ~\ref{tab:deskriptif-konst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1910,8 +3017,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:780: Undefined control sequence.
 l.780 ...it{P} \textless 0.05). Serupa dengan \tab
+=======
+
+LaTeX Warning: Reference `tab:deskriptif-konstituen' on page 7 undefined on inp
+ut line 785.
+
+./bare_conf.tex:785: Undefined control sequence.
+l.785 ...it{P} \textless 0.05). Serupa dengan \tab
+>>>>>>> Stashed changes
                                                   ~\ref{tab:deskriptif-konst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1919,8 +3035,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:790: Undefined control sequence.
 l.790 ...363	& 1 		& 1,5		& 4	 	& 1,632	&\multirow
+=======
+
+LaTeX Warning: Reference `tab:deskriptif-konstituen' on page 7 undefined on inp
+ut line 785.
+
+[7 <./pics/tulisroot_DLposneg.png> <./pics/lisanroot_DLposneg.png>]
+./bare_conf.tex:795: Undefined control sequence.
+l.795 ...363	& 1 		& 1,5		& 4	 	& 1,632	&\multirow
+>>>>>>> Stashed changes
                                                   {6}{*}{Tulis}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1928,8 +3054,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:797: Undefined control sequence.
 l.797 ...327	& 1 		& 1,5 	& 4		& 1,531	& \multirow
+=======
+./bare_conf.tex:802: Undefined control sequence.
+l.802 ...327	& 1 		& 1,5 	& 4		& 1,531	& \multirow
+>>>>>>> Stashed changes
                                                   {6}{*}{Lisan}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1938,12 +3069,21 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+<<<<<<< Updated upstream
 Overfull \hbox (82.43964pt too wide) in paragraph at lines 786--806
  [][] 
  []
 
 ./bare_conf.tex:809: Undefined control sequence.
 l.809 Hasil pada \tab
+=======
+Overfull \hbox (82.43964pt too wide) in paragraph at lines 791--811
+ [][] 
+ []
+
+./bare_conf.tex:814: Undefined control sequence.
+l.814 Hasil pada \tab
+>>>>>>> Stashed changes
                      ~\ref{tab:deskriptif-mddpusat} didapatkan dengan menghi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1951,8 +3091,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:809: Undefined control sequence.
 l.809 ... akar verbal setiap kalimat. Seperti \tab
+=======
+
+LaTeX Warning: Reference `tab:deskriptif-mddpusat' on page 8 undefined on input
+ line 814.
+
+./bare_conf.tex:814: Undefined control sequence.
+l.814 ... akar verbal setiap kalimat. Seperti \tab
+>>>>>>> Stashed changes
                                                   ~\ref{tab:deskriptif-mdd},...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1960,8 +3109,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:809: Undefined control sequence.
 l.809 ...ar dibandingkan ragam lisan. Seperti \tab
+=======
+
+LaTeX Warning: Reference `tab:deskriptif-mdd' on page 8 undefined on input line
+ 814.
+
+./bare_conf.tex:814: Undefined control sequence.
+l.814 ...ar dibandingkan ragam lisan. Seperti \tab
+>>>>>>> Stashed changes
                                                   ~\ref{tab:deskriptif-konst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1969,8 +3127,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:814: Undefined control sequence.
 l.814 ...arah (\textit{mixed-branching}) (\citealp
+=======
+
+LaTeX Warning: Reference `tab:deskriptif-konstituenpusat' on page 8 undefined o
+n input line 814.
+
+./bare_conf.tex:819: Undefined control sequence.
+l.819 ...arah (\textit{mixed-branching}) (\citealp
+>>>>>>> Stashed changes
                                                   {hawkins1994performance, f...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1978,8 +3145,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:814: Undefined control sequence.
 l.814 ...nya percabangan beda arah saja) (\citealp
+=======
+./bare_conf.tex:819: Undefined control sequence.
+l.819 ...nya percabangan beda arah saja) (\citealp
+>>>>>>> Stashed changes
                                                   {dryer1992greenbergian, te...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1988,11 +3160,19 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+<<<<<<< Updated upstream
 LaTeX Warning: Citation `gildea2010grammars' on page 6 undefined on input line 
 814.
 
 ./bare_conf.tex:814: Undefined control sequence.
 l.814 ...erpendek yang juga dianalisis oleh \citep
+=======
+LaTeX Warning: Citation `gildea2010grammars' on page 8 undefined on input line 
+819.
+
+./bare_conf.tex:819: Undefined control sequence.
+l.819 ...erpendek yang juga dianalisis oleh \citep
+>>>>>>> Stashed changes
                                                   {dryer1992greenbergian}. B...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2001,47 +3181,84 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+<<<<<<< Updated upstream
 LaTeX Warning: Citation `dryer1992greenbergian' on page 6 undefined on input li
 ne 814.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 814--815
+=======
+LaTeX Warning: Citation `dryer1992greenbergian' on page 8 undefined on input li
+ne 819.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 819--820
+>>>>>>> Stashed changes
 []\OT1/ptm/m/n/10 Pada tin-jauan pus-taka, perg-er-akan panah yang
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 814--815
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 819--820
+>>>>>>> Stashed changes
 \OT1/ptm/m/n/10 merep-re-sen-tasikan di-rek-sion-al-i-tas in-duk diba-has
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 2762) in paragraph at lines 814--815
+=======
+Underfull \hbox (badness 2762) in paragraph at lines 819--820
+>>>>>>> Stashed changes
 \OT1/ptm/m/n/10 men-jadi dua tipe, yaitu per-ca-ban-gan searah (\OT1/ptm/m/it/1
 0 same-
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 814--815
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 819--820
+>>>>>>> Stashed changes
 \OT1/ptm/m/n/10 (dryer1992greenbergian, tem-per-ley2008dependency).
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 814--815
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 819--820
+>>>>>>> Stashed changes
 \OT1/ptm/m/n/10 dryer1992greenbergian. Berdasarkan data peneli-tian
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 2103) in paragraph at lines 814--815
+=======
+Underfull \hbox (badness 2103) in paragraph at lines 819--820
+>>>>>>> Stashed changes
 \OT1/ptm/m/n/10 dike-mukakan [[]] bahwa arah de-pen-densi tidak bisa
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 6725) in paragraph at lines 814--815
 \OT1/ptm/m/n/10 anal-i-sis den-gan pemetaan kepa-datan selisih an-tara
  []
 
 ./bare_conf.tex:816: Undefined control sequence.
 l.816 ... dependensi positif dan negatif pada \pic
+=======
+Underfull \hbox (badness 6725) in paragraph at lines 819--820
+\OT1/ptm/m/n/10 anal-i-sis den-gan pemetaan kepa-datan selisih an-tara
+ []
+
+./bare_conf.tex:821: Undefined control sequence.
+l.821 ... dependensi positif dan negatif pada \pic
+>>>>>>> Stashed changes
                                                   ~\ref{fig:DL_posneg} dan \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2049,8 +3266,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:816: Undefined control sequence.
 l.816 ...if pada \pic~\ref{fig:DL_posneg} dan \pic
+=======
+
+LaTeX Warning: Reference `fig:DL_posneg' on page 8 undefined on input line 821.
+
+
+./bare_conf.tex:821: Undefined control sequence.
+l.821 ...if pada \pic~\ref{fig:DL_posneg} dan \pic
+>>>>>>> Stashed changes
                                                   ~\ref{fig:rootDL_posneg} y...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2058,28 +3284,54 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 [6]
 Overfull \hbox (5.63524pt too wide) in paragraph at lines 818--820
+=======
+
+LaTeX Warning: Reference `fig:rootDL_posneg' on page 8 undefined on input line 
+821.
+
+
+Overfull \hbox (5.63524pt too wide) in paragraph at lines 823--825
+>>>>>>> Stashed changes
 []\OT1/ptm/m/n/10 =========================================
  []
 
 
+<<<<<<< Updated upstream
 Overfull \hbox (1.27513pt too wide) in paragraph at lines 818--820
+=======
+Overfull \hbox (1.27513pt too wide) in paragraph at lines 823--825
+>>>>>>> Stashed changes
 \OT1/ptm/m/n/10 ========================================== 
  []
 
 
+<<<<<<< Updated upstream
 Overfull \hbox (5.63524pt too wide) in paragraph at lines 907--909
+=======
+Overfull \hbox (5.63524pt too wide) in paragraph at lines 912--914
+>>>>>>> Stashed changes
 []\OT1/ptm/m/n/10 =========================================
  []
 
 
+<<<<<<< Updated upstream
 Overfull \hbox (1.27513pt too wide) in paragraph at lines 907--909
 \OT1/ptm/m/n/10 ========================================== 
  []
 
 ./bare_conf.tex:910: Undefined control sequence.
 l.910 ...rasa dalam tata bahasa yang ada (\citealp
+=======
+Overfull \hbox (1.27513pt too wide) in paragraph at lines 912--914
+\OT1/ptm/m/n/10 ========================================== 
+ []
+
+./bare_conf.tex:915: Undefined control sequence.
+l.915 ...rasa dalam tata bahasa yang ada (\citealp
+>>>>>>> Stashed changes
                                                   {kridalaksana2002struktur,...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2088,17 +3340,31 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+<<<<<<< Updated upstream
 LaTeX Warning: Citation `futrell2015large' on page 7 undefined on input line 91
 0.
 
 ./bare_conf.tex:912: Too many }'s.
 l.912 ...ati posisi sebelum konstituen terikatnya}
+=======
+LaTeX Warning: Citation `futrell2015large' on page 8 undefined on input line 91
+5.
+
+[8]
+./bare_conf.tex:917: Too many }'s.
+l.917 ...ati posisi sebelum konstituen terikatnya}
+>>>>>>> Stashed changes
                                                    pada hubungan antara dua ...
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:912: Undefined control sequence.
 l.912 ...yang memiliki urutan kata bebas (\citealp
+=======
+./bare_conf.tex:917: Undefined control sequence.
+l.917 ...yang memiliki urutan kata bebas (\citealp
+>>>>>>> Stashed changes
                                                   {stack2005word, postman200...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2106,8 +3372,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< Updated upstream
 ./bare_conf.tex:912: Undefined control sequence.
 l.912 ...h dan kalimat masih dapat diterima \citep
+=======
+./bare_conf.tex:917: Undefined control sequence.
+l.917 ...h dan kalimat masih dapat diterima \citep
+>>>>>>> Stashed changes
                                                   [pp. 209-268]{sneddon2010i...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2116,14 +3387,25 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+<<<<<<< Updated upstream
 Overfull \hbox (5.63524pt too wide) in paragraph at lines 918--920
+=======
+Overfull \hbox (5.63524pt too wide) in paragraph at lines 923--925
+>>>>>>> Stashed changes
 []\OT1/ptm/m/n/10 =========================================
  []
 
 
+<<<<<<< Updated upstream
 Overfull \hbox (1.27513pt too wide) in paragraph at lines 918--920
+=======
+Overfull \hbox (1.27513pt too wide) in paragraph at lines 923--925
+>>>>>>> Stashed changes
 \OT1/ptm/m/n/10 ========================================== 
  []
+
+
+LaTeX Warning: Citation `zipf1949human' on page 9 undefined on input line 934.
 
 (./bare_conf.bbl)
 
@@ -2137,15 +3419,20 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
+<<<<<<< Updated upstream
 [7] (./bare_conf.aux)
+=======
+[9] (./bare_conf.aux)
+>>>>>>> Stashed changes
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< Updated upstream
  1000 strings out of 492995
  17363 string characters out of 6132704
  93215 words of memory out of 5000000
@@ -2153,6 +3440,15 @@ Here is how much of TeX's memory you used:
  40481 words of font info for 74 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  26i,9n,22p,1544b,298s stack positions out of 5000i,500n,10000p,200000b,80000s
+=======
+ 2321 strings out of 492995
+ 37736 string characters out of 6132704
+ 120149 words of memory out of 5000000
+ 5847 multiletter control sequences out of 15000+600000
+ 43144 words of font info for 77 fonts, out of 8000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 39i,9n,25p,1545b,298s stack positions out of 5000i,500n,10000p,200000b,80000s
+>>>>>>> Stashed changes
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -2166,10 +3462,17 @@ xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/f
 onts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
+<<<<<<< Updated upstream
 Output written on bare_conf.pdf (7 pages, 145075 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  55 compressed objects within 1 object stream
+=======
+Output written on bare_conf.pdf (9 pages, 2161714 bytes).
+PDF statistics:
+ 100 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
+>>>>>>> Stashed changes
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

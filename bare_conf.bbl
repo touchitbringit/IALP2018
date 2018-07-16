@@ -21,6 +21,42 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{plotkin2000language}
+J.~B. Plotkin and M.~A. Nowak, ``Language evolution and information theory,''
+  \emph{Journal of Theoretical Biology}, vol. 205, no.~1, pp. 147--159, 2000.
+
+\bibitem{heringer1993dependency}
+H.~J. Heringer, ``Dependency syntax-basic ideas and the classical model,''
+  \emph{Syntax-An International Handbook of Contemporary Research}, vol.~1, pp.
+  298--316, 1993.
+
+\bibitem{gildea2010grammars}
+D.~Gildea and D.~Temperley, ``Do grammars minimize dependency length?''
+  \emph{Cognitive Science}, vol.~34, no.~2, pp. 286--310, 2010.
+
+\bibitem{futrell2015large}
+R.~Futrell, K.~Mahowald, and E.~Gibson, ``Large-scale evidence of dependency
+  length minimization in 37 languages,'' \emph{Proceedings of the National
+  Academy of Sciences}, vol. 112, no.~33, pp. 10\,336--10\,341, 2015.
+
+\bibitem{liu2010dependency}
+H.~Liu, ``Dependency direction as a means of word-order typology: A method
+  based on dependency treebanks,'' \emph{Lingua}, vol. 120, no.~6, pp.
+  1567--1578, 2010.
+
+\bibitem{temperley2008dependency}
+D.~Temperley, ``Dependency-length minimization in natural and artificial
+  language,'' \emph{Journal of Quantitative Linguistics}, vol.~15, no.~3, pp.
+  256--282, 2008.
+
+\bibitem{dryer1992greenbergian}
+M.~S. Dryer, ``The {G}reenbergian word order correlations,'' \emph{Language},
+  vol.~68, pp. 81--138, 1992.
+
+\bibitem{tesniere1959elements}
+L.~Tesni\`ere, \emph{{\'{E}}l\'ements de syntaxe structurale}.\hskip 1em plus
+  0.5em minus 0.4em\relax Paris, France: Librairie C. Klincksieck, 1959.
+
 \bibitem{zipf1949human}
 G.~K. Zipf, \emph{Human behaviour and the principle of least-effort}.\hskip 1em
   plus 0.5em minus 0.4em\relax Cambridge, Massachusetts: Addison-Wesley Press,
