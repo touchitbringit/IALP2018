@@ -430,66 +430,61 @@ component; formatting; style; styling;
 
 =========================================
 ==========================================
-cite-citet-citep, foto ga nongol, reference figure di dlm text, betulin rumus.
+foto ga nongol, reference figure di dlm text, betulin rumus.
 ==========================================
 ==========================================
 
 \section{Introduction}
 % no \IEEEPARstart
 
-There are several concepts that relate syntactic structures of a sentence with human's cognition, such as dependency. In a \textit{dependency} theory, every linguistic unit is connected with each other by a link that represents direct asymmetrical syntactic relation forming an iterative structure attaching all the constituents within a sentence \citep{tesniere1959elements}. This syntax framework contributes greatly to the discussion on how far a language development is shaped by the mechanical constraints of human cognition, particularly in relation to language acquisition and language application, as suggested by \cite{plotkin2000language}. \cite{heringer1993dependency} proposed a linear distance that represents dependency between two words or constituents, which has been adopted into modern computational methods of quantifying dependency. This linear distance is measured by counting the constituents involved between the connected constituents. However, another important aspect in measuring dependency, in addition to the linear distance, is the position of the \textit{head} in regards to its \textit{dependent}, or the \textit{head directionality}. 
+There are several concepts that relate syntactic structures of a sentence with human's cognition, such as dependency. In a \textit{dependency} theory, every linguistic unit is connected with each other by a link that represents direct asymmetrical syntactic relation forming an iterative structure attaching all the constituents within a sentence \cite{tesniere1959elements}. This syntax framework contributes greatly to the discussion on how far a language development is shaped by the mechanical constraints of human cognition, particularly in relation to language acquisition and language application \cite{plotkin2000language}. Heringer proposed a linear distance that represents dependency between two words or constituents, which has been adopted into modern computational methods of quantifying dependency \cite{heringer1993dependency}. This linear distance is measured by counting the constituents involved between the connected constituents. However, another important aspect in measuring dependency, in addition to the linear distance, is the position of the \textit{head} in regards to its \textit{dependent}, or the \textit{head directionality}. 
 
 % You must have at least 2 lines in the paragraph with the drop letter
 % (should never be an issue)
 
 \subsection{Measuring dependency}
 
-Words are the main constituents of syntax that carry with them the grammatical relation that connect one word with another \citep{tesniere1959elements}. The term \textit{dependency} itself is a derivative of a connection that refers to an asymmetrical relation between a superordinate and its subordinate (\citealp{hudson1984word, heringer1993dependency, tesniere1959elements}). \citet{tesniere1959elements, hudson1984word, liu2009chinese} have all described in detail what a dependency structure between two constituents looks like. It can be summarized from these references that a dependency structure consists of a binary and asymmetrical relation between two linguistic units and the type of a dependency relation is usually indicated using a label on top of an arc linking the two constituents, as shown in \pic~\ref{fig:tautandependensi}. An arrow pointing from a more superior constituent to a more inferior one represents the hierarchical relation between two constituents. The governor is also more commonly called as a \textit{head} and the subordinate is generally called a \textit{dependent}. In a more complex and recursive structure of dependency relations, such as a sentence, the sentence head is usually called a \textit{root}.
+Words are the main constituents of syntax that carry with them the grammatical relation that connect one word with another \cite{tesniere1959elements}. The term \textit{dependency} itself is a derivative of a connection that refers to an asymmetrical relation between a superordinate and its subordinate \cite{hudson1984word, heringer1993dependency, tesniere1959elements}. Many studies and theory developments have all described in detail what a dependency structure between two constituents looks like \cite{tesniere1959elements, hudson1984word, liu2009chinese}. It can be summarized from these references that a dependency structure consists of a binary and asymmetrical relation between two linguistic units and the type of a dependency relation is usually indicated using a label on top of an arc linking the two constituents, as shown in \pic~\ref{fig:tautandependensi}. An arrow pointing from a more superior constituent to a more inferior one represents the hierarchical relation between two constituents. The governor is also more commonly called as a \textit{head} and the subordinate is generally called a \textit{dependent}. In a more complex and recursive structure of dependency relations, such as a sentence, the sentence head is usually called a \textit{root}.
 
 \begin{figure}
 	\centering \includegraphics[width=0.8
 	\textwidth] {pics/tautandependensi.png} \caption{Elements of a dependency relation} 
 \label{fig:tautandependensi} \end{figure}
 
-The arc in \pic~\ref{fig:tautandependensi} illustrates how a constituent must be kept active in working memory until both constituents are realized in an utterance, which result in the integration of meanings carried by both constituents \citep{hudson2003psychological, liu2008dependency}. Therefore, the greater the dependency distance, the heavier the burden borne by the working memory. To measure a dependency distance (DD), a sentence is treated as a string of constituents $C_{1}...C_{i}...C_{n}$. Each constituent has a significant index that corresponds its position within the given sentence. For example, $C_{1}$ indicates that the constituent is located on the first position in the sentence. There are different approaches of measuring dependency distance. Largely, they involve the value of DD, which is obtained by subtracting directly linked constituents \citep{liu2008dependency, liu2017dependency, futrell2015large}.
+The arc in \pic~\ref{fig:tautandependensi} illustrates how a constituent must be kept active in working memory until both constituents are realized in an utterance, which result in the integration of meanings carried by both constituents \cite{hudson2003psychological, liu2008dependency}. Therefore, the greater the dependency distance, the heavier the burden borne by the working memory. To measure a dependency distance (DD), a sentence is treated as a string of constituents $C_{1}...C_{i}...C_{n}$. Each constituent has a significant index that corresponds its position within the given sentence. For example, $C_{1}$ indicates that the constituent is located on the first position in the sentence. There are different approaches of measuring dependency distance. Largely, they involve the value of DD, which is obtained by subtracting directly linked constituents \cite{liu2008dependency, liu2017dependency, futrell2015large}.
 
-Previous substantial studies on measuring dependency, \cite{gildea2010grammars} and \cite{futrell2015large}, used dependency length (DL) as their main approach. DL is the sum of absolute DD of an entire sentence, which can be defined as follows:
+Previous substantial studies on measuring dependency used dependency length (DL) as their main approach \cite{gildea2010grammars, futrell2015large}. DL is the sum of absolute DD of an entire sentence, which can be defined as follows:
 
 \begin{align}\label{eq:bola}
 	\displaystyle\sum_{i=1}^{n-1} |DD_i|
 \end{align}
 
-While other notable studies used a different approach called the mean dependency distance (MDD) \citep{liu2008dependency, liu2017dependency} which divides DL with the number of dependency relations of an entire sentence. MDD can be defined as follows:
+\noindent While other notable studies used a different approach called the mean dependency distance (MDD), which divides DL with the number of dependency relations of an entire sentence \cite{liu2008dependency, liu2017dependency}. MDD can be defined as follows:
 
 \begin{align}\label{eq:bola}
 	\frac{1}{n-1} \displaystyle\sum_{i=1}^{n-1} |DD_i|
 \end{align}
 
+\subsection{Head directionality}
 
-
-\subsection{Head directionality in Indonesian language}
-
-
-Hingga saat ini, belum ada konvensi mengenai direksionalitas induk terkait hierarki dan pengolahan dalam memori kerja. Namun, beberapa kajian telah dilakukan untuk memberikan penjelasan tambahan mengenai penerapan aturan tata bahasa. Beberapa penelitian pada awal berkembangnya teori dependensi, menemukan bahwa sebuah bahasa cenderung menerapkan arah relasi yang konsisten, baik itu \gls{diawali-induk} (\textit{head-first} atau \textit{head-initial}) maupun \gls{diakhiri-induk} (\textit{head-last} atau \textit{head-final})\footnote{Seperti yang dijelaskan sebelumnya, induk (\textit{head}) di sini sedikit berbeda dengan induk (\textit{heads}) pada teori struktur frasa. Sehingga, bentuk relasi dependensi diawali atau diakhiri induk yang dibahas pada bagian ini terbatas hanya pada penerapannya berdasarkan teori dependensi dan bukan struktur frasa.} (\citealp{hawkins1994performance, radford1997syntactic, vennemann1994linguistic}). Tindakan yang konsisten ini juga diasumsikan sebagai penerapan tata bahasa sebagai strategi untuk meminimalkan jarak antara induk dan konstituen terikatnya (\citealp{hawkins1994performance, frazier1985syntactic}). \cite{liu2010dependency} juga telah berupaya untuk memberikan validitas berdasarkan data mengenai arah dependensi dan kaitannya dengan klasifikasi topologis sebuah bahasa.
+There has yet a convention on head directionality in regards to the online processing in working memory, particularly for Indonesian language. However, previous attempts have been done to provide details on the head's position and its relation to grammars. Several studies in the early development of dependency theory found that a language tends to apply a consistent dependency direction, whether it is \textit{head-first}/\textit{head-initial} or \textit{head-last}/\textit{head-final} \cite{hawkins1994performance, radford1997syntactic, vennemann1994linguistic}. Hawkins and Frazier assumed that this consistency, as shown in \pic~\ref{fig:samebranching}, is the implementation of a strategy to minimize the distance between a head and its dependent \cite{hawkins1994performance, frazier1985syntactic}.  
 
 \begin{figure}
 	\centering \includegraphics[width=0.5
-	\textwidth] {pics/samebranching.png} \caption{\Gls{percabangan-searah} atau \textit{same-branching}} 
+	\textwidth] {pics/samebranching.png} \caption{Same-branching dependency direction} 
 \label{fig:samebranching} \end{figure}
 
 \begin{figure}
 	\centering \includegraphics[width=0.5
-	\textwidth] {pics/mixedbranching.png} \caption{\Gls{percabangan-beda-arah} atau \textit{mixed-branching}} 
+	\textwidth] {pics/mixedbranching.png} \caption{Mixed-branching dependency direction} 
 \label{fig:mixedbranching} \end{figure}
 
-Perbandingan percabangan pada \pic~\ref{fig:samebranching} dan \pic~\ref{fig:mixedbranching} mengilustrasikan tautan-tautan yang dibentuk oleh masing-masing tipe percabangan. Percabangan searah atau \textit{same branching} dengan satu relasi yang berkelanjutan tidak mungkin akan secara konsisten terjadi, terutama pada kalimat yang lebih panjang sehingga asumsi ini dipertanyakan oleh \cite{temperley2008dependency} yang menganggap bahwa percabangan searah ini tidak selalu optimal dalam menggambarkan penampilan bahasa. \cite{temperley2008dependency} meneruskan asumsi ini berdasarkan penelitian \cite{dryer1992greenbergian} terhadap 625 bahasa yang mengungkapkan bahwa percabangan searah yang konvensional tidak dapat menggambarkan dengan baik aplikasi tata bahasa pada ujaran nyata dalam kajian penampilan bahasa. \cite{dryer1992greenbergian} menggambarkan karakter tata bahasa mengenai hal ini sebagai berikut: frasa yang mengandung banyak konstituen cenderung memiliki percabangan searah, sedangkan arah dependensi frasa yang hanya mengandung satu konstituen ditemukan tidak konsisten. Kajian \cite{dryer1992greenbergian} yang dikutip dalam \cite{gildea2010grammars} memperlihatkan dengan bukti empiris adanya gabungan percabangan searah dan percabangan beda arah (\textit{mixed branching}) untuk menghasilkan keseimbangan antara arah dependensi positif (diawali induk) dan dependensi negatif (diakhiri induk) dalam mendapatkan nilai panjang dependensi terkecil (\pic~\ref{fig:balancedbranching}).
+Temperley argues that a consistent dependency direction or \textit{same-branching} is not an ideal representation of how head directionality works in real utterances \cite{temperley2008dependency}. This argument supports Dryer's research who found that the conventional view of same branching only applies on phrases consist of many constituents, while the dependency direction of phrases with single or less words are inconsistent \cite{dryer1992greenbergian}. Gildea and Temperley mentioned this research and provided empirical evidence that exhibit a combination of same branching and mixed branching (\pic~\ref{fig:mixedbranching}) dependency direction to produce a more balanced head-initial and head-final mixture to yield the shortest dependency distances (\pic~\ref{fig:balancedbranching}) \cite{gildea2010grammars}.
 
 \begin{figure}
 	\centering \includegraphics[width=0.8
 	\textwidth] {pics/balancedbranching.png} \caption{Keseimbangan direksionalitas induk} 
 \label{fig:balancedbranching} \end{figure}
-=========================================
-==========================================
 
 \section{Methods}
 

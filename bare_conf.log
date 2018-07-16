@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.18)  16 JUL 2018 09:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.18)  16 JUL 2018 23:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -130,16 +130,6 @@ Overfull \hbox (1.27513pt too wide) in paragraph at lines 431--436
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 431--436
-\OT1/ptm/m/n/10 cite-citet-citep, foto ga non-gol, ref-er-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 431--436
-\OT1/ptm/m/n/10 ence fig-ure di dlm text, be-tulin ru-mus.
- []
-
-
 Overfull \hbox (1.27513pt too wide) in paragraph at lines 431--436
 \OT1/ptm/m/n/10 ==========================================
  []
@@ -149,12 +139,10 @@ Overfull \hbox (1.27513pt too wide) in paragraph at lines 431--436
 \OT1/ptm/m/n/10 ========================================== 
  []
 
-./bare_conf.tex:440: Undefined control sequence.
-l.440 ...the constituents within a sentence \citep
-                                                  {tesniere1959elements}. Th...
 
-? s
-OK, entering \scrollmode...
+LaTeX Warning: Citation `tesniere1959elements' on page 1 undefined on input lin
+e 440.
+
 
 LaTeX Warning: Citation `plotkin2000language' on page 1 undefined on input line
  440.
@@ -163,72 +151,40 @@ LaTeX Warning: Citation `plotkin2000language' on page 1 undefined on input line
 LaTeX Warning: Citation `heringer1993dependency' on page 1 undefined on input l
 ine 440.
 
-./bare_conf.tex:447: Undefined control sequence.
-l.447 ...that connect one word with another \citep
-                                                  {tesniere1959elements}. Th...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-./bare_conf.tex:447: Undefined control sequence.
-l.447 ...perordinate and its subordinate (\citealp
-                                                  {hudson1984word, heringer1...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Citation `tesniere1959elements' on page 1 undefined on input lin
+e 447.
 
-./bare_conf.tex:447: Undefined control sequence.
-l.447 ...ependency, tesniere1959elements}). \citet
-                                                  {tesniere1959elements, hud...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Citation `hudson1984word' on page 1 undefined on input line 447.
+
+
+
+LaTeX Warning: Citation `heringer1993dependency' on page 1 undefined on input l
+ine 447.
+
+
+LaTeX Warning: Citation `tesniere1959elements' on page 1 undefined on input lin
+e 447.
+
+
+LaTeX Warning: Citation `tesniere1959elements' on page 1 undefined on input lin
+e 447.
+
+
+LaTeX Warning: Citation `hudson1984word' on page 1 undefined on input line 447.
+
+
+
+LaTeX Warning: Citation `liu2009chinese' on page 1 undefined on input line 447.
+
 
 ./bare_conf.tex:447: Undefined control sequence.
 l.447 ...ng the two constituents, as shown in \pic
                                                   ~\ref{fig:tautandependensi...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-
-Underfull \hbox (badness 3271) in paragraph at lines 447--448
-[]\OT1/ptm/m/n/10 Words are the main con-stituents of syn-tax that
- []
-
-
-Underfull \hbox (badness 6876) in paragraph at lines 447--448
-\OT1/ptm/m/n/10 one word with an-other tes-niere1959elements. The
- []
-
-
-Underfull \hbox (badness 3364) in paragraph at lines 447--448
-\OT1/ptm/m/n/10 that refers to an asym-met-ri-cal re-la-tion be-tween a
- []
-
-
-Underfull \hbox (badness 4556) in paragraph at lines 447--448
-\OT1/ptm/m/n/10 su-per-or-di-nate and its sub-or-di-nate (hud-son1984word,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 447--448
-\OT1/ptm/m/n/10 heringer1993dependency, tes-niere1959elements).
- []
-
-
-Underfull \hbox (badness 1460) in paragraph at lines 447--448
-\OT1/ptm/m/n/10 of a bi-nary and asym-met-ri-cal re-la-tion be-tween two
- []
-
+? s
+OK, entering \scrollmode...
 ./bare_conf.tex:450: Undefined control sequence.
 l.450 	\centering \includegraphics
                                   [width=0.8
@@ -268,27 +224,29 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:454: Undefined control sequence.
-l.454 ...nings carried by both constituents \citep
-                                                  {hudson2003psychological, ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Citation `hudson2003psychological' on page 1 undefined on input 
+line 454.
+
+
+LaTeX Warning: Citation `liu2008dependency' on page 1 undefined on input line 4
+54.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 454.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 454.
-./bare_conf.tex:454: Undefined control sequence.
-l.454 ...cting directly linked constituents \citep
-                                                  {liu2008dependency, liu201...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Citation `liu2008dependency' on page 1 undefined on input line 4
+54.
+
+
+LaTeX Warning: Citation `liu2017dependency' on page 1 undefined on input line 4
+54.
+
+
+LaTeX Warning: Citation `futrell2015large' on page 1 undefined on input line 45
+4.
 
 
 LaTeX Warning: Citation `gildea2010grammars' on page 1 undefined on input line 
@@ -343,19 +301,13 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./bare_conf.tex:462: Undefined control sequence.
-l.462 ...the mean dependency distance (MDD) \citep
-                                                  {liu2008dependency, liu201...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Citation `liu2008dependency' on page 1 undefined on input line 4
+62.
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 462--463
-[]\OT1/ptm/m/n/10 While other no-table stud-ies used a dif-fer-ent ap-
- []
+LaTeX Warning: Citation `liu2017dependency' on page 1 undefined on input line 4
+62.
 
 
 ./bare_conf.tex:464: LaTeX Error: Environment align undefined.
@@ -424,40 +376,21 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./bare_conf.tex:474: Undefined control sequence.
-l.474 ...arah relasi yang konsisten, baik itu \gls
-                                                  {diawali-induk} (\textit{h...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-./bare_conf.tex:474: Undefined control sequence.
-l.474 ...} atau \textit{head-initial}) maupun \gls
-                                                  {diakhiri-induk} (\textit{...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Citation `hawkins1994performance' on page 1 undefined on input l
+ine 470.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 474.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 474.
-./bare_conf.tex:474: Undefined control sequence.
-l.474 ...ensi dan bukan struktur frasa.} (\citealp
-                                                  {hawkins1994performance, r...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-./bare_conf.tex:474: Undefined control sequence.
-l.474 ...induk dan konstituen terikatnya (\citealp
-                                                  {hawkins1994performance, f...
+LaTeX Warning: Citation `radford1997syntactic' on page 1 undefined on input lin
+e 470.
+
+
+LaTeX Warning: Citation `vennemann1994linguistic' on page 1 undefined on input 
+line 470.
+
+./bare_conf.tex:470: Undefined control sequence.
+l.470 ...d that this consistency, as shown in \pic
+                                                  ~\ref{fig:samebranching}, ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -465,103 +398,15 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `liu2010dependency' on page 1 undefined on input line 4
-74.
+LaTeX Warning: Citation `hawkins1994performance' on page 1 undefined on input l
+ine 470.
 
 
-Overfull \hbox (5.63524pt too wide) in paragraph at lines 472--475
-[]\OT1/ptm/m/n/10 =========================================
- []
+LaTeX Warning: Citation `frazier1985syntactic' on page 1 undefined on input lin
+e 470.
 
-
-Overfull \hbox (1.27513pt too wide) in paragraph at lines 472--475
-\OT1/ptm/m/n/10 ==========================================
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 472--475
-\OT1/ptm/m/n/10 Hingga saat ini, belum ada kon-vensi men-ge-nai
- []
-
-
-Underfull \hbox (badness 1838) in paragraph at lines 472--475
-\OT1/ptm/m/n/10 di-rek-sion-al-i-tas in-duk terkait hi-er-arki dan pen-go-la-ha
-n
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 472--475
-\OT1/ptm/m/n/10 dalam mem-ori kerja. Na-mun, be-ber-apa ka-jian
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 472--475
-\OT1/ptm/m/n/10 telah di-lakukan un-tuk mem-berikan pen-je-lasan
- []
-
-
-Underfull \hbox (badness 6461) in paragraph at lines 472--475
-\OT1/ptm/m/n/10 tam-ba-han men-ge-nai pen-er-a-pan at-u-ran tata ba-hasa.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 472--475
-\OT1/ptm/m/n/10 Be-ber-apa peneli-tian pada awal berkem-bangnya
- []
-
-
-Underfull \hbox (badness 2735) in paragraph at lines 472--475
-\OT1/ptm/m/n/10 teori de-pen-densi, men-e-mukan bahwa se-buah ba-hasa
- []
-
-
-Underfull \hbox (badness 5832) in paragraph at lines 472--475
-\OT1/ptm/m/n/10 cen-derung men-er-ap-kan arah re-lasi yang kon-sis-ten,
- []
-
-
-Underfull \hbox (badness 4454) in paragraph at lines 472--475
-\OT1/ptm/m/n/10 baik itu diawali-induk (\OT1/ptm/m/it/10 head-first \OT1/ptm/m/
-n/10 atau \OT1/ptm/m/it/10 head-initial\OT1/ptm/m/n/10 )
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 472--475
-\OT1/ptm/m/n/10 maupun diakhiri-induk (\OT1/ptm/m/it/10 head-last \OT1/ptm/m/n/
-10 atau \OT1/ptm/m/it/10 head-final\OT1/ptm/m/n/10 )[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 472--475
-\OT1/ptm/m/n/10 (hawkins1994performance, rad-ford1997syntactic,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 472--475
-\OT1/ptm/m/n/10 ven-ne-mann1994linguistic). Tin-dakan yang kon-sis-ten
- []
-
-
-Underfull \hbox (badness 1939) in paragraph at lines 472--475
-\OT1/ptm/m/n/10 ini juga di-a-sum-sikan se-ba-gai pen-er-a-pan tata ba-hasa
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 472--475
-\OT1/ptm/m/n/10 dan kon-stituen terikat-nya (hawkins1994performance,
- []
-
-
-Underfull \hbox (badness 2856) in paragraph at lines 472--475
-\OT1/ptm/m/n/10 fra-zier1985syntactic). [[]] juga telah beru-paya un-tuk
- []
-
-[1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
-./bare_conf.tex:477: Undefined control sequence.
-l.477 	\centering \includegraphics
+./bare_conf.tex:473: Undefined control sequence.
+l.473 	\centering \includegraphics
                                   [width=0.5
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -569,20 +414,20 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:478: Missing number, treated as zero.
+./bare_conf.tex:474: Missing number, treated as zero.
 <to be read again> 
                    ]
-l.478 	\textwidth]
-                   {pics/samebranching.png} \caption{\Gls{percabangan-searah...
+l.474 	\textwidth]
+                   {pics/samebranching.png} \caption{Same-branching dependen...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./bare_conf.tex:478: Illegal unit of measure (pt inserted).
+./bare_conf.tex:474: Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.478 	\textwidth]
-                   {pics/samebranching.png} \caption{\Gls{percabangan-searah...
+l.474 	\textwidth]
+                   {pics/samebranching.png} \caption{Same-branching dependen...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -591,21 +436,46 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 ./bare_conf.tex:478: Undefined control sequence.
-<argument> ...ype \endcsname }{\ignorespaces \Gls 
-                                                  {percabangan-searah} atau ...
-l.478 ...gan-searah} atau \textit{same-branching}}
-                                                  
+l.478 	\centering \includegraphics
+                                  [width=0.5
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:478: Undefined control sequence.
-<argument> \ignorespaces \Gls 
-                              {percabangan-searah} atau \textit {same-branch...
-l.478 ...gan-searah} atau \textit{same-branching}}
-                                                  
+./bare_conf.tex:479: Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.479 	\textwidth]
+                   {pics/mixedbranching.png} \caption{Mixed-branching depend...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./bare_conf.tex:479: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.479 	\textwidth]
+                   {pics/mixedbranching.png} \caption{Mixed-branching depend...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+LaTeX Warning: Citation `temperley2008dependency' on page 1 undefined on input 
+line 482.
+
+
+LaTeX Warning: Citation `dryer1992greenbergian' on page 1 undefined on input li
+ne 482.
+
+./bare_conf.tex:482: Undefined control sequence.
+l.482 ... same branching and mixed branching (\pic
+                                                  ~\ref{fig:mixedbranching})...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -613,101 +483,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ./bare_conf.tex:482: Undefined control sequence.
-l.482 	\centering \includegraphics
-                                  [width=0.5
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./bare_conf.tex:483: Missing number, treated as zero.
-<to be read again> 
-                   ]
-l.483 	\textwidth]
-                   {pics/mixedbranching.png} \caption{\Gls{percabangan-beda-...
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./bare_conf.tex:483: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   ]
-l.483 	\textwidth]
-                   {pics/mixedbranching.png} \caption{\Gls{percabangan-beda-...
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-./bare_conf.tex:483: Undefined control sequence.
-<argument> ...ype \endcsname }{\ignorespaces \Gls 
-                                                  {percabangan-beda-arah} at...
-l.483 ...beda-arah} atau \textit{mixed-branching}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./bare_conf.tex:483: Undefined control sequence.
-<argument> \ignorespaces \Gls 
-                              {percabangan-beda-arah} atau \textit {mixed-br...
-l.483 ...beda-arah} atau \textit{mixed-branching}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./bare_conf.tex:486: Undefined control sequence.
-l.486 Perbandingan percabangan pada \pic
-                                        ~\ref{fig:samebranching} dan \pic~\r...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./bare_conf.tex:486: Undefined control sequence.
-l.486 ...ada \pic~\ref{fig:samebranching} dan \pic
-                                                  ~\ref{fig:mixedbranching} ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Citation `temperley2008dependency' on page 2 undefined on input 
-line 486.
-
-
-LaTeX Warning: Citation `temperley2008dependency' on page 2 undefined on input 
-line 486.
-
-
-LaTeX Warning: Citation `dryer1992greenbergian' on page 2 undefined on input li
-ne 486.
-
-
-LaTeX Warning: Citation `dryer1992greenbergian' on page 2 undefined on input li
-ne 486.
-
-
-LaTeX Warning: Citation `dryer1992greenbergian' on page 2 undefined on input li
-ne 486.
-
-
-LaTeX Warning: Citation `gildea2010grammars' on page 2 undefined on input line 
-486.
-
-./bare_conf.tex:486: Undefined control sequence.
-l.486 ...n nilai panjang dependensi terkecil (\pic
+l.482 ...d the shortest dependency distances (\pic
                                                   ~\ref{fig:balancedbranchin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -715,8 +491,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:489: Undefined control sequence.
-l.489 	\centering \includegraphics
+
+LaTeX Warning: Citation `gildea2010grammars' on page 1 undefined on input line 
+482.
+
+[1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+./bare_conf.tex:485: Undefined control sequence.
+l.485 	\centering \includegraphics
                                   [width=0.8
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -724,19 +508,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:490: Missing number, treated as zero.
+./bare_conf.tex:486: Missing number, treated as zero.
 <to be read again> 
                    ]
-l.490 	\textwidth]
+l.486 	\textwidth]
                    {pics/balancedbranching.png} \caption{Keseimbangan direks...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./bare_conf.tex:490: Illegal unit of measure (pt inserted).
+./bare_conf.tex:486: Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.490 	\textwidth]
+l.486 	\textwidth]
                    {pics/balancedbranching.png} \caption{Keseimbangan direks...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -745,18 +529,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-
-Overfull \hbox (5.63524pt too wide) in paragraph at lines 492--494
-[]\OT1/ptm/m/n/10 =========================================
- []
-
-
-Overfull \hbox (1.27513pt too wide) in paragraph at lines 492--494
-\OT1/ptm/m/n/10 ========================================== 
- []
-
-./bare_conf.tex:497: Undefined control sequence.
-l.497 ..., parsed, and cleaned using UDPipe \citep
+./bare_conf.tex:491: Undefined control sequence.
+l.491 ..., parsed, and cleaned using UDPipe \citep
                                                   {udpipe2017} and manual ve...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -764,8 +538,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:497: Undefined control sequence.
-l.497 ...} and manual verifications. UDPipe \citep
+./bare_conf.tex:491: Undefined control sequence.
+l.491 ...} and manual verifications. UDPipe \citep
                                                   {udpipe2017} is a trainabl...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -773,8 +547,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:497: Undefined control sequence.
-l.497 ...ided by Universal Dependencies 2.0 \citep
+./bare_conf.tex:491: Undefined control sequence.
+l.491 ...ided by Universal Dependencies 2.0 \citep
                                                   {nivre2017universal} that ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -783,17 +557,17 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (5.63524pt too wide) in paragraph at lines 499--501
+Overfull \hbox (5.63524pt too wide) in paragraph at lines 493--495
 []\OT1/ptm/m/n/10 =========================================
  []
 
 
-Overfull \hbox (1.27513pt too wide) in paragraph at lines 499--501
+Overfull \hbox (1.27513pt too wide) in paragraph at lines 493--495
 \OT1/ptm/m/n/10 ========================================== 
  []
 
-./bare_conf.tex:502: Undefined control sequence.
-l.502 ...hap berikutnya memanfaatkan UDPipe \citep
+./bare_conf.tex:496: Undefined control sequence.
+l.496 ...hap berikutnya memanfaatkan UDPipe \citep
                                                   {udpipe2017} yang merupaka...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -801,8 +575,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:502: Undefined control sequence.
-l.502 ...CRAN pihak ketiga UDPipe versi 0.5 \citep
+./bare_conf.tex:496: Undefined control sequence.
+l.496 ...CRAN pihak ketiga UDPipe versi 0.5 \citep
                                                   {udpipe2017manual} pada ba...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -810,8 +584,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:502: Undefined control sequence.
-l.502 ...bahasa pemrograman R (versi 3.3.3) \citep
+./bare_conf.tex:496: Undefined control sequence.
+l.496 ...bahasa pemrograman R (versi 3.3.3) \citep
                                                   {r2017project}. Bahasa pem...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -819,8 +593,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:502: Undefined control sequence.
-l.502 ...an R ini dijalankan dengan RStudio \citep
+./bare_conf.tex:496: Undefined control sequence.
+l.496 ...an R ini dijalankan dengan RStudio \citep
                                                   {rstudio2017}, sebuah pera...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -828,8 +602,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:504: Undefined control sequence.
-l.504 ...koleksi Universal Dependencies 2.0 \citep
+./bare_conf.tex:498: Undefined control sequence.
+l.498 ...koleksi Universal Dependencies 2.0 \citep
                                                   {nivre2017universal} denga...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -837,8 +611,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:504: Undefined control sequence.
-l.504 ...ual terhadap data bahasa Indonesia \citep
+./bare_conf.tex:498: Undefined control sequence.
+l.498 ...ual terhadap data bahasa Indonesia \citep
                                                   {larasati2011indonesian}. ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -846,8 +620,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:504: Undefined control sequence.
-l.504 ...sia memiliki akurasi 74,3\%-80,6\% \citep
+./bare_conf.tex:498: Undefined control sequence.
+l.498 ...sia memiliki akurasi 74,3\%-80,6\% \citep
                                                   {udpipe2017}. Setelah mela...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -855,8 +629,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:504: Undefined control sequence.
-l.504 ...bahasa pemrograman R (versi 3.3.3) \citep
+./bare_conf.tex:498: Undefined control sequence.
+l.498 ...bahasa pemrograman R (versi 3.3.3) \citep
                                                   {r2017project} dan Python ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -864,9 +638,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[2]
-./bare_conf.tex:506: Undefined control sequence.
-l.506 ...sebelumnya dan divisualisasikan pada \pic
+./bare_conf.tex:500: Undefined control sequence.
+l.500 ...sebelumnya dan divisualisasikan pada \pic
                                                   ~\ref{fig:tautandependensi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -874,8 +647,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:506: Undefined control sequence.
-l.506 ... yang diambil dari data ragam tulis (\pic
+./bare_conf.tex:500: Undefined control sequence.
+l.500 ... yang diambil dari data ragam tulis (\pic
                                                   ~\ref{fig:contohtulis}) da...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -884,11 +657,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:contohtulis' on page 3 undefined on input line 50
-6.
+LaTeX Warning: Reference `fig:contohtulis' on page 2 undefined on input line 50
+0.
 
-./bare_conf.tex:506: Undefined control sequence.
-l.506 ...f{fig:contohtulis}) dan ragam lisan (\pic
+./bare_conf.tex:500: Undefined control sequence.
+l.500 ...f{fig:contohtulis}) dan ragam lisan (\pic
                                                   ~\ref{fig:contohlisan}). K...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -897,11 +670,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:contohlisan' on page 3 undefined on input line 50
-6.
+LaTeX Warning: Reference `fig:contohlisan' on page 2 undefined on input line 50
+0.
 
-./bare_conf.tex:506: Undefined control sequence.
-l.506 ...alam sebuah kalimat. Sebagai contoh, \pic
+./bare_conf.tex:500: Undefined control sequence.
+l.500 ...alam sebuah kalimat. Sebagai contoh, \pic
                                                   ~\ref{fig:contohtulis} mem...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -910,34 +683,34 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:contohtulis' on page 3 undefined on input line 50
-6.
+LaTeX Warning: Reference `fig:contohtulis' on page 2 undefined on input line 50
+0.
 
 
-LaTeX Warning: Citation `temperley2008dependency' on page 3 undefined on input 
-line 508.
+LaTeX Warning: Citation `temperley2008dependency' on page 2 undefined on input 
+line 502.
 
 
-LaTeX Warning: Citation `dryer1992greenbergian' on page 3 undefined on input li
-ne 508.
+LaTeX Warning: Citation `dryer1992greenbergian' on page 2 undefined on input li
+ne 502.
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 508--509
+Underfull \hbox (badness 2126) in paragraph at lines 502--503
 []\OT1/ptm/m/n/10 Simpai pusat merep-re-sen-tasikan relasi-relasi utama
  []
 
-
-Overfull \hbox (5.63524pt too wide) in paragraph at lines 510--512
+[2]
+Overfull \hbox (5.63524pt too wide) in paragraph at lines 504--506
 []\OT1/ptm/m/n/10 =========================================
  []
 
 
-Overfull \hbox (1.27513pt too wide) in paragraph at lines 510--512
+Overfull \hbox (1.27513pt too wide) in paragraph at lines 504--506
 \OT1/ptm/m/n/10 ========================================== 
  []
 
-./bare_conf.tex:515: Undefined control sequence.
-l.515 ...rs approaches from similar studies \citep
+./bare_conf.tex:509: Undefined control sequence.
+l.509 ...rs approaches from similar studies \citep
                                                   {oya2011syntactic, jiang20...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -946,17 +719,17 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (5.63524pt too wide) in paragraph at lines 528--530
+Overfull \hbox (5.63524pt too wide) in paragraph at lines 522--524
 []\OT1/ptm/m/n/10 =========================================
  []
 
 
-Overfull \hbox (1.27513pt too wide) in paragraph at lines 528--530
+Overfull \hbox (1.27513pt too wide) in paragraph at lines 522--524
 \OT1/ptm/m/n/10 ========================================== 
  []
 
-./bare_conf.tex:531: Undefined control sequence.
-l.531 ...nsi maupun jaraknya. Sebagai contoh, \pic
+./bare_conf.tex:525: Undefined control sequence.
+l.525 ...nsi maupun jaraknya. Sebagai contoh, \pic
                                                   ~\ref{fig:ts6841} dan \pic...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -964,8 +737,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:531: Undefined control sequence.
-l.531 ...ai contoh, \pic~\ref{fig:ts6841} dan \pic
+./bare_conf.tex:525: Undefined control sequence.
+l.525 ...ai contoh, \pic~\ref{fig:ts6841} dan \pic
                                                   ~\ref{fig:ls7375} merupaka...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -973,8 +746,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:531: Undefined control sequence.
-l.531 ...us data ragam tulis dan lisan. Dalam \pic
+./bare_conf.tex:525: Undefined control sequence.
+l.525 ...us data ragam tulis dan lisan. Dalam \pic
                                                   ~\ref{fig:ts6841}, seluruh...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -982,8 +755,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:531: Undefined control sequence.
-l.531 ...ensi negatif sebanyak 0. Sebaliknya, \pic
+./bare_conf.tex:525: Undefined control sequence.
+l.525 ...ensi negatif sebanyak 0. Sebaliknya, \pic
                                                   ~\ref{fig:ls7375} hanya me...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -992,31 +765,31 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./bare_conf.tex:536: LaTeX Error: Environment subfigure undefined.
+./bare_conf.tex:530: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.536 \begin{subfigure}
+l.530 \begin{subfigure}
                        {.32\linewidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./bare_conf.tex:536: Missing number, treated as zero.
+./bare_conf.tex:530: Missing number, treated as zero.
 <to be read again> 
                    }
-l.536 \begin{subfigure}{.32\linewidth}
+l.530 \begin{subfigure}{.32\linewidth}
                                       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./bare_conf.tex:536: Illegal unit of measure (pt inserted).
+./bare_conf.tex:530: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.536 \begin{subfigure}{.32\linewidth}
+l.530 \begin{subfigure}{.32\linewidth}
                                       
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1025,8 +798,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./bare_conf.tex:538: Undefined control sequence.
-l.538   \includegraphics
+./bare_conf.tex:532: Undefined control sequence.
+l.532   \includegraphics
                         [width=1\linewidth] {pics/ts6841.jpg}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1034,19 +807,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:538: Missing number, treated as zero.
+./bare_conf.tex:532: Missing number, treated as zero.
 <to be read again> 
                    ]
-l.538   \includegraphics[width=1\linewidth]
+l.532   \includegraphics[width=1\linewidth]
                                             {pics/ts6841.jpg}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./bare_conf.tex:538: Illegal unit of measure (pt inserted).
+./bare_conf.tex:532: Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.538   \includegraphics[width=1\linewidth]
+l.532   \includegraphics[width=1\linewidth]
                                             {pics/ts6841.jpg}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1056,45 +829,45 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-./bare_conf.tex:541: LaTeX Error: \begin{figure} on input line 533 ended by \en
+./bare_conf.tex:535: LaTeX Error: \begin{figure} on input line 527 ended by \en
 d{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.541 \end{subfigure}
+l.535 \end{subfigure}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./bare_conf.tex:543: LaTeX Error: Environment subfigure undefined.
+./bare_conf.tex:537: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.543 \begin{subfigure}
+l.537 \begin{subfigure}
                        {.46\linewidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./bare_conf.tex:543: Missing number, treated as zero.
+./bare_conf.tex:537: Missing number, treated as zero.
 <to be read again> 
                    }
-l.543 \begin{subfigure}{.46\linewidth}
+l.537 \begin{subfigure}{.46\linewidth}
                                       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./bare_conf.tex:543: Illegal unit of measure (pt inserted).
+./bare_conf.tex:537: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.543 \begin{subfigure}{.46\linewidth}
+l.537 \begin{subfigure}{.46\linewidth}
                                       
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1103,8 +876,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./bare_conf.tex:545: Undefined control sequence.
-l.545   \includegraphics
+./bare_conf.tex:539: Undefined control sequence.
+l.539   \includegraphics
                         [width=1\linewidth]{pics/ls7375.jpg}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1112,19 +885,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:545: Missing number, treated as zero.
+./bare_conf.tex:539: Missing number, treated as zero.
 <to be read again> 
                    ]
-l.545   \includegraphics[width=1\linewidth]
+l.539   \includegraphics[width=1\linewidth]
                                            {pics/ls7375.jpg}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./bare_conf.tex:545: Illegal unit of measure (pt inserted).
+./bare_conf.tex:539: Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.545   \includegraphics[width=1\linewidth]
+l.539   \includegraphics[width=1\linewidth]
                                            {pics/ls7375.jpg}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1134,45 +907,45 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-./bare_conf.tex:548: LaTeX Error: \begin{figure} on input line 533 ended by \en
+./bare_conf.tex:542: LaTeX Error: \begin{figure} on input line 527 ended by \en
 d{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.548 \end{subfigure}
+l.542 \end{subfigure}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./bare_conf.tex:559: LaTeX Error: Environment subfigure undefined.
+./bare_conf.tex:553: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.559 \begin{subfigure}
+l.553 \begin{subfigure}
                        {.7\linewidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./bare_conf.tex:559: Missing number, treated as zero.
+./bare_conf.tex:553: Missing number, treated as zero.
 <to be read again> 
                    }
-l.559 \begin{subfigure}{.7\linewidth}
+l.553 \begin{subfigure}{.7\linewidth}
                                      
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./bare_conf.tex:559: Illegal unit of measure (pt inserted).
+./bare_conf.tex:553: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.559 \begin{subfigure}{.7\linewidth}
+l.553 \begin{subfigure}{.7\linewidth}
                                      
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1181,8 +954,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./bare_conf.tex:561: Undefined control sequence.
-l.561   \includegraphics
+./bare_conf.tex:555: Undefined control sequence.
+l.555   \includegraphics
                         [width=1\linewidth] {pics/tulis_DLposneg.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1190,19 +963,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:561: Missing number, treated as zero.
+./bare_conf.tex:555: Missing number, treated as zero.
 <to be read again> 
                    ]
-l.561   \includegraphics[width=1\linewidth]
+l.555   \includegraphics[width=1\linewidth]
                                             {pics/tulis_DLposneg.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./bare_conf.tex:561: Illegal unit of measure (pt inserted).
+./bare_conf.tex:555: Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.561   \includegraphics[width=1\linewidth]
+l.555   \includegraphics[width=1\linewidth]
                                             {pics/tulis_DLposneg.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1211,16 +984,16 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./bare_conf.tex:561: Missing $ inserted.
+./bare_conf.tex:555: Missing $ inserted.
 <inserted text> 
                 $
-l.561 ...egraphics[width=1\linewidth] {pics/tulis_
+l.555 ...egraphics[width=1\linewidth] {pics/tulis_
                                                   DLposneg.png}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./bare_conf.tex:561: Extra }, or forgotten $.
-l.561 ...th=1\linewidth] {pics/tulis_DLposneg.png}
+./bare_conf.tex:555: Extra }, or forgotten $.
+l.555 ...th=1\linewidth] {pics/tulis_DLposneg.png}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1228,32 +1001,32 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./bare_conf.tex:562: Missing $ inserted.
+./bare_conf.tex:556: Missing $ inserted.
 <inserted text> 
                 $
-l.562 ...nsi positif dan negatif data ragam tulis}
+l.556 ...nsi positif dan negatif data ragam tulis}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-./bare_conf.tex:564: LaTeX Error: \begin{figure} on input line 556 ended by \en
+./bare_conf.tex:558: LaTeX Error: \begin{figure} on input line 550 ended by \en
 d{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.564 \end{subfigure}
+l.558 \end{subfigure}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./bare_conf.tex:564: Missing } inserted.
+./bare_conf.tex:558: Missing } inserted.
 <inserted text> 
                 }
-l.564 \end{subfigure}
+l.558 \end{subfigure}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1262,31 +1035,31 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./bare_conf.tex:566: LaTeX Error: Environment subfigure undefined.
+./bare_conf.tex:560: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.566 \begin{subfigure}
+l.560 \begin{subfigure}
                        {.7\linewidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./bare_conf.tex:566: Missing number, treated as zero.
+./bare_conf.tex:560: Missing number, treated as zero.
 <to be read again> 
                    }
-l.566 \begin{subfigure}{.7\linewidth}
+l.560 \begin{subfigure}{.7\linewidth}
                                      
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./bare_conf.tex:566: Illegal unit of measure (pt inserted).
+./bare_conf.tex:560: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.566 \begin{subfigure}{.7\linewidth}
+l.560 \begin{subfigure}{.7\linewidth}
                                      
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1295,8 +1068,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./bare_conf.tex:568: Undefined control sequence.
-l.568   \includegraphics
+./bare_conf.tex:562: Undefined control sequence.
+l.562   \includegraphics
                         [width=1\linewidth]{pics/lisan_DLposneg.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1304,19 +1077,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:568: Missing number, treated as zero.
+./bare_conf.tex:562: Missing number, treated as zero.
 <to be read again> 
                    ]
-l.568   \includegraphics[width=1\linewidth]
+l.562   \includegraphics[width=1\linewidth]
                                            {pics/lisan_DLposneg.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./bare_conf.tex:568: Illegal unit of measure (pt inserted).
+./bare_conf.tex:562: Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.568   \includegraphics[width=1\linewidth]
+l.562   \includegraphics[width=1\linewidth]
                                            {pics/lisan_DLposneg.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1325,16 +1098,16 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./bare_conf.tex:568: Missing $ inserted.
+./bare_conf.tex:562: Missing $ inserted.
 <inserted text> 
                 $
-l.568 ...degraphics[width=1\linewidth]{pics/lisan_
+l.562 ...degraphics[width=1\linewidth]{pics/lisan_
                                                   DLposneg.png}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./bare_conf.tex:568: Extra }, or forgotten $.
-l.568 ...dth=1\linewidth]{pics/lisan_DLposneg.png}
+./bare_conf.tex:562: Extra }, or forgotten $.
+l.562 ...dth=1\linewidth]{pics/lisan_DLposneg.png}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1342,32 +1115,32 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./bare_conf.tex:569: Missing $ inserted.
+./bare_conf.tex:563: Missing $ inserted.
 <inserted text> 
                 $
-l.569 ...nsi positif dan negatif data ragam lisan}
+l.563 ...nsi positif dan negatif data ragam lisan}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-./bare_conf.tex:571: LaTeX Error: \begin{figure} on input line 556 ended by \en
+./bare_conf.tex:565: LaTeX Error: \begin{figure} on input line 550 ended by \en
 d{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.571 \end{subfigure}
+l.565 \end{subfigure}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./bare_conf.tex:571: Missing } inserted.
+./bare_conf.tex:565: Missing } inserted.
 <inserted text> 
                 }
-l.571 \end{subfigure}
+l.565 \end{subfigure}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1375,8 +1148,12 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./bare_conf.tex:577: Undefined control sequence.
-l.577 Berdasarkan \pic
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 567.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 567.
+./bare_conf.tex:571: Undefined control sequence.
+l.571 Berdasarkan \pic
                       ~\ref{fig:tulis_DLposneg} dan \pic~\ref{fig:lisan_DLpo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1384,8 +1161,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:577: Undefined control sequence.
-l.577 ...an \pic~\ref{fig:tulis_DLposneg} dan \pic
+./bare_conf.tex:571: Undefined control sequence.
+l.571 ...an \pic~\ref{fig:tulis_DLposneg} dan \pic
                                                   ~\ref{fig:lisan_DLposneg},...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1393,8 +1170,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:577: Undefined control sequence.
-l.577 ...ada grafik arah depensi ragam lisan (\pic
+./bare_conf.tex:571: Undefined control sequence.
+l.571 ...ada grafik arah depensi ragam lisan (\pic
                                                   ~\ref{fig:lisan_DLposneg})...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1402,26 +1179,25 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[3]
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 584.
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 578.
 
- (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlptm.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 584.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 578.
 
-Underfull \hbox (badness 1708) in paragraph at lines 584--584
+Underfull \hbox (badness 1708) in paragraph at lines 578--578
 []\OT1/ptm/m/n/8 Spoken (+
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 584--584
+Underfull \hbox (badness 1708) in paragraph at lines 578--578
 []\OT1/ptm/m/n/8 Spoken (+
  []
 
-./bare_conf.tex:595: Undefined control sequence.
-l.595 \tab
+./bare_conf.tex:589: Undefined control sequence.
+l.589 \tab
           ~\ref{tab:DLposneg} berisi frekuensi kalimat dengan melihat apakah...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1429,8 +1205,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:595: Undefined control sequence.
-l.595 ...dalam analisis. Jumlah kalimat dalam \tab
+./bare_conf.tex:589: Undefined control sequence.
+l.589 ...dalam analisis. Jumlah kalimat dalam \tab
                                                   ~\ref{tab:DLposneg} dihitu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1438,13 +1214,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 602--602
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 596--596
 []\OT1/ptm/m/n/8 Written
  []
 
-./bare_conf.tex:613: Undefined control sequence.
-l.613 \tab
+./bare_conf.tex:607: Undefined control sequence.
+l.607 \tab
           ~\ref{tab:tautanposneg} merupakan tabel yang berisi frekuensi taut...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1452,8 +1228,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:624: Undefined control sequence.
-l.624 ... & 1,409 	& 1 & 1 & 4 & 1,606 & \multirow
+./bare_conf.tex:618: Undefined control sequence.
+l.618 ... & 1,409 	& 1 & 1 & 4 & 1,606 & \multirow
                                                   {6}{*}{Written}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1461,8 +1237,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:631: Undefined control sequence.
-l.631 ... & 1,466 	& 1 & 1 & 4 & 1,534 & \multirow
+./bare_conf.tex:625: Undefined control sequence.
+l.625 ... & 1,466 	& 1 & 1 & 4 & 1,534 & \multirow
                                                   {6}{*}{Spoken}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1471,12 +1247,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (57.1027pt too wide) in paragraph at lines 620--639
+Overfull \hbox (57.1027pt too wide) in paragraph at lines 614--633
  [][] 
  []
 
-./bare_conf.tex:642: Undefined control sequence.
-l.642  \tab
+./bare_conf.tex:636: Undefined control sequence.
+l.636  \tab
            ~\ref{tab:deskriptif-konstituen} mencakup jarak dependensi dari s...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1484,8 +1260,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:642: Undefined control sequence.
-l.642 ... dan negatif juga semakin jauh. Pada \tab
+./bare_conf.tex:636: Undefined control sequence.
+l.636 ... dan negatif juga semakin jauh. Pada \tab
                                                   ~\ref{tab:deskriptif-konst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1494,10 +1270,9 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 642.
-[4]
-./bare_conf.tex:651: Undefined control sequence.
-l.651 ...2 	& 1 		& 1,5 	& 4	 	& 1,545 	&\multirow
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 636.
+./bare_conf.tex:645: Undefined control sequence.
+l.645 ...2 	& 1 		& 1,5 	& 4	 	& 1,545 	&\multirow
                                                   {6}{*}{Tulis}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1505,8 +1280,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:658: Undefined control sequence.
-l.658 ... 	& 1 		& 1,33 	& 4		& 1,456 	& \multirow
+./bare_conf.tex:652: Undefined control sequence.
+l.652 ... 	& 1 		& 1,33 	& 4		& 1,456 	& \multirow
                                                   {6}{*}{Lisan}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1515,12 +1290,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (82.43964pt too wide) in paragraph at lines 647--666
+Overfull \hbox (82.43964pt too wide) in paragraph at lines 641--660
  [][] 
  []
 
-./bare_conf.tex:669: Undefined control sequence.
-l.669 Nilai-nilai pada \tab
+./bare_conf.tex:663: Undefined control sequence.
+l.663 Nilai-nilai pada \tab
                            ~\ref{tab:deskriptif-mdd} didapatkan dengan mengh...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1528,8 +1303,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:669: Undefined control sequence.
-l.669 ... kalimat yang lebih panjang. Seperti \tab
+./bare_conf.tex:663: Undefined control sequence.
+l.663 ... kalimat yang lebih panjang. Seperti \tab
                                                   ~\ref{tab:deskriptif-konst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1537,8 +1312,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:674: Undefined control sequence.
-l.674 ...a akar berupa kata kerja atau verba. \pic
+[4]
+./bare_conf.tex:668: Undefined control sequence.
+l.668 ...a akar berupa kata kerja atau verba. \pic
                                                   ~\ref{fig:ls1436} dan \pic...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1546,8 +1322,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:674: Undefined control sequence.
-l.674 ...tau verba. \pic~\ref{fig:ls1436} dan \pic
+./bare_conf.tex:668: Undefined control sequence.
+l.668 ...tau verba. \pic~\ref{fig:ls1436} dan \pic
                                                   ~\ref{fig:ls1460} merupaka...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1555,8 +1331,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:674: Undefined control sequence.
-l.674 ...emukan pada korpus data ragam lisan. \pic
+./bare_conf.tex:668: Undefined control sequence.
+l.668 ...emukan pada korpus data ragam lisan. \pic
                                                   ~\ref{fig:akarcontoh} mena...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1564,8 +1340,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:674: Undefined control sequence.
-l.674 ... tahu} pada kalimat L\textit{akar}a (\pic
+./bare_conf.tex:668: Undefined control sequence.
+l.668 ... tahu} pada kalimat L\textit{akar}a (\pic
                                                   ~\ref{fig:ls1436}) dan L\t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1573,8 +1349,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:674: Undefined control sequence.
-l.674 ...ef{fig:ls1436}) dan L\textit{akar}b (\pic
+./bare_conf.tex:668: Undefined control sequence.
+l.668 ...ef{fig:ls1436}) dan L\textit{akar}b (\pic
                                                   ~\ref{fig:ls1460}) berada ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1582,8 +1358,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:674: Undefined control sequence.
-l.674 ...n kata juga sempat dijabarkan oleh \citet
+./bare_conf.tex:668: Undefined control sequence.
+l.668 ...n kata juga sempat dijabarkan oleh \citet
                                                   [hlm. 209]{sneddon2010indo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1592,31 +1368,31 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./bare_conf.tex:679: LaTeX Error: Environment subfigure undefined.
+./bare_conf.tex:673: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.679 \begin{subfigure}
+l.673 \begin{subfigure}
                        {.4\linewidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./bare_conf.tex:679: Missing number, treated as zero.
+./bare_conf.tex:673: Missing number, treated as zero.
 <to be read again> 
                    }
-l.679 \begin{subfigure}{.4\linewidth}
+l.673 \begin{subfigure}{.4\linewidth}
                                      
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./bare_conf.tex:679: Illegal unit of measure (pt inserted).
+./bare_conf.tex:673: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.679 \begin{subfigure}{.4\linewidth}
+l.673 \begin{subfigure}{.4\linewidth}
                                      
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1625,8 +1401,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./bare_conf.tex:681: Undefined control sequence.
-l.681   \includegraphics
+./bare_conf.tex:675: Undefined control sequence.
+l.675   \includegraphics
                         [width=1\linewidth] {pics/ls1436.jpg}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1634,19 +1410,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:681: Missing number, treated as zero.
+./bare_conf.tex:675: Missing number, treated as zero.
 <to be read again> 
                    ]
-l.681   \includegraphics[width=1\linewidth]
+l.675   \includegraphics[width=1\linewidth]
                                             {pics/ls1436.jpg}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./bare_conf.tex:681: Illegal unit of measure (pt inserted).
+./bare_conf.tex:675: Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.681   \includegraphics[width=1\linewidth]
+l.675   \includegraphics[width=1\linewidth]
                                             {pics/ls1436.jpg}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1656,45 +1432,45 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-./bare_conf.tex:684: LaTeX Error: \begin{figure} on input line 676 ended by \en
+./bare_conf.tex:678: LaTeX Error: \begin{figure} on input line 670 ended by \en
 d{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.684 \end{subfigure}
+l.678 \end{subfigure}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./bare_conf.tex:686: LaTeX Error: Environment subfigure undefined.
+./bare_conf.tex:680: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.686 \begin{subfigure}
+l.680 \begin{subfigure}
                        {.58\linewidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./bare_conf.tex:686: Missing number, treated as zero.
+./bare_conf.tex:680: Missing number, treated as zero.
 <to be read again> 
                    }
-l.686 \begin{subfigure}{.58\linewidth}
+l.680 \begin{subfigure}{.58\linewidth}
                                       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./bare_conf.tex:686: Illegal unit of measure (pt inserted).
+./bare_conf.tex:680: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.686 \begin{subfigure}{.58\linewidth}
+l.680 \begin{subfigure}{.58\linewidth}
                                       
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1703,8 +1479,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./bare_conf.tex:688: Undefined control sequence.
-l.688   \includegraphics
+./bare_conf.tex:682: Undefined control sequence.
+l.682   \includegraphics
                         [width=1\linewidth]{pics/ls1460.jpg}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1712,19 +1488,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:688: Missing number, treated as zero.
+./bare_conf.tex:682: Missing number, treated as zero.
 <to be read again> 
                    ]
-l.688   \includegraphics[width=1\linewidth]
+l.682   \includegraphics[width=1\linewidth]
                                            {pics/ls1460.jpg}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./bare_conf.tex:688: Illegal unit of measure (pt inserted).
+./bare_conf.tex:682: Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.688   \includegraphics[width=1\linewidth]
+l.682   \includegraphics[width=1\linewidth]
                                            {pics/ls1460.jpg}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1734,14 +1510,14 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-./bare_conf.tex:691: LaTeX Error: \begin{figure} on input line 676 ended by \en
+./bare_conf.tex:685: LaTeX Error: \begin{figure} on input line 670 ended by \en
 d{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.691 \end{subfigure}
+l.685 \end{subfigure}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1749,34 +1525,34 @@ or  <return>  to continue without it.
 
 
 LaTeX Warning: Citation `tesniere1959elements' on page 5 undefined on input lin
-e 697.
+e 691.
 
 
-./bare_conf.tex:702: LaTeX Error: Environment subfigure undefined.
+./bare_conf.tex:696: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.702 \begin{subfigure}
+l.696 \begin{subfigure}
                        {.7\linewidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./bare_conf.tex:702: Missing number, treated as zero.
+./bare_conf.tex:696: Missing number, treated as zero.
 <to be read again> 
                    }
-l.702 \begin{subfigure}{.7\linewidth}
+l.696 \begin{subfigure}{.7\linewidth}
                                      
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./bare_conf.tex:702: Illegal unit of measure (pt inserted).
+./bare_conf.tex:696: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.702 \begin{subfigure}{.7\linewidth}
+l.696 \begin{subfigure}{.7\linewidth}
                                      
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1785,8 +1561,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./bare_conf.tex:704: Undefined control sequence.
-l.704   \includegraphics
+./bare_conf.tex:698: Undefined control sequence.
+l.698   \includegraphics
                         [width=1\linewidth] {pics/tulisroot_DLposneg.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1794,19 +1570,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:704: Missing number, treated as zero.
+./bare_conf.tex:698: Missing number, treated as zero.
 <to be read again> 
                    ]
-l.704   \includegraphics[width=1\linewidth]
+l.698   \includegraphics[width=1\linewidth]
                                             {pics/tulisroot_DLposneg.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./bare_conf.tex:704: Illegal unit of measure (pt inserted).
+./bare_conf.tex:698: Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.704   \includegraphics[width=1\linewidth]
+l.698   \includegraphics[width=1\linewidth]
                                             {pics/tulisroot_DLposneg.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1815,16 +1591,16 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./bare_conf.tex:704: Missing $ inserted.
+./bare_conf.tex:698: Missing $ inserted.
 <inserted text> 
                 $
-l.704 ...phics[width=1\linewidth] {pics/tulisroot_
+l.698 ...phics[width=1\linewidth] {pics/tulisroot_
                                                   DLposneg.png}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./bare_conf.tex:704: Extra }, or forgotten $.
-l.704 ...\linewidth] {pics/tulisroot_DLposneg.png}
+./bare_conf.tex:698: Extra }, or forgotten $.
+l.698 ...\linewidth] {pics/tulisroot_DLposneg.png}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1832,32 +1608,32 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./bare_conf.tex:705: Missing $ inserted.
+./bare_conf.tex:699: Missing $ inserted.
 <inserted text> 
                 $
-l.705 ...an negatif simpai pusat data ragam tulis}
+l.699 ...an negatif simpai pusat data ragam tulis}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-./bare_conf.tex:707: LaTeX Error: \begin{figure} on input line 699 ended by \en
+./bare_conf.tex:701: LaTeX Error: \begin{figure} on input line 693 ended by \en
 d{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.707 \end{subfigure}
+l.701 \end{subfigure}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./bare_conf.tex:707: Missing } inserted.
+./bare_conf.tex:701: Missing } inserted.
 <inserted text> 
                 }
-l.707 \end{subfigure}
+l.701 \end{subfigure}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1866,31 +1642,31 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./bare_conf.tex:709: LaTeX Error: Environment subfigure undefined.
+./bare_conf.tex:703: LaTeX Error: Environment subfigure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.709 \begin{subfigure}
+l.703 \begin{subfigure}
                        {.7\linewidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./bare_conf.tex:709: Missing number, treated as zero.
+./bare_conf.tex:703: Missing number, treated as zero.
 <to be read again> 
                    }
-l.709 \begin{subfigure}{.7\linewidth}
+l.703 \begin{subfigure}{.7\linewidth}
                                      
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./bare_conf.tex:709: Illegal unit of measure (pt inserted).
+./bare_conf.tex:703: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.709 \begin{subfigure}{.7\linewidth}
+l.703 \begin{subfigure}{.7\linewidth}
                                      
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1899,8 +1675,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./bare_conf.tex:711: Undefined control sequence.
-l.711   \includegraphics
+./bare_conf.tex:705: Undefined control sequence.
+l.705   \includegraphics
                         [width=1\linewidth]{pics/lisanroot_DLposneg.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1908,19 +1684,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:711: Missing number, treated as zero.
+./bare_conf.tex:705: Missing number, treated as zero.
 <to be read again> 
                    ]
-l.711   \includegraphics[width=1\linewidth]
+l.705   \includegraphics[width=1\linewidth]
                                            {pics/lisanroot_DLposneg.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./bare_conf.tex:711: Illegal unit of measure (pt inserted).
+./bare_conf.tex:705: Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.711   \includegraphics[width=1\linewidth]
+l.705   \includegraphics[width=1\linewidth]
                                            {pics/lisanroot_DLposneg.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1929,16 +1705,16 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./bare_conf.tex:711: Missing $ inserted.
+./bare_conf.tex:705: Missing $ inserted.
 <inserted text> 
                 $
-l.711 ...aphics[width=1\linewidth]{pics/lisanroot_
+l.705 ...aphics[width=1\linewidth]{pics/lisanroot_
                                                   DLposneg.png}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./bare_conf.tex:711: Extra }, or forgotten $.
-l.711 ...1\linewidth]{pics/lisanroot_DLposneg.png}
+./bare_conf.tex:705: Extra }, or forgotten $.
+l.705 ...1\linewidth]{pics/lisanroot_DLposneg.png}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1946,32 +1722,32 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./bare_conf.tex:712: Missing $ inserted.
+./bare_conf.tex:706: Missing $ inserted.
 <inserted text> 
                 $
-l.712 ...an negatif simpai pusat data ragam lisan}
+l.706 ...an negatif simpai pusat data ragam lisan}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-./bare_conf.tex:714: LaTeX Error: \begin{figure} on input line 699 ended by \en
+./bare_conf.tex:708: LaTeX Error: \begin{figure} on input line 693 ended by \en
 d{subfigure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.714 \end{subfigure}
+l.708 \end{subfigure}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./bare_conf.tex:714: Missing } inserted.
+./bare_conf.tex:708: Missing } inserted.
 <inserted text> 
                 }
-l.714 \end{subfigure}
+l.708 \end{subfigure}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1979,9 +1755,8 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[5]
-./bare_conf.tex:721: Undefined control sequence.
-l.721 \pic
+./bare_conf.tex:715: Undefined control sequence.
+l.715 \pic
           ~\ref{fig:tulisroot_DLposneg} dan \pic~\ref{fig:lisanroot_DLposneg...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1989,8 +1764,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:721: Undefined control sequence.
-l.721 \pic~\ref{fig:tulisroot_DLposneg} dan \pic
+./bare_conf.tex:715: Undefined control sequence.
+l.715 \pic~\ref{fig:tulisroot_DLposneg} dan \pic
                                                 ~\ref{fig:lisanroot_DLposneg...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1998,8 +1773,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:721: Undefined control sequence.
-l.721 ...lau boleh tahu} dan akarnya di atas (\pic
+./bare_conf.tex:715: Undefined control sequence.
+l.715 ...lau boleh tahu} dan akarnya di atas (\pic
                                                   ~\ref{fig:akarcontoh}). \p...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2007,8 +1782,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:721: Undefined control sequence.
-l.721 ...di atas (\pic~\ref{fig:akarcontoh}). \pic
+./bare_conf.tex:715: Undefined control sequence.
+l.715 ...di atas (\pic~\ref{fig:akarcontoh}). \pic
                                                   ~\ref{fig:rootDL_posneg} m...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2016,8 +1791,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:721: Undefined control sequence.
-l.721 ...pada kalimat panjang. Berbeda dengan \pic
+./bare_conf.tex:715: Undefined control sequence.
+l.715 ...pada kalimat panjang. Berbeda dengan \pic
                                                   ~\ref{fig:DL_posneg} yang ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2025,8 +1800,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:721: Undefined control sequence.
-l.721 ...alam. Meskipun begitu, serupa dengan \pic
+./bare_conf.tex:715: Undefined control sequence.
+l.715 ...alam. Meskipun begitu, serupa dengan \pic
                                                   ~\ref{fig:DL_posneg}, gari...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2035,17 +1810,17 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 728--728
+Underfull \hbox (badness 1708) in paragraph at lines 722--722
 []\OT1/ptm/m/n/8 Spoken (+
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 728--728
+Underfull \hbox (badness 1708) in paragraph at lines 722--722
 []\OT1/ptm/m/n/8 Spoken (+
  []
 
-./bare_conf.tex:739: Undefined control sequence.
-l.739 \tab
+./bare_conf.tex:733: Undefined control sequence.
+l.733 \tab
           ~\ref{tab:DLpusatposneg} berisi jumlah-jumlah kalimat dengan melih...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2053,8 +1828,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:739: Undefined control sequence.
-l.739 ...memiliki akar verbal. Berbeda dengan \tab
+./bare_conf.tex:733: Undefined control sequence.
+l.733 ...memiliki akar verbal. Berbeda dengan \tab
                                                   ~\ref{tab:DLposneg}, kalim...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2062,13 +1837,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 746--746
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 740--740
 []\OT1/ptm/m/n/8 Written
  []
 
-./bare_conf.tex:757: Undefined control sequence.
-l.757 \tab
+./bare_conf.tex:751: Undefined control sequence.
+l.751 \tab
           ~\ref{tab:tautanpusatposneg} memperlihatkan bahwa pada simpai pusa...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2076,8 +1851,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:757: Undefined control sequence.
-l.757 ... namun rasionya tidak seekstrim pada \tab
+./bare_conf.tex:751: Undefined control sequence.
+l.751 ... namun rasionya tidak seekstrim pada \tab
                                                   ~\ref{tab:DLpusatposneg}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2085,8 +1860,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:767: Undefined control sequence.
-l.767 ...428 	& 1 		& 1		& 4	 	& 1,748 	&\multirow
+./bare_conf.tex:761: Undefined control sequence.
+l.761 ...428 	& 1 		& 1		& 4	 	& 1,748 	&\multirow
                                                   {6}{*}{Tulis}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2094,8 +1869,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:774: Undefined control sequence.
-l.774 ...482 	& 1 		& 1	 	& 4		& 1,69 	& \multirow
+./bare_conf.tex:768: Undefined control sequence.
+l.768 ...482 	& 1 		& 1	 	& 4		& 1,69 	& \multirow
                                                   {6}{*}{Lisan}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2104,12 +1879,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (50.43884pt too wide) in paragraph at lines 763--783
+Overfull \hbox (50.43884pt too wide) in paragraph at lines 757--777
  [][] 
  []
 
-./bare_conf.tex:786: Undefined control sequence.
-l.786 \tab
+./bare_conf.tex:780: Undefined control sequence.
+l.780 \tab
           ~\ref{tab:deskriptif-konstituenpusat} mencakup jarak dependensi da...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2117,8 +1892,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:786: Undefined control sequence.
-l.786 ...t yang semakin panjang. Seperti pada \tab
+./bare_conf.tex:780: Undefined control sequence.
+l.780 ...t yang semakin panjang. Seperti pada \tab
                                                   ~\ref{tab:deskriptif-konst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2126,8 +1901,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:786: Undefined control sequence.
-l.786 ...hubungan dua konstituen secara umum (\tab
+./bare_conf.tex:780: Undefined control sequence.
+l.780 ...hubungan dua konstituen secara umum (\tab
                                                   ~\ref{tab:deskriptif-konst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2135,8 +1910,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:786: Undefined control sequence.
-l.786 ...it{P} \textless 0.05). Serupa dengan \tab
+./bare_conf.tex:780: Undefined control sequence.
+l.780 ...it{P} \textless 0.05). Serupa dengan \tab
                                                   ~\ref{tab:deskriptif-konst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2144,8 +1919,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:796: Undefined control sequence.
-l.796 ...363	& 1 		& 1,5		& 4	 	& 1,632	&\multirow
+./bare_conf.tex:790: Undefined control sequence.
+l.790 ...363	& 1 		& 1,5		& 4	 	& 1,632	&\multirow
                                                   {6}{*}{Tulis}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2153,8 +1928,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:803: Undefined control sequence.
-l.803 ...327	& 1 		& 1,5 	& 4		& 1,531	& \multirow
+./bare_conf.tex:797: Undefined control sequence.
+l.797 ...327	& 1 		& 1,5 	& 4		& 1,531	& \multirow
                                                   {6}{*}{Lisan}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2163,12 +1938,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (82.43964pt too wide) in paragraph at lines 792--812
+Overfull \hbox (82.43964pt too wide) in paragraph at lines 786--806
  [][] 
  []
 
-./bare_conf.tex:815: Undefined control sequence.
-l.815 Hasil pada \tab
+./bare_conf.tex:809: Undefined control sequence.
+l.809 Hasil pada \tab
                      ~\ref{tab:deskriptif-mddpusat} didapatkan dengan menghi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2176,8 +1951,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:815: Undefined control sequence.
-l.815 ... akar verbal setiap kalimat. Seperti \tab
+./bare_conf.tex:809: Undefined control sequence.
+l.809 ... akar verbal setiap kalimat. Seperti \tab
                                                   ~\ref{tab:deskriptif-mdd},...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2185,8 +1960,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:815: Undefined control sequence.
-l.815 ...ar dibandingkan ragam lisan. Seperti \tab
+./bare_conf.tex:809: Undefined control sequence.
+l.809 ...ar dibandingkan ragam lisan. Seperti \tab
                                                   ~\ref{tab:deskriptif-konst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2194,9 +1969,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[6]
-./bare_conf.tex:820: Undefined control sequence.
-l.820 ...arah (\textit{mixed-branching}) (\citealp
+./bare_conf.tex:814: Undefined control sequence.
+l.814 ...arah (\textit{mixed-branching}) (\citealp
                                                   {hawkins1994performance, f...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2204,8 +1978,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:820: Undefined control sequence.
-l.820 ...nya percabangan beda arah saja) (\citealp
+./bare_conf.tex:814: Undefined control sequence.
+l.814 ...nya percabangan beda arah saja) (\citealp
                                                   {dryer1992greenbergian, te...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2214,11 +1988,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `gildea2010grammars' on page 7 undefined on input line 
-820.
+LaTeX Warning: Citation `gildea2010grammars' on page 6 undefined on input line 
+814.
 
-./bare_conf.tex:820: Undefined control sequence.
-l.820 ...erpendek yang juga dianalisis oleh \citep
+./bare_conf.tex:814: Undefined control sequence.
+l.814 ...erpendek yang juga dianalisis oleh \citep
                                                   {dryer1992greenbergian}. B...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2227,47 +2001,47 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `dryer1992greenbergian' on page 7 undefined on input li
-ne 820.
+LaTeX Warning: Citation `dryer1992greenbergian' on page 6 undefined on input li
+ne 814.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 820--821
+Underfull \hbox (badness 10000) in paragraph at lines 814--815
 []\OT1/ptm/m/n/10 Pada tin-jauan pus-taka, perg-er-akan panah yang
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 820--821
+Underfull \hbox (badness 10000) in paragraph at lines 814--815
 \OT1/ptm/m/n/10 merep-re-sen-tasikan di-rek-sion-al-i-tas in-duk diba-has
  []
 
 
-Underfull \hbox (badness 2762) in paragraph at lines 820--821
+Underfull \hbox (badness 2762) in paragraph at lines 814--815
 \OT1/ptm/m/n/10 men-jadi dua tipe, yaitu per-ca-ban-gan searah (\OT1/ptm/m/it/1
 0 same-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 820--821
+Underfull \hbox (badness 10000) in paragraph at lines 814--815
 \OT1/ptm/m/n/10 (dryer1992greenbergian, tem-per-ley2008dependency).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 820--821
+Underfull \hbox (badness 10000) in paragraph at lines 814--815
 \OT1/ptm/m/n/10 dryer1992greenbergian. Berdasarkan data peneli-tian
  []
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 820--821
+Underfull \hbox (badness 2103) in paragraph at lines 814--815
 \OT1/ptm/m/n/10 dike-mukakan [[]] bahwa arah de-pen-densi tidak bisa
  []
 
 
-Underfull \hbox (badness 6725) in paragraph at lines 820--821
+Underfull \hbox (badness 6725) in paragraph at lines 814--815
 \OT1/ptm/m/n/10 anal-i-sis den-gan pemetaan kepa-datan selisih an-tara
  []
 
-./bare_conf.tex:822: Undefined control sequence.
-l.822 ... dependensi positif dan negatif pada \pic
+./bare_conf.tex:816: Undefined control sequence.
+l.816 ... dependensi positif dan negatif pada \pic
                                                   ~\ref{fig:DL_posneg} dan \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2275,8 +2049,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:822: Undefined control sequence.
-l.822 ...if pada \pic~\ref{fig:DL_posneg} dan \pic
+./bare_conf.tex:816: Undefined control sequence.
+l.816 ...if pada \pic~\ref{fig:DL_posneg} dan \pic
                                                   ~\ref{fig:rootDL_posneg} y...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2284,28 +2058,28 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-Overfull \hbox (5.63524pt too wide) in paragraph at lines 824--826
+[6]
+Overfull \hbox (5.63524pt too wide) in paragraph at lines 818--820
 []\OT1/ptm/m/n/10 =========================================
  []
 
 
-Overfull \hbox (1.27513pt too wide) in paragraph at lines 824--826
+Overfull \hbox (1.27513pt too wide) in paragraph at lines 818--820
 \OT1/ptm/m/n/10 ========================================== 
  []
 
 
-Overfull \hbox (5.63524pt too wide) in paragraph at lines 913--915
+Overfull \hbox (5.63524pt too wide) in paragraph at lines 907--909
 []\OT1/ptm/m/n/10 =========================================
  []
 
 
-Overfull \hbox (1.27513pt too wide) in paragraph at lines 913--915
+Overfull \hbox (1.27513pt too wide) in paragraph at lines 907--909
 \OT1/ptm/m/n/10 ========================================== 
  []
 
-./bare_conf.tex:916: Undefined control sequence.
-l.916 ...rasa dalam tata bahasa yang ada (\citealp
+./bare_conf.tex:910: Undefined control sequence.
+l.910 ...rasa dalam tata bahasa yang ada (\citealp
                                                   {kridalaksana2002struktur,...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2315,16 +2089,16 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `futrell2015large' on page 7 undefined on input line 91
-6.
+0.
 
-./bare_conf.tex:918: Too many }'s.
-l.918 ...ati posisi sebelum konstituen terikatnya}
+./bare_conf.tex:912: Too many }'s.
+l.912 ...ati posisi sebelum konstituen terikatnya}
                                                    pada hubungan antara dua ...
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
-./bare_conf.tex:918: Undefined control sequence.
-l.918 ...yang memiliki urutan kata bebas (\citealp
+./bare_conf.tex:912: Undefined control sequence.
+l.912 ...yang memiliki urutan kata bebas (\citealp
                                                   {stack2005word, postman200...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2332,8 +2106,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:918: Undefined control sequence.
-l.918 ...h dan kalimat masih dapat diterima \citep
+./bare_conf.tex:912: Undefined control sequence.
+l.912 ...h dan kalimat masih dapat diterima \citep
                                                   [pp. 209-268]{sneddon2010i...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2341,13 +2115,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[7]
-Overfull \hbox (5.63524pt too wide) in paragraph at lines 924--926
+
+Overfull \hbox (5.63524pt too wide) in paragraph at lines 918--920
 []\OT1/ptm/m/n/10 =========================================
  []
 
 
-Overfull \hbox (1.27513pt too wide) in paragraph at lines 924--926
+Overfull \hbox (1.27513pt too wide) in paragraph at lines 918--920
 \OT1/ptm/m/n/10 ========================================== 
  []
 
@@ -2363,9 +2137,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[8
-
-] (./bare_conf.aux)
+[7] (./bare_conf.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -2374,13 +2146,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 996 strings out of 492995
- 17222 string characters out of 6132704
- 95215 words of memory out of 5000000
- 4602 multiletter control sequences out of 15000+600000
- 43144 words of font info for 77 fonts, out of 8000000 for 9000
+ 1000 strings out of 492995
+ 17363 string characters out of 6132704
+ 93215 words of memory out of 5000000
+ 4608 multiletter control sequences out of 15000+600000
+ 40481 words of font info for 74 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 26i,9n,20p,1545b,298s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 26i,9n,22p,1544b,298s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -2394,10 +2166,10 @@ xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/f
 onts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on bare_conf.pdf (8 pages, 146369 bytes).
+Output written on bare_conf.pdf (7 pages, 145075 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 77 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
