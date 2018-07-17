@@ -447,7 +447,7 @@ There are several concepts that relate syntactic structures of a sentence with h
 Words are the main constituents of syntax that carry with them the grammatical relation that connect one word with another \cite{tesniere1959elements}. The term \textit{dependency} itself is a derivative of a connection that refers to an asymmetrical relation between a superordinate and its subordinate \cite{hudson1984word, heringer1993dependency, tesniere1959elements}. Many studies and theory developments have all described in detail what a dependency structure between two constituents looks like \cite{tesniere1959elements, hudson1984word, liu2009chinese}. It can be summarized from these references that a dependency structure consists of a binary and asymmetrical relation between two linguistic units and the type of a dependency relation is usually indicated using a label on top of an arc linking the two constituents, as shown in \pic~\ref{fig:tautandependensi}. An arrow pointing from a more superior constituent to a more inferior one represents the hierarchical relation between two constituents. The governor is also more commonly called as a \textit{head} and the subordinate is generally called a \textit{dependent}. In a more complex and recursive structure of dependency relations, such as a sentence, the sentence head is usually called a \textit{root}.
 
 \begin{figure}
-	\centering \includegraphics[width=0.8
+	\centering \includegraphics[width=0.45
 	\textwidth] {pics/tautandependensi.png} \caption{Elements of a dependency relation} 
 \label{fig:tautandependensi} \end{figure}
 
@@ -470,43 +470,29 @@ Previous substantial studies on measuring dependency used dependency length (DL)
 There has yet a convention on head directionality in regards to the online processing in working memory, particularly for Indonesian language. However, previous attempts have been done to provide details on the head's position and its relation to grammars. Several studies in the early development of dependency theory found that a language tends to apply a consistent dependency direction, whether it is \textit{head-first}/\textit{head-initial} or \textit{head-last}/\textit{head-final} \cite{hawkins1994performance, radford1997syntactic, vennemann1994linguistic}. Hawkins and Frazier assumed that this consistency, as shown in \pic~\ref{fig:samebranching}, is the implementation of a strategy to minimize the distance between a head and its dependent \cite{hawkins1994performance, frazier1985syntactic}.  
 
 \begin{figure}
-	\centering \includegraphics[width=0.5
-	\textwidth] {pics/samebranching.png} \caption{Same-branching dependency direction} 
+	\centering \includegraphics[width=0.4
+	\textwidth] {pics/samebranching.png} \caption{Same-branching dependency direction \cite{temperley2008dependency}} 
 \label{fig:samebranching} \end{figure}
 
 \begin{figure}
-	\centering \includegraphics[width=0.5
-	\textwidth] {pics/mixedbranching.png} \caption{Mixed-branching dependency direction} 
+	\centering \includegraphics[width=0.4
+	\textwidth] {pics/mixedbranching.png} \caption{Mixed-branching dependency direction \cite{temperley2008dependency}} 
 \label{fig:mixedbranching} \end{figure}
 
 Temperley argues that a consistent dependency direction or \textit{same-branching} is not an ideal representation of how head directionality works in real utterances \cite{temperley2008dependency}. This argument supports Dryer's research who found that the conventional view of same branching only applies on phrases consist of many constituents, while the dependency direction of phrases with single or less words are inconsistent \cite{dryer1992greenbergian}. Gildea and Temperley mentioned this research and provided empirical evidence that exhibit a combination of same branching and mixed branching (\pic~\ref{fig:mixedbranching}) dependency direction to produce a more balanced head-initial and head-final mixture to yield the shortest dependency distances (\pic~\ref{fig:balancedbranching}) \cite{gildea2010grammars}.
 
 \begin{figure}
-	\centering \includegraphics[width=0.8
-	\textwidth] {pics/balancedbranching.png} \caption{Keseimbangan direksionalitas induk} 
+	\centering \includegraphics[width=0.45
+	\textwidth] {pics/balancedbranching.png} \caption{Head-directionality balance \cite{temperley2008dependency}} 
 \label{fig:balancedbranching} \end{figure}
 
 \section{Methods}
 
-The written data, obtained from a partnership with an Indonesian technology company called Dattabot, consists of 9311 sentences of various news articles published from 2008 to 2018. The spoken data, obtained from partnerships with various journalists across the country, consists of 10.219 sentences of live reports, interviews, and other spontaneous utterances (all in the journalistic domain) recorded from 2010 to 2018. The main challenge in including spoken data is because computational parsers are mostly trained to parse written data. Therefore, sentences with specific features of spoken language, such as hesitations, fillers, etc., are not included in the corpus. These two sets of corpora are preprocessed, parsed, and cleaned using UDPipe \citep{udpipe2017} and manual verifications. UDPipe \citep{udpipe2017} is a trainable pipeline for tokenization, tagging, lemmatization and dependency parsing of CoNLL-U files based on dependency treebanks provided by Universal Dependencies 2.0 \citep{nivre2017universal} that are contextually adjusted for many languages, including Indonesian.
+The written data, obtained from a partnership with an Indonesian technology company called Dattabot, consists of 9311 sentences of various news articles published from 2008 to 2018. The spoken data, obtained from partnerships with various journalists across the country, consists of 10.219 sentences of live reports, interviews, and other spontaneous utterances (all in the journalistic domain) recorded from 2010 to 2018. The main challenge in including spoken data is because computational parsers are mostly trained to parse written data. Therefore, sentences with specific features of spoken language, such as hesitations, fillers, etc., are not included in the corpus. These two sets of corpora are preprocessed, parsed, and cleaned using UDPipe \citep{udpipe2017} and manual verifications. UDPipe is a trainable pipeline for tokenization, tagging, lemmatization and dependency parsing of CoNLL-U files based on dependency treebanks provided by Universal Dependencies 2.0 that are contextually adjusted for many languages, including Indonesian \cite{udpipe2017, nivre2017universal}. This study uses third party CRAN package UDPipe (version 0.5) on R programming language (version 3.3.3) \cite{udpipe2017manual, r2017project}.
 
-=========================================
-==========================================
+The parsed data are annotated based on the parsing index to measure the dependency distances, length, and mean dependency distances. Ini the parsing index, $root$ has an index of 0. The indexing for the remaining words starts from 1. As mentioned above on Heringer's approach of measuring dependency, this study also uses the number of constituents involved in a dependency relation between two directly-linked constituents as a measuring unit. Therefore, adjacent and directly-linked constituents produce a dependency distance of 1. Data classification, subsetting, and dependency measures are performed on R and Python programming language version 3.3.3 and 3.6.3 respectively \cite{r2017project, python2017manual}. As visualized in \pic~\ref{fig:tautandependensi}, a dependency relation is illustrated through an arc with an arrow. The arrow or direction represents the hierarchy between linked constituents. For Indonesian language, an arrow pointing to the right illustrates a positive ($+$) dependency relation and denotes a head-initial dependency direction. On the other hand, an arrow pointing to the left illustrates a negative ($-$) dependency relation and denotes a head-final dependency direction.
 
-Data jurnalistik ragam tulis yang diterima dari hasil kerja sama dengan perusahaan media monitoring Dattabot berbentuk teks elektronik hasil pemindaian media cetak dengan pendekatan komputasional \textit{Optical Character Recognition} (OCR). Sedangkan, data jurnalistik ragam lisan yang diterima berupa rekaman audio yang selanjutnya diolah terlebih dahulu dalam salah satu tahap persiapan data menggunakan metode komputasional dengan bantuan Google Speech API dan diverifikasi kembali secara manual. Tahap berikutnya memanfaatkan UDPipe \citep{udpipe2017} yang merupakan sebuah kerangka kerja yang dapat dilatih ulang untuk pengkategorian konstituen kalimat (\textit{token}), penguraian lemma, dan penguraian kalimat. Kerangka kerja UDPipe digunakan sebagai langkah penguraian kalimat komputasional dan dijalankan sebagai paket CRAN pihak ketiga UDPipe versi 0.5 \citep{udpipe2017manual} pada bahasa pemrograman R (versi 3.3.3) \citep{r2017project}. Bahasa pemrograman R ini dijalankan dengan RStudio \citep{rstudio2017}, sebuah perangkat lunak sumber terbuka. 
-
-Umumnya, kerangka kerja atau pendekatan penguraian kalimat dalam ranah linguistik komputasional memanfaatkan teori konstituensi sebagai dasar teori dan pengembangannya sehingga menghasilkan uraian kalimat berdasarkan struktur frasanya. Kerangka kerja penguraian kalimat UDPipe menggunakan dasar bank pohon struktur dependensi dari koleksi Universal Dependencies 2.0 \citep{nivre2017universal} dengan memadukan lemma dan fitur morfologis lainnya dari kerangka kerja MorphInd yang kontekstual terhadap data bahasa Indonesia \citep{larasati2011indonesian}. Kerangka kerja penguraian kalimat berdasarkan dependensi saat ini masih terus dikembangkan secara intensif sehingga masih memiliki kekurangan dalam aspek menangani keambiguitasan makna konstituen, bentuk bahasa informal, dan masalah tuturan nyata lainnya. Kekurangan ini menuntut tahapan verifikasi manual untuk memastikan kualitas data. Meskipun begitu, hasil uji model terhadap bahasa Indonesia memiliki akurasi 74,3\%-80,6\% \citep{udpipe2017}. Setelah melalui proses penguraian kalimat, seluruh tahapan-tahapan berikutnya yang mencakup anotasi nilai DL dan MDD, seleksi dan klasifikasi data, analisis teks, pemaparan pola DL dan MDD, serta uji signifikansi memanfaatkan bahasa pemrograman R (versi 3.3.3) \citep{r2017project} dan Python (versi 3.6.3) (Python Core Team, 2017).
-
-Direksionalitas induk berkaitan dengan hierarki relasi antara induk dan konstituen terikatnya. Seperti yang dijelaskan pada bab sebelumnya dan divisualisasikan pada \pic~\ref{fig:tautandependensi}, relasi antara dua konstituen dihubungkan dengan sebuah tautan yang memiliki panah. Arah panah tersebut merepresentasikan hierarki relasi antara keduanya. Arah panah ke kanan menandakan tautan yang bernilai positif yang mewakili bentuk relasi diawali induk. Sebaliknya, arah panah ke kiri menandakan tautan yang bernilai negatif yang mewakili bentuk relasi diakhiri induk. Hal ini dapat dilihat juga pada visualisasi dari dua kalimat contoh yang diambil dari data ragam tulis (\pic~\ref{fig:contohtulis}) dan ragam lisan (\pic~\ref{fig:contohlisan}). Kedua visualisasi ini mengandung tautan-tautan dengan anotasi positif ($+$) dan anotasi negatif ($-$) (yang juga dibedakan oleh warna biru dan merah) untuk memberikan gambaran terhadap perbedaan direksionalitas induk dalam sebuah kalimat. Sebagai contoh, \pic~\ref{fig:contohtulis} memiliki 4 tautan dependensi positif dan 1 tautan dependensi negatif, sehingga pada kalimat ini relasi di mana induk direalisasikan sebelum konstituen terikat mendominasi kalimat tersebut. Pada level dependensi utama atau simpai pusat, \textit{menggelar} memiliki 2 tautan dependensi positif terhadap \textit{program} dan \textit{Cassina} serta 0 tautan dependensi negatif.
-
-Simpai pusat merepresentasikan relasi-relasi utama dalam sebuah kalimat berdasarkan dependensi. Pada kalimat yang lebih kompleks, simpai pusat juga memberikan gambaran terhadap relasi-relasi utama, namun terkadang banyak relasi pada cabang yang tidak terwakili. Oleh karena itu, pemaparan kedua analisis direksionalitas induk pada relasi-relasi secara keseluruhan dan pada simpai pusat penting untuk disampaikan. Pada tahap anotasi DL, setiap relasi antara dua konstituen dalam sebuah kalimat sudah diberikan anotasi positif maupun negatif. Oleh sebab itu, pada tahap ini hanya perlu dilakukan agregasi data terhadap relasi-relasi bernilai positif dan relasi-relasi bernilai negatif. Tahap analisis ini didasarkan pada pembahasan mengenai percabangan searah dan percabangan beda arah yang dibahas oleh \cite{temperley2008dependency} dan \cite{dryer1992greenbergian} untuk melihat adanya kecenderungan dalam menerapkan tipe percabangan keduanya. Uji hipotesis untuk bagian analisis ini dilakukan dengan pendekatan penghitungan statistika deskriptif.
-
-=========================================
-==========================================
-
-\begin{itemize}
-\item To analyze the basic comparison between written (formal) and spoken (spontaneous) language, the corpora are first classified into two sets: written data and spoken data.
-\item To investigate the possible influence sentence length may have on dependency distances (and syntactic construction). This study considers approaches from similar studies \citep{oya2011syntactic, jiang2015effects} and classifies both sets of corpora into five categories:
+A central node in a sentence suggests the main argument or relations of the sentence based on dependency. In a more complex sentence, a branch in a central node can contain multiple constituents. For this reason, the head directionality analysis is performed on two types of relation: (i) on directly-linked constituents in all levels of a dependency tree, including central nodes and adjacent relations, and (ii) on central nodes only, assuming all constituents under each branch are represented by the main arguments. Considering the possible influence sentence length may have on dependency distances, this study classifies both spoken and written data into five categories to acquire more accurate measures \cite{liu2017dependency, i2004euclidean, oya2011syntactic, jiang2015effects}:
 \begin{itemize}
 \item Sentences with 5 constituents or less.
 \item Sentences with 6 to 10 constituents.
@@ -514,58 +500,41 @@ Simpai pusat merepresentasikan relasi-relasi utama dalam sebuah kalimat berdasar
 \item Sentences with 21 to 30 constituents.
 \item Sentences with more than 30 constituents.
 \end{itemize}
-\end{itemize}
 
 \section{Results}
 
 
-=========================================
-==========================================
 
 Pada hubungan dua konstituen secara umum, setiap tautan dependensi ikut diperhitungkan dari segi frekuensi maupun jaraknya. Sebagai contoh, \pic~\ref{fig:ts6841} dan \pic~\ref{fig:ls7375} merupakan dua kalimat yang ditemukan pada korpus data ragam tulis dan lisan. Dalam \pic~\ref{fig:ts6841}, seluruh tautan dependensinya adalah positif, dalam arti induk menempati posisi sebelum konstituen terikatnya (diawali induk). Kalimat ini memiliki frekuensi dependensi positif sebanyak 5 dengan jarak masing-masing adalah 1, 2, 3, 1, dan 1 serta frekuensi dependensi negatif sebanyak 0. Sebaliknya, \pic~\ref{fig:ls7375} hanya memiliki tautan dependensi negatif, dalam arti induk menempati posisi setelah konstituen terikatnya (diakhiri induk). Kalimat ini memiliki frekuensi dependensi positif sebanyak 0 serta frekuensi dependensi negatif sebanyak 5 dengan jarak masing-masing adalah 5, 4, 3, 2, dan 1.
 
 \begin{figure}
 \centering
-
-\begin{subfigure}{.32\linewidth}
-  \centering
-  \includegraphics[width=1\linewidth] {pics/ts6841.jpg} 
+\includegraphics[width=0.2\textwidth] {pics/ts6841.jpg} 
 	\caption{T\textit{umum}a}
 	\label{fig:ts6841} 
-\end{subfigure}
-%
-\begin{subfigure}{.46\linewidth}
+\end{figure}
+
+\begin{figure}
   \centering
-  \includegraphics[width=1\linewidth]{pics/ls7375.jpg} 
+  \includegraphics[width=0.35\textwidth]{pics/ls7375.jpg} 
 	\caption{L\textit{umum}a}
 	\label{fig:ls7375} 
-\end{subfigure}
-
-\caption{Contoh perbedaan relasi diawali dan diakhiri induk pada hubungan dua konstituen secara umum}
-\label{fig:umumcontoh}
 \end{figure}
 
 Pada uji hipotesis ini, kecenderungan dilihat dari segi frekuensi dan jarak dependensi. Seperti contoh yang dijabarkan di atas, frekuensi tidak selalu berkorelasi secara linear terhadap jarak sehingga kecenderungan pada satu aspek dapat berbeda dengan aspek lainnya. Meskipun kalimat yang tidak memiliki salah satu bentuk relasi diawali maupun diakhiri induk seperti di atas tidak banyak ditemukan, banyak kalimat dalam kedua korpus data yang didominasi oleh salah satu bentuk sehingga menarik untuk dikaji kecenderungannya.
 
 \begin{figure}
 \centering
-
-\begin{subfigure}{.7\linewidth}
-  \centering
-  \includegraphics[width=1\linewidth] {pics/tulis_DLposneg.png} 
+  \includegraphics[width=0.45\textwidth] {pics/tulis_DLposneg.png} 
 	\caption{Grafik panjang dependensi positif dan negatif data ragam tulis}
 	\label{fig:tulis_DLposneg} 
-\end{subfigure}
+\end{figure}
 %
-\begin{subfigure}{.7\linewidth}
+\begin{figure}
   \centering
-  \includegraphics[width=1\linewidth]{pics/lisan_DLposneg.png} 
+  \includegraphics[width=0.45\textwidth]{pics/lisan_DLposneg.png} 
 	\caption{Grafik panjang dependensi positif dan negatif data ragam lisan}
 	\label{fig:lisan_DLposneg} 
-\end{subfigure}
-
-\caption{Grafik jumlah konstituen (sumbu $x$) terhadap panjang dependensi kalimat (sumbu $y$) untuk relasi diawali induk atau dependensi positif (biru) dan relasi diakhiri induk atau dependensi negatif (merah) korpus data ragam tulis (atas) dan lisan (bawah). Satu kalimat memiliki satu titik yang mewakili panjang dependensi positif dan satu titik yang mewakili dependensi negatif. Garis regresi yang terbentuk merupakan gambaran rata-rata yang didapatkan dari seluruh titik setiap aspek dependensi.}
-\label{fig:DL_posneg}
 \end{figure}
 
 Berdasarkan \pic~\ref{fig:tulis_DLposneg} dan \pic~\ref{fig:lisan_DLposneg}, kedua korpus data menunjukkan garis regresi tautan dependensi positif yang berada jauh di atas garis regresi tautan dependensi negatif. Pada kalimat dengan jumlah konstituen yang semakin banyak, jarak antara keduanya semakin jauh. Seperti yang dijelaskan sebelumnya, panjang dependensi cukup sensitif terhadap panjang kalimat dan keduanya memiliki hubungan linear. Dalam sebuah kalimat, perbandingan jumlah bentuk relasi diawali dan diakhiri induk saling berkaitan. Hal ini berarti ada kecenderungan preferensi terhadap bentuk relasi diawali induk dan menandakan kesesuaian data observasi dengan tata bahasa yang berlaku. Namun, pada grafik arah depensi ragam lisan (\pic~\ref{fig:lisan_DLposneg}), jarak garis regresi tautan dependensi positif dan negatif terlihat lebih dekat dibandingkan ragam tulis. Grafik ini juga memperlihatkan adanya kurva parabola terbuka ke bawah sehingga muncul asumsi adanya nilai tertinggi atau ambang batas (\textit{threshold}) terhadap panjang dependensi negatif pada korpus data ragam lisan. Berdasarkan korpus data yang terkumpul, dugaan ambang batas tautan dependensi negatif ini menimbulkan asumsi bahwa mulai panjang kalimat tertentu, panjang dependensi negatif dalam sebuah kalimat mungkin tidak akan melebihi nilai tertentu juga. 
@@ -668,24 +637,17 @@ Nilai-nilai pada \tab~\ref{tab:deskriptif-mdd} didapatkan dengan menghitung rata
 Sesuai dengan batasan penelitian ini, bagian analisis ini difokuskan hanya pada simpai pusat dengan kelas kata akar berupa kata kerja atau verba. \pic~\ref{fig:ls1436} dan \pic~\ref{fig:ls1460} merupakan dua kalimat yang ditemukan pada korpus data ragam lisan. \pic~\ref{fig:akarcontoh} menampilkan contoh perbedaan penempatan klausa terikat \textit{kalau boleh tahu}. Klausa terikat \textit{kalau boleh tahu} pada kalimat L\textit{akar}a (\pic~\ref{fig:ls1436}) dan L\textit{akar}b (\pic~\ref{fig:ls1460}) berada pada posisi yang berbeda namun tidak mengubah makna kalimat. Contoh serupa yang menggambarkan perbedaan letak klausa terikat atau perbedaan urutan kata juga sempat dijabarkan oleh \citet[hlm. 209]{sneddon2010indonesian} dalam buku \textit{Indonesian Reference Grammar}.
 
 \begin{figure}
-\centering
-
-\begin{subfigure}{.4\linewidth}
   \centering
-  \includegraphics[width=1\linewidth] {pics/ls1436.jpg} 
+  \includegraphics[width=0.3\textwidth] {pics/ls1436.jpg} 
 	\caption{L\textit{akar}a}
 	\label{fig:ls1436} 
-\end{subfigure}
+\end{figure}
 %
-\begin{subfigure}{.58\linewidth}
+\begin{figure}
   \centering
-  \includegraphics[width=1\linewidth]{pics/ls1460.jpg} 
+  \includegraphics[width=0.4\textwidth]{pics/ls1460.jpg} 
 	\caption{L\textit{akar}b}
 	\label{fig:ls1460} 
-\end{subfigure}
-
-\caption{Contoh perbedaan penempatan klausa pada data ragam lisan}
-\label{fig:akarcontoh}
 \end{figure}
 
 Pada kalimat L\textit{akar}b, konstituen-konstiuen yang membentuk klausa \textit{kalau boleh tahu} secara kolektif memiliki relasi dependensi utama negatif terhadap akar \textit{ordernya}. Sesuai dengan bentuk relasi induk dan konstituen terikat berdasarkan teori dependensi yang dijabarkan oleh \cite{tesniere1959elements}, klausa terikat pada posisi awal kalimat ini harus disimpan dalam memori kerja terlebih dahulu hingga akar direalisasikan. Karena akar mengandung informasi utama, perbedaan kedua kalimat ini juga dapat memberikan sedikit gambaran bagaimana perbedaan proses memori kerja terkait penyimpanan informasi yang merupakan argumen inti kalimat.
