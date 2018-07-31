@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.18)  23 JUL 2018 19:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.18)  31 JUL 2018 09:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -702,31 +702,157 @@ Underfull \hbox (badness 10000) in paragraph at lines 568--568
 []\OT1/ptm/m/n/8 Written
  []
 
-./bare_conf.tex:586: Undefined control sequence.
-l.586 ... & 1,409 	& 1 & 1 & 4 & 1,606 & \multirow
-                                                  {6}{*}{Written}\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+./bare_conf.tex:584: Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.584 ...column{4}{c}{+} & \multicolumn{4}{c}{-} &
+                                                   \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
 
-./bare_conf.tex:593: Undefined control sequence.
-l.593 ... & 1,466 	& 1 & 1 & 4 & 1,534 & \multirow
-                                                  {6}{*}{Spoken}\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+./bare_conf.tex:586: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.586 ...d	& max & mean & min & med & max & mean &
+                                                   \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./bare_conf.tex:587: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.587 ... 1 & 1 & 4 & 1,409 	& 1 & 1 & 4 & 1,606 &
+                                                   \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./bare_conf.tex:588: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.588 ... 1 & 1 & 9 & 1,866 	& 1 & 1 & 9 & 1,948 &
+                                                   \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./bare_conf.tex:589: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.589 ...1 & 1 & 19 & 2,468 & 1 & 1 & 19 & 2,147 &
+                                                   \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./bare_conf.tex:590: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.590 ...1 & 1 & 29 & 2,971 & 1 & 1 & 29 & 2,241 &
+                                                   \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./bare_conf.tex:591: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.591 ...1 & 1 & 39 & 3,597 & 1 & 1 & 37 & 2,299 &
+                                                   \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./bare_conf.tex:592: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.592 ...1 & 1 & 68 & 4,22 	& 1 & 1 & 55 & 2,282 &
+                                                   \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./bare_conf.tex:594: Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.594 ...column{4}{c}{+} & \multicolumn{4}{c}{-} &
+                                                   \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./bare_conf.tex:595: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.595 ...d	& max & mean & min & med & max & mean &
+                                                   \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./bare_conf.tex:596: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.596 ... 1 & 1 & 4 & 1,466 	& 1 & 1 & 4 & 1,534 &
+                                                   \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./bare_conf.tex:597: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.597 ... 1 & 1 & 9 & 1,933 	& 1 & 1 & 9 & 2,071 &
+                                                   \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./bare_conf.tex:598: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.598 ...1 & 2 & 19 & 2,535 & 1 & 1 & 19 & 2,321 &
+                                                   \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./bare_conf.tex:599: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.599 ...& 1 & 2 & 28 & 3,263 & 1 & 1 & 27 & 2,5 &
+                                                   \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./bare_conf.tex:600: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.600 ...1 & 2 & 37 & 3,718 & 1 & 1 & 32 & 2,657 &
+                                                   \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./bare_conf.tex:601: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.601 ... & 2 & 66 & 4,067 	& 1 & 1 & 46 & 2,438 &
+                                                   \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (57.1027pt too wide) in paragraph at lines 582--601
+Overfull \hbox (12.83862pt too wide) in paragraph at lines 582--604
  [][] 
  []
 
-./bare_conf.tex:611: Undefined control sequence.
-l.611 ...2 	& 1 		& 1,5 	& 4	 	& 1,545 	&\multirow
+./bare_conf.tex:614: Undefined control sequence.
+l.614 ...2 	& 1 		& 1,5 	& 4	 	& 1,545 	&\multirow
                                                   {6}{*}{Tulis}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -734,8 +860,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:618: Undefined control sequence.
-l.618 ... 	& 1 		& 1,33 	& 4		& 1,456 	& \multirow
+./bare_conf.tex:621: Undefined control sequence.
+l.621 ... 	& 1 		& 1,33 	& 4		& 1,456 	& \multirow
                                                   {6}{*}{Lisan}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -744,12 +870,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (82.43964pt too wide) in paragraph at lines 607--626
+Overfull \hbox (82.43964pt too wide) in paragraph at lines 610--629
  [][] 
  []
 
-./bare_conf.tex:632: Undefined control sequence.
-l.632 ... dependencies on central node level. \pic
+./bare_conf.tex:635: Undefined control sequence.
+l.635 ... dependencies on central node level. \pic
                                                   ~\ref{fig:ls1436} and \pic...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -757,8 +883,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:632: Undefined control sequence.
-l.632 ...ode level. \pic~\ref{fig:ls1436} and \pic
+./bare_conf.tex:635: Undefined control sequence.
+l.635 ...ode level. \pic~\ref{fig:ls1436} and \pic
                                                   ~\ref{fig:ls1460} are two ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -768,12 +894,12 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `sneddon2010indonesian' on page 3 undefined on input li
-ne 632.
+ne 635.
 
 [3 <./pics/ts6841.jpg> <./pics/ls7375.jpg> <./pics/tulis_DLposneg.png> <./pics/
 lisan_DLposneg.png>]
-./bare_conf.tex:634: Undefined control sequence.
-l.634 In \pic
+./bare_conf.tex:637: Undefined control sequence.
+l.637 In \pic
              ~\ref{fig:ls1436}, all of the constituents forming the clause \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -781,8 +907,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:634: Undefined control sequence.
-l.634 ... other hand, the dependent clause in \pic
+./bare_conf.tex:637: Undefined control sequence.
+l.637 ... other hand, the dependent clause in \pic
                                                   ~\ref{fig:ls1460} creates ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -790,8 +916,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:638: Undefined control sequence.
-l.638 ...irection is not as clear, as seen in \pic
+./bare_conf.tex:641: Undefined control sequence.
+l.641 ...irection is not as clear, as seen in \pic
                                                   ~\ref{fig:tulisroot_DLposn...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -799,8 +925,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:638: Undefined control sequence.
-l.638 ...pic~\ref{fig:tulisroot_DLposneg} and \pic
+./bare_conf.tex:641: Undefined control sequence.
+l.641 ...pic~\ref{fig:tulisroot_DLposneg} and \pic
                                                   ~\ref{fig:lisanroot_DLposn...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -808,8 +934,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:641: Undefined control sequence.
-l.641 As shown in \pic
+./bare_conf.tex:644: Undefined control sequence.
+l.644 As shown in \pic
                       ~\ref{fig:tulis_DLposneg} and \pic~\ref{fig:lisan_DLpo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -817,8 +943,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:641: Undefined control sequence.
-l.641 ...in \pic~\ref{fig:tulis_DLposneg} and \pic
+./bare_conf.tex:644: Undefined control sequence.
+l.644 ...in \pic~\ref{fig:tulis_DLposneg} and \pic
                                                   ~\ref{fig:lisan_DLposneg},...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -826,8 +952,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:641: Undefined control sequence.
-l.641 ...-final dependency in the spoken data \pic
+./bare_conf.tex:644: Undefined control sequence.
+l.644 ...-final dependency in the spoken data \pic
                                                   ~\ref{fig:lisan_DLposneg}....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -835,8 +961,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:641: Undefined control sequence.
-l.641 ...ig:lisan_DLposneg}. As seen in table \tab
+./bare_conf.tex:644: Undefined control sequence.
+l.644 ...ig:lisan_DLposneg}. As seen in table \tab
                                                   ~\ref{tab:DLposneg} and \t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -844,8 +970,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:641: Undefined control sequence.
-l.641 ...in table \tab~\ref{tab:DLposneg} and \tab
+./bare_conf.tex:644: Undefined control sequence.
+l.644 ...in table \tab~\ref{tab:DLposneg} and \tab
                                                   ~\ref{tab:tautanposneg}, t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -853,8 +979,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:643: Undefined control sequence.
-l.643 ...g both methods of dependency length (\tab
+./bare_conf.tex:646: Undefined control sequence.
+l.646 ...g both methods of dependency length (\tab
                                                   ~\ref{tab:deskriptif-konst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -862,8 +988,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:643: Undefined control sequence.
-l.643 ...tuen}) and mean dependency distance (\tab
+./bare_conf.tex:646: Undefined control sequence.
+l.646 ...tuen}) and mean dependency distance (\tab
                                                   ~\ref{tab:deskriptif-mdd})...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -873,36 +999,36 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `sneddon2010indonesian' on page 4 undefined on input li
-ne 643.
+ne 646.
 
 <pics/ls1436.jpg, id=37, 280.8894pt x 304.2567pt>
 File: pics/ls1436.jpg Graphic file (type jpg)
  <use pics/ls1436.jpg>
-Package pdftex.def Info: pics/ls1436.jpg used on input line 648.
+Package pdftex.def Info: pics/ls1436.jpg used on input line 651.
 (pdftex.def)             Requested size: 129.5809pt x 140.36368pt.
 
 <pics/ls1460.jpg, id=38, 414.5889pt x 326.6604pt>
 File: pics/ls1460.jpg Graphic file (type jpg)
  <use pics/ls1460.jpg>
-Package pdftex.def Info: pics/ls1460.jpg used on input line 655.
+Package pdftex.def Info: pics/ls1460.jpg used on input line 658.
 (pdftex.def)             Requested size: 176.70026pt x 139.22508pt.
 
 <pics/tulisroot_DLposneg.png, id=39, 787.94376pt x 681.54625pt>
 File: pics/tulisroot_DLposneg.png Graphic file (type png)
 
 <use pics/tulisroot_DLposneg.png>
-Package pdftex.def Info: pics/tulisroot_DLposneg.png used on input line 664.
+Package pdftex.def Info: pics/tulisroot_DLposneg.png used on input line 667.
 (pdftex.def)             Requested size: 235.60036pt x 203.77908pt.
 
 <pics/lisanroot_DLposneg.png, id=40, 801.99625pt x 687.56876pt>
 File: pics/lisanroot_DLposneg.png Graphic file (type png)
 
 <use pics/lisanroot_DLposneg.png>
-Package pdftex.def Info: pics/lisanroot_DLposneg.png used on input line 671.
+Package pdftex.def Info: pics/lisanroot_DLposneg.png used on input line 674.
 (pdftex.def)             Requested size: 235.60036pt x 201.98122pt.
 
-./bare_conf.tex:676: Undefined control sequence.
-l.676 \pic
+./bare_conf.tex:679: Undefined control sequence.
+l.679 \pic
           ~\ref{fig:tulisroot_DLposneg} dan \pic~\ref{fig:lisanroot_DLposneg...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -910,8 +1036,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:676: Undefined control sequence.
-l.676 \pic~\ref{fig:tulisroot_DLposneg} dan \pic
+./bare_conf.tex:679: Undefined control sequence.
+l.679 \pic~\ref{fig:tulisroot_DLposneg} dan \pic
                                                 ~\ref{fig:lisanroot_DLposneg...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -919,8 +1045,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:676: Undefined control sequence.
-l.676 ...lau boleh tahu} dan akarnya di atas (\pic
+./bare_conf.tex:679: Undefined control sequence.
+l.679 ...lau boleh tahu} dan akarnya di atas (\pic
                                                   ~\ref{fig:akarcontoh}). \p...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -929,11 +1055,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:akarcontoh' on page 4 undefined on input line 676
+LaTeX Warning: Reference `fig:akarcontoh' on page 4 undefined on input line 679
 .
 
-./bare_conf.tex:676: Undefined control sequence.
-l.676 ...di atas (\pic~\ref{fig:akarcontoh}). \pic
+./bare_conf.tex:679: Undefined control sequence.
+l.679 ...di atas (\pic~\ref{fig:akarcontoh}). \pic
                                                   ~\ref{fig:rootDL_posneg} m...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -943,10 +1069,10 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `fig:rootDL_posneg' on page 4 undefined on input line 
-676.
+679.
 
-./bare_conf.tex:676: Undefined control sequence.
-l.676 ...pada kalimat panjang. Berbeda dengan \pic
+./bare_conf.tex:679: Undefined control sequence.
+l.679 ...pada kalimat panjang. Berbeda dengan \pic
                                                   ~\ref{fig:DL_posneg} yang ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -955,11 +1081,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:DL_posneg' on page 4 undefined on input line 676.
+LaTeX Warning: Reference `fig:DL_posneg' on page 4 undefined on input line 679.
 
 
-./bare_conf.tex:676: Undefined control sequence.
-l.676 ...alam. Meskipun begitu, serupa dengan \pic
+./bare_conf.tex:679: Undefined control sequence.
+l.679 ...alam. Meskipun begitu, serupa dengan \pic
                                                   ~\ref{fig:DL_posneg}, gari...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -968,21 +1094,21 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:DL_posneg' on page 4 undefined on input line 676.
+LaTeX Warning: Reference `fig:DL_posneg' on page 4 undefined on input line 679.
 
 
-[4 <./pics/ls1436.jpg>]
-Underfull \hbox (badness 1708) in paragraph at lines 683--683
+[4]
+Underfull \hbox (badness 1708) in paragraph at lines 686--686
 []\OT1/ptm/m/n/8 Spoken (+
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 683--683
+Underfull \hbox (badness 1708) in paragraph at lines 686--686
 []\OT1/ptm/m/n/8 Spoken (+
  []
 
-./bare_conf.tex:694: Undefined control sequence.
-l.694 \tab
+./bare_conf.tex:697: Undefined control sequence.
+l.697 \tab
           ~\ref{tab:DLpusatposneg} berisi jumlah-jumlah kalimat dengan melih...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -990,8 +1116,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:694: Undefined control sequence.
-l.694 ...memiliki akar verbal. Berbeda dengan \tab
+./bare_conf.tex:697: Undefined control sequence.
+l.697 ...memiliki akar verbal. Berbeda dengan \tab
                                                   ~\ref{tab:DLposneg}, kalim...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -999,13 +1125,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 701--701
+[5 <./pics/ls1436.jpg> <./pics/ls1460.jpg> <./pics/tulisroot_DLposneg.png> <./p
+ics/lisanroot_DLposneg.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 704--704
 []\OT1/ptm/m/n/8 Written
  []
 
-./bare_conf.tex:712: Undefined control sequence.
-l.712 \tab
+./bare_conf.tex:715: Undefined control sequence.
+l.715 \tab
           ~\ref{tab:tautanpusatposneg} memperlihatkan bahwa pada simpai pusa...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1013,8 +1140,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:712: Undefined control sequence.
-l.712 ... namun rasionya tidak seekstrim pada \tab
+./bare_conf.tex:715: Undefined control sequence.
+l.715 ... namun rasionya tidak seekstrim pada \tab
                                                   ~\ref{tab:DLpusatposneg}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1022,8 +1149,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:722: Undefined control sequence.
-l.722 ...428 	& 1 		& 1		& 4	 	& 1,748 	&\multirow
+./bare_conf.tex:725: Undefined control sequence.
+l.725 ...428 	& 1 		& 1		& 4	 	& 1,748 	&\multirow
                                                   {6}{*}{Tulis}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1031,8 +1158,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:729: Undefined control sequence.
-l.729 ...482 	& 1 		& 1	 	& 4		& 1,69 	& \multirow
+./bare_conf.tex:732: Undefined control sequence.
+l.732 ...482 	& 1 		& 1	 	& 4		& 1,69 	& \multirow
                                                   {6}{*}{Lisan}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1041,12 +1168,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (50.43884pt too wide) in paragraph at lines 718--738
+Overfull \hbox (50.43884pt too wide) in paragraph at lines 721--741
  [][] 
  []
 
-./bare_conf.tex:741: Undefined control sequence.
-l.741 \tab
+./bare_conf.tex:744: Undefined control sequence.
+l.744 \tab
           ~\ref{tab:deskriptif-konstituenpusat} mencakup jarak dependensi da...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1054,8 +1181,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:741: Undefined control sequence.
-l.741 ...t yang semakin panjang. Seperti pada \tab
+./bare_conf.tex:744: Undefined control sequence.
+l.744 ...t yang semakin panjang. Seperti pada \tab
                                                   ~\ref{tab:deskriptif-konst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1063,8 +1190,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:741: Undefined control sequence.
-l.741 ...hubungan dua konstituen secara umum (\tab
+./bare_conf.tex:744: Undefined control sequence.
+l.744 ...hubungan dua konstituen secara umum (\tab
                                                   ~\ref{tab:deskriptif-konst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1073,9 +1200,9 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 741.
-./bare_conf.tex:741: Undefined control sequence.
-l.741 ...it{P} \textless 0.05). Serupa dengan \tab
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 744.
+./bare_conf.tex:744: Undefined control sequence.
+l.744 ...it{P} \textless 0.05). Serupa dengan \tab
                                                   ~\ref{tab:deskriptif-konst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1083,10 +1210,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[5 <./pics/ls1460.jpg> <./pics/tulisroot_DLposneg.png> <./pics/lisanroot_DLposn
-eg.png>]
-./bare_conf.tex:751: Undefined control sequence.
-l.751 ...363	& 1 		& 1,5		& 4	 	& 1,632	&\multirow
+./bare_conf.tex:754: Undefined control sequence.
+l.754 ...363	& 1 		& 1,5		& 4	 	& 1,632	&\multirow
                                                   {6}{*}{Tulis}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1094,8 +1219,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:758: Undefined control sequence.
-l.758 ...327	& 1 		& 1,5 	& 4		& 1,531	& \multirow
+./bare_conf.tex:761: Undefined control sequence.
+l.761 ...327	& 1 		& 1,5 	& 4		& 1,531	& \multirow
                                                   {6}{*}{Lisan}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1104,12 +1229,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (82.43964pt too wide) in paragraph at lines 747--767
+Overfull \hbox (82.43964pt too wide) in paragraph at lines 750--770
  [][] 
  []
 
-./bare_conf.tex:770: Undefined control sequence.
-l.770 Hasil pada \tab
+./bare_conf.tex:773: Undefined control sequence.
+l.773 Hasil pada \tab
                      ~\ref{tab:deskriptif-mddpusat} didapatkan dengan menghi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1117,8 +1242,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:770: Undefined control sequence.
-l.770 ... akar verbal setiap kalimat. Seperti \tab
+./bare_conf.tex:773: Undefined control sequence.
+l.773 ... akar verbal setiap kalimat. Seperti \tab
                                                   ~\ref{tab:deskriptif-mdd},...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1126,8 +1251,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:770: Undefined control sequence.
-l.770 ...ar dibandingkan ragam lisan. Seperti \tab
+./bare_conf.tex:773: Undefined control sequence.
+l.773 ...ar dibandingkan ragam lisan. Seperti \tab
                                                   ~\ref{tab:deskriptif-konst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1135,8 +1260,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:775: Undefined control sequence.
-l.775 ...arah (\textit{mixed-branching}) (\citealp
+./bare_conf.tex:778: Undefined control sequence.
+l.778 ...arah (\textit{mixed-branching}) (\citealp
                                                   {hawkins1994performance, f...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1144,8 +1269,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:775: Undefined control sequence.
-l.775 ...nya percabangan beda arah saja) (\citealp
+./bare_conf.tex:778: Undefined control sequence.
+l.778 ...nya percabangan beda arah saja) (\citealp
                                                   {dryer1992greenbergian, te...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1153,8 +1278,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:775: Undefined control sequence.
-l.775 ...erpendek yang juga dianalisis oleh \citep
+./bare_conf.tex:778: Undefined control sequence.
+l.778 ...erpendek yang juga dianalisis oleh \citep
                                                   {dryer1992greenbergian}. B...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1163,43 +1288,43 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 775--776
+Underfull \hbox (badness 10000) in paragraph at lines 778--779
 []\OT1/ptm/m/n/10 Pada tin-jauan pus-taka, perg-er-akan panah yang
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 775--776
+Underfull \hbox (badness 10000) in paragraph at lines 778--779
 \OT1/ptm/m/n/10 merep-re-sen-tasikan di-rek-sion-al-i-tas in-duk diba-has
  []
 
 
-Underfull \hbox (badness 2762) in paragraph at lines 775--776
+Underfull \hbox (badness 2762) in paragraph at lines 778--779
 \OT1/ptm/m/n/10 men-jadi dua tipe, yaitu per-ca-ban-gan searah (\OT1/ptm/m/it/1
 0 same-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 775--776
+Underfull \hbox (badness 10000) in paragraph at lines 778--779
 \OT1/ptm/m/n/10 (dryer1992greenbergian, tem-per-ley2008dependency).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 775--776
+Underfull \hbox (badness 10000) in paragraph at lines 778--779
 \OT1/ptm/m/n/10 dryer1992greenbergian. Berdasarkan data peneli-tian
  []
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 775--776
+Underfull \hbox (badness 2103) in paragraph at lines 778--779
 \OT1/ptm/m/n/10 dike-mukakan [[]] bahwa arah de-pen-densi tidak bisa
  []
 
 
-Underfull \hbox (badness 6725) in paragraph at lines 775--776
+Underfull \hbox (badness 6725) in paragraph at lines 778--779
 \OT1/ptm/m/n/10 anal-i-sis den-gan pemetaan kepa-datan selisih an-tara
  []
 
-./bare_conf.tex:777: Undefined control sequence.
-l.777 ... dependensi positif dan negatif pada \pic
+./bare_conf.tex:780: Undefined control sequence.
+l.780 ... dependensi positif dan negatif pada \pic
                                                   ~\ref{fig:DL_posneg} dan \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1208,11 +1333,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:DL_posneg' on page 6 undefined on input line 777.
+LaTeX Warning: Reference `fig:DL_posneg' on page 6 undefined on input line 780.
 
 
-./bare_conf.tex:777: Undefined control sequence.
-l.777 ...if pada \pic~\ref{fig:DL_posneg} dan \pic
+./bare_conf.tex:780: Undefined control sequence.
+l.780 ...if pada \pic~\ref{fig:DL_posneg} dan \pic
                                                   ~\ref{fig:rootDL_posneg} y...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1222,30 +1347,30 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `fig:rootDL_posneg' on page 6 undefined on input line 
-777.
+780.
 
-
-Overfull \hbox (5.63524pt too wide) in paragraph at lines 779--781
+[6]
+Overfull \hbox (5.63524pt too wide) in paragraph at lines 782--784
 []\OT1/ptm/m/n/10 =========================================
  []
 
 
-Overfull \hbox (1.27513pt too wide) in paragraph at lines 779--781
+Overfull \hbox (1.27513pt too wide) in paragraph at lines 782--784
 \OT1/ptm/m/n/10 ========================================== 
  []
 
 
-Overfull \hbox (5.63524pt too wide) in paragraph at lines 868--870
+Overfull \hbox (5.63524pt too wide) in paragraph at lines 871--873
 []\OT1/ptm/m/n/10 =========================================
  []
 
 
-Overfull \hbox (1.27513pt too wide) in paragraph at lines 868--870
+Overfull \hbox (1.27513pt too wide) in paragraph at lines 871--873
 \OT1/ptm/m/n/10 ========================================== 
  []
 
-./bare_conf.tex:871: Undefined control sequence.
-l.871 ...rasa dalam tata bahasa yang ada (\citealp
+./bare_conf.tex:874: Undefined control sequence.
+l.874 ...rasa dalam tata bahasa yang ada (\citealp
                                                   {kridalaksana2002struktur,...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1253,15 +1378,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[6]
-./bare_conf.tex:873: Too many }'s.
-l.873 ...ati posisi sebelum konstituen terikatnya}
+./bare_conf.tex:876: Too many }'s.
+l.876 ...ati posisi sebelum konstituen terikatnya}
                                                    pada hubungan antara dua ...
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
-./bare_conf.tex:873: Undefined control sequence.
-l.873 ...yang memiliki urutan kata bebas (\citealp
+./bare_conf.tex:876: Undefined control sequence.
+l.876 ...yang memiliki urutan kata bebas (\citealp
                                                   {stack2005word, postman200...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1269,8 +1393,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:873: Undefined control sequence.
-l.873 ...h dan kalimat masih dapat diterima \citep
+./bare_conf.tex:876: Undefined control sequence.
+l.876 ...h dan kalimat masih dapat diterima \citep
                                                   [pp. 209-268]{sneddon2010i...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1279,15 +1403,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \vbox (badness 1354) has occurred while \output is active []
-
-
-Overfull \hbox (5.63524pt too wide) in paragraph at lines 879--881
+Overfull \hbox (5.63524pt too wide) in paragraph at lines 882--884
 []\OT1/ptm/m/n/10 =========================================
  []
 
 
-Overfull \hbox (1.27513pt too wide) in paragraph at lines 879--881
+Overfull \hbox (1.27513pt too wide) in paragraph at lines 882--884
 \OT1/ptm/m/n/10 ========================================== 
  []
 
@@ -1314,7 +1435,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  2329 strings out of 492995
  37975 string characters out of 6132704
- 125403 words of memory out of 5000000
+ 124403 words of memory out of 5000000
  5858 multiletter control sequences out of 15000+600000
  39345 words of font info for 73 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1332,7 +1453,7 @@ xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/f
 onts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on bare_conf.pdf (7 pages, 2163417 bytes).
+Output written on bare_conf.pdf (7 pages, 2163465 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  56 compressed objects within 1 object stream
