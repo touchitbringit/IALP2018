@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.18)  5 AUG 2018 23:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.18)  5 AUG 2018 23:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -205,7 +205,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 407.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 408.
 
 
 LaTeX Warning: No \author given.
@@ -214,49 +214,19 @@ LaTeX Warning: No \author given.
 LaTeX Warning: No \author given.
 
 
-Overfull \hbox (5.63524pt too wide) in paragraph at lines 431--436
-[]\OT1/ptm/m/n/10 =========================================
- []
-
-
-Overfull \hbox (1.27513pt too wide) in paragraph at lines 431--436
-\OT1/ptm/m/n/10 ==========================================
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 431--436
-\OT1/ptm/m/n/10 ref-er-ence fig-ure and tab di dlm text,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 431--436
-\OT1/ptm/m/n/10 be-tulin ru-mus, fix head-first/head-initial
- []
-
-
-Overfull \hbox (1.27513pt too wide) in paragraph at lines 431--436
-\OT1/ptm/m/n/10 ==========================================
- []
-
-
-Overfull \hbox (1.27513pt too wide) in paragraph at lines 431--436
-\OT1/ptm/m/n/10 ========================================== 
- []
-
-
-LaTeX Warning: Citation `hudson1984word' on page 1 undefined on input line 447.
+LaTeX Warning: Citation `hudson1984word' on page 1 undefined on input line 442.
 
 
 
-LaTeX Warning: Citation `hudson1984word' on page 1 undefined on input line 447.
+LaTeX Warning: Citation `hudson1984word' on page 1 undefined on input line 442.
 
 
 
-LaTeX Warning: Citation `liu2009chinese' on page 1 undefined on input line 447.
+LaTeX Warning: Citation `liu2009chinese' on page 1 undefined on input line 442.
 
 
-./bare_conf.tex:447: Undefined control sequence.
-l.447 ...ng the two constituents, as shown in \pic
+./bare_conf.tex:442: Undefined control sequence.
+l.442 ...ng the two constituents, as shown in \pic
                                                   ~\ref{fig:tautandependensi...
 
 ? s
@@ -265,11 +235,11 @@ OK, entering \scrollmode...
 File: pics/tautandependensi.png Graphic file (type png)
 
 <use pics/tautandependensi.png>
-Package pdftex.def Info: pics/tautandependensi.png used on input line 451.
+Package pdftex.def Info: pics/tautandependensi.png used on input line 446.
 (pdftex.def)             Requested size: 220.16919pt x 50.45576pt.
 
-./bare_conf.tex:454: Undefined control sequence.
-l.454 The arc in \pic
+./bare_conf.tex:449: Undefined control sequence.
+l.449 The arc in \pic
                      ~\ref{fig:tautandependensi} illustrates how a constitue...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -279,62 +249,62 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `hudson2003psychological' on page 1 undefined on input 
-line 454.
+line 449.
 
 
 LaTeX Warning: Citation `liu2008dependency' on page 1 undefined on input line 4
-54.
+49.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 454.
+(Font)              <7> on input line 449.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 454.
+(Font)              <5> on input line 449.
 
 LaTeX Warning: Citation `liu2008dependency' on page 1 undefined on input line 4
-54.
+49.
 
 
 LaTeX Warning: Citation `liu2017dependency' on page 1 undefined on input line 4
-54.
+49.
 
 
-./bare_conf.tex:458: LaTeX Error: Environment align undefined.
+./bare_conf.tex:453: LaTeX Error: Environment align undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.458 \begin{align}
+l.453 \begin{align}
                    \label{eq:bola}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./bare_conf.tex:459: Missing $ inserted.
+./bare_conf.tex:454: Missing $ inserted.
 <inserted text> 
                 $
-l.459 	\displaystyle
+l.454 	\displaystyle
                     \sum_{i=1}^{n-1} |DD_i|
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-./bare_conf.tex:460: LaTeX Error: \begin{document} ended by \end{align}.
+./bare_conf.tex:455: LaTeX Error: \begin{document} ended by \end{align}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.460 \end{align}
+l.455 \end{align}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./bare_conf.tex:460: Missing $ inserted.
+./bare_conf.tex:455: Missing $ inserted.
 <inserted text> 
                 $
-l.460 \end{align}
+l.455 \end{align}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -344,37 +314,37 @@ my insertion and my current dilemma will both disappear.
 
 
 LaTeX Warning: Citation `liu2008dependency' on page 1 undefined on input line 4
-62.
+57.
 
 
 LaTeX Warning: Citation `liu2017dependency' on page 1 undefined on input line 4
-62.
+57.
 
 
-./bare_conf.tex:464: LaTeX Error: Environment align undefined.
+./bare_conf.tex:459: LaTeX Error: Environment align undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.464 \begin{align}
+l.459 \begin{align}
                    \label{eq:bola}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./bare_conf.tex:465: Missing $ inserted.
+./bare_conf.tex:460: Missing $ inserted.
 <inserted text> 
                 $
-l.465 	\frac{1}{n-1}
+l.460 	\frac{1}{n-1}
                      \displaystyle\sum_{i=1}^{n-1} |DD_i|
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./bare_conf.tex:465: Extra }, or forgotten $.
+./bare_conf.tex:460: Extra }, or forgotten $.
 \frac #1#2->{\begingroup #1\endgroup \over #2}
                                               
-l.465 	\frac{1}{n-1}
+l.460 	\frac{1}{n-1}
                      \displaystyle\sum_{i=1}^{n-1} |DD_i|
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -383,22 +353,22 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-./bare_conf.tex:466: LaTeX Error: \begin{document} ended by \end{align}.
+./bare_conf.tex:461: LaTeX Error: \begin{document} ended by \end{align}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.466 \end{align}
+l.461 \end{align}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./bare_conf.tex:466: Missing $ inserted.
+./bare_conf.tex:461: Missing $ inserted.
 <inserted text> 
                 $
-l.466 \end{align}
+l.461 \end{align}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -406,10 +376,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./bare_conf.tex:466: Missing } inserted.
+./bare_conf.tex:461: Missing } inserted.
 <inserted text> 
                 }
-l.466 \end{align}
+l.461 \end{align}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -419,18 +389,18 @@ my insertion and my current dilemma will both disappear.
 
 
 LaTeX Warning: Citation `hawkins1994performance' on page 1 undefined on input l
-ine 470.
+ine 465.
 
 
 LaTeX Warning: Citation `radford1997syntactic' on page 1 undefined on input lin
-e 470.
+e 465.
 
 
 LaTeX Warning: Citation `vennemann1994linguistic' on page 1 undefined on input 
-line 470.
+line 465.
 
-./bare_conf.tex:470: Undefined control sequence.
-l.470 ...d that this consistency, as shown in \pic
+./bare_conf.tex:465: Undefined control sequence.
+l.465 ...d that this consistency, as shown in \pic
                                                   ~\ref{fig:samebranching}, ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -440,31 +410,35 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `hawkins1994performance' on page 1 undefined on input l
-ine 470.
+ine 465.
 
 
 LaTeX Warning: Citation `frazier1985syntactic' on page 1 undefined on input lin
-e 470.
+e 465.
 
-<pics/samebranching.png, id=3, 1140.26pt x 277.035pt>
-File: pics/samebranching.png Graphic file (type png)
 
-<use pics/samebranching.png>
-Package pdftex.def Info: pics/samebranching.png used on input line 474.
-(pdftex.def)             Requested size: 146.78195pt x 35.66072pt.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./pics/tautandependensi.png>]
+ <./pics/tautandependensi.png>] <pics/samebranching.png, id=19, 1140.26pt x 277
+.035pt>
+File: pics/samebranching.png Graphic file (type png)
+
+<use pics/samebranching.png>
+Package pdftex.def Info: pics/samebranching.png used on input line 469.
+(pdftex.def)             Requested size: 146.78195pt x 35.66072pt.
+
 <pics/mixedbranching.png, id=20, 1147.28625pt x 488.82625pt>
 File: pics/mixedbranching.png Graphic file (type png)
 
 <use pics/mixedbranching.png>
-Package pdftex.def Info: pics/mixedbranching.png used on input line 479.
+Package pdftex.def Info: pics/mixedbranching.png used on input line 474.
 (pdftex.def)             Requested size: 146.78195pt x 62.53523pt.
 
-./bare_conf.tex:482: Undefined control sequence.
-l.482 ... same branching and mixed branching (\pic
+./bare_conf.tex:477: Undefined control sequence.
+l.477 ... same branching and mixed branching (\pic
                                                   ~\ref{fig:mixedbranching})...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -472,8 +446,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:482: Undefined control sequence.
-l.482 ...d the shortest dependency distances (\pic
+./bare_conf.tex:477: Undefined control sequence.
+l.477 ...d the shortest dependency distances (\pic
                                                   ~\ref{fig:balancedbranchin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -485,35 +459,35 @@ and I'll forget about whatever was undefined.
 File: pics/balancedbranching.png Graphic file (type png)
 
 <use pics/balancedbranching.png>
-Package pdftex.def Info: pics/balancedbranching.png used on input line 486.
+Package pdftex.def Info: pics/balancedbranching.png used on input line 481.
 (pdftex.def)             Requested size: 220.16919pt x 47.39249pt.
 
 
-LaTeX Warning: Citation `udpipe2017' on page 2 undefined on input line 491.
+LaTeX Warning: Citation `udpipe2017' on page 2 undefined on input line 486.
 
 
-LaTeX Warning: Citation `udpipe2017' on page 2 undefined on input line 491.
+LaTeX Warning: Citation `udpipe2017' on page 2 undefined on input line 486.
 
 
 LaTeX Warning: Citation `nivre2017universal' on page 2 undefined on input line 
-491.
+486.
 
 
-LaTeX Warning: Citation `udpipe2017manual' on page 2 undefined on input line 49
-1.
+LaTeX Warning: Citation `udpipe2017manual' on page 2 undefined on input line 48
+6.
 
 
-LaTeX Warning: Citation `r2017project' on page 2 undefined on input line 491.
+LaTeX Warning: Citation `r2017project' on page 2 undefined on input line 486.
 
 
-LaTeX Warning: Citation `r2017project' on page 2 undefined on input line 493.
+LaTeX Warning: Citation `r2017project' on page 2 undefined on input line 488.
 
 
-LaTeX Warning: Citation `python2017manual' on page 2 undefined on input line 49
-3.
+LaTeX Warning: Citation `python2017manual' on page 2 undefined on input line 48
+8.
 
-./bare_conf.tex:493: Undefined control sequence.
-l.493 ... python2017manual}. As visualized in \pic
+./bare_conf.tex:488: Undefined control sequence.
+l.488 ... python2017manual}. As visualized in \pic
                                                   ~\ref{fig:tautandependensi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -523,30 +497,32 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `liu2017dependency' on page 2 undefined on input line 4
-95.
+90.
 
 
-LaTeX Warning: Citation `i2004euclidean' on page 2 undefined on input line 495.
+LaTeX Warning: Citation `i2004euclidean' on page 2 undefined on input line 490.
 
 
 
 LaTeX Warning: Citation `oya2011syntactic' on page 2 undefined on input line 49
-5.
+0.
 
 
 LaTeX Warning: Citation `jiang2015effects' on page 2 undefined on input line 49
-5.
+0.
 
 
 LaTeX Warning: Citation `sneddon2010indonesian' on page 2 undefined on input li
-ne 506.
+ne 501.
 
 
 LaTeX Warning: Citation `sneddon2010indonesian' on page 2 undefined on input li
-ne 506.
+ne 501.
 
-./bare_conf.tex:512: Undefined control sequence.
-l.512 ...stency of direction such as shown in \pic
+[2 <./pics/samebranching.png> <./pics/mixedbranching.png> <./pics/balancedbranc
+hing.png>]
+./bare_conf.tex:507: Undefined control sequence.
+l.507 ...stency of direction such as shown in \pic
                                                   ~\ref{fig:ts6841} and \pic...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -554,8 +530,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:512: Undefined control sequence.
-l.512 ...s shown in \pic~\ref{fig:ts6841} and \pic
+./bare_conf.tex:507: Undefined control sequence.
+l.507 ...s shown in \pic~\ref{fig:ts6841} and \pic
                                                   ~\ref{fig:ls7375} are foun...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -563,8 +539,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:512: Undefined control sequence.
-l.512 ...are found only in shorter sentences. \pic
+./bare_conf.tex:507: Undefined control sequence.
+l.507 ...are found only in shorter sentences. \pic
                                                   ~\ref{fig:ts6841} illustra...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -572,8 +548,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:512: Undefined control sequence.
-l.512 ...ependency directions, in contrast to \pic
+./bare_conf.tex:507: Undefined control sequence.
+l.507 ...ependency directions, in contrast to \pic
                                                   ~\ref{fig:ls7375}. However...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -581,22 +557,20 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[2 <./pics/samebranching.png> <./pics/mixedbranching.png> <./pics/balancedbranc
-hing.png>] <pics/ts6841.jpg, id=29, 222.1098pt x 363.9999pt>
+<pics/ts6841.jpg, id=29, 222.1098pt x 363.9999pt>
 File: pics/ts6841.jpg Graphic file (type jpg)
-
-<use pics/ts6841.jpg>
-Package pdftex.def Info: pics/ts6841.jpg used on input line 516.
+ <use pics/ts6841.jpg>
+Package pdftex.def Info: pics/ts6841.jpg used on input line 511.
 (pdftex.def)             Requested size: 106.01944pt x 173.75153pt.
- <pics/ls7375.jpg, id=30, 330.033pt x 280.4076pt>
-File: pics/ls7375.jpg Graphic file (type jpg)
 
-<use pics/ls7375.jpg>
-Package pdftex.def Info: pics/ls7375.jpg used on input line 523.
+<pics/ls7375.jpg, id=30, 330.033pt x 280.4076pt>
+File: pics/ls7375.jpg Graphic file (type jpg)
+ <use pics/ls7375.jpg>
+Package pdftex.def Info: pics/ls7375.jpg used on input line 518.
 (pdftex.def)             Requested size: 164.91953pt x 140.11787pt.
 
-./bare_conf.tex:528: Undefined control sequence.
-l.528 As shown in \pic
+./bare_conf.tex:523: Undefined control sequence.
+l.523 As shown in \pic
                       ~\ref{fig:tulis_DLposneg} and \pic~\ref{fig:lisan_DLpo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -604,8 +578,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:528: Undefined control sequence.
-l.528 ...in \pic~\ref{fig:tulis_DLposneg} and \pic
+./bare_conf.tex:523: Undefined control sequence.
+l.523 ...in \pic~\ref{fig:tulis_DLposneg} and \pic
                                                   ~\ref{fig:lisan_DLposneg},...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -613,8 +587,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:528: Undefined control sequence.
-l.528 ...-final dependency in the spoken data \pic
+./bare_conf.tex:523: Undefined control sequence.
+l.523 ...-final dependency in the spoken data \pic
                                                   ~\ref{fig:lisan_DLposneg}....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -622,8 +596,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:528: Undefined control sequence.
-l.528 ...ig:lisan_DLposneg}. As seen in table \tab
+./bare_conf.tex:523: Undefined control sequence.
+l.523 ...ig:lisan_DLposneg}. As seen in table \tab
                                                   ~\ref{tab:DLposneg} and \t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -631,8 +605,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:528: Undefined control sequence.
-l.528 ...in table \tab~\ref{tab:DLposneg} and \tab
+./bare_conf.tex:523: Undefined control sequence.
+l.523 ...in table \tab~\ref{tab:DLposneg} and \tab
                                                   ~\ref{tab:tautanposneg}, t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -640,8 +614,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:530: Undefined control sequence.
-l.530 ...g both methods of dependency length (\tab
+./bare_conf.tex:525: Undefined control sequence.
+l.525 ...g both methods of dependency length (\tab
                                                   ~\ref{tab:deskriptif-konst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -649,8 +623,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:530: Undefined control sequence.
-l.530 ...tuen}) and mean dependency distance (\tab
+./bare_conf.tex:525: Undefined control sequence.
+l.525 ...tuen}) and mean dependency distance (\tab
                                                   ~\ref{tab:deskriptif-mdd})...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -660,52 +634,52 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `sneddon2010indonesian' on page 3 undefined on input li
-ne 530.
+ne 525.
 
 <pics/tulis_DLposneg.png, id=31, 774.895pt x 640.3925pt>
 File: pics/tulis_DLposneg.png Graphic file (type png)
 
 <use pics/tulis_DLposneg.png>
-Package pdftex.def Info: pics/tulis_DLposneg.png used on input line 535.
+Package pdftex.def Info: pics/tulis_DLposneg.png used on input line 530.
 (pdftex.def)             Requested size: 235.60036pt x 194.69893pt.
 
 <pics/lisan_DLposneg.png, id=32, 772.8875pt x 643.40375pt>
 File: pics/lisan_DLposneg.png Graphic file (type png)
 
 <use pics/lisan_DLposneg.png>
-Package pdftex.def Info: pics/lisan_DLposneg.png used on input line 542.
+Package pdftex.def Info: pics/lisan_DLposneg.png used on input line 537.
 (pdftex.def)             Requested size: 235.60036pt x 196.12495pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 550.
+(Font)              <8> on input line 545.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 550.
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 552.
+(Font)              <6> on input line 545.
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 547.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 552.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 547.
 
-Underfull \hbox (badness 1708) in paragraph at lines 552--552
+Underfull \hbox (badness 1708) in paragraph at lines 547--547
 []\OT1/ptm/m/n/8 Spoken (+
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 552--552
+Underfull \hbox (badness 1708) in paragraph at lines 547--547
 []\OT1/ptm/m/n/8 Spoken (+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--568
+Underfull \hbox (badness 10000) in paragraph at lines 563--563
 []\OT1/ptm/m/n/8 Written
  []
 
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <5> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 587.
-./bare_conf.tex:587: Undefined control sequence.
-l.587 ... & 1,409 	& 1 & 1 & 4 & 1,606 & \multirow
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 582.
+./bare_conf.tex:582: Undefined control sequence.
+l.582 ... & 1,409 	& 1 & 1 & 4 & 1,606 & \multirow
                                                   {Written}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -713,8 +687,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:594: Undefined control sequence.
-l.594 ... & 1,466 	& 1 & 1 & 4 & 1,534 & \multirow
+./bare_conf.tex:589: Undefined control sequence.
+l.589 ... & 1,466 	& 1 & 1 & 4 & 1,534 & \multirow
                                                   {Spoken}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -722,8 +696,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:613: Undefined control sequence.
-l.613 ...2 	& 1 		& 1,5 	& 4	 	& 1,545 	&\multirow
+./bare_conf.tex:608: Undefined control sequence.
+l.608 ...2 	& 1 		& 1,5 	& 4	 	& 1,545 	&\multirow
                                                   {6}{*}{Tulis}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -731,8 +705,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:620: Undefined control sequence.
-l.620 ... 	& 1 		& 1,33 	& 4		& 1,456 	& \multirow
+./bare_conf.tex:615: Undefined control sequence.
+l.615 ... 	& 1 		& 1,33 	& 4		& 1,456 	& \multirow
                                                   {6}{*}{Lisan}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -741,12 +715,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (8.17467pt too wide) in paragraph at lines 609--628
+Overfull \hbox (8.17467pt too wide) in paragraph at lines 604--623
  [][] 
  []
 
-./bare_conf.tex:634: Undefined control sequence.
-l.634 ... dependencies on central node level. \pic
+./bare_conf.tex:629: Undefined control sequence.
+l.629 ... dependencies on central node level. \pic
                                                   ~\ref{fig:ls1436} and \pic...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -754,8 +728,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:634: Undefined control sequence.
-l.634 ...ode level. \pic~\ref{fig:ls1436} and \pic
+./bare_conf.tex:629: Undefined control sequence.
+l.629 ...ode level. \pic~\ref{fig:ls1436} and \pic
                                                   ~\ref{fig:ls1460} are two ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -765,12 +739,15 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `sneddon2010indonesian' on page 3 undefined on input li
-ne 634.
+ne 629.
 
-[3 <./pics/ts6841.jpg> <./pics/ls7375.jpg> <./pics/tulis_DLposneg.png> <./pics/
-lisan_DLposneg.png>]
-./bare_conf.tex:636: Undefined control sequence.
-l.636 In \pic
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./pics/ts6841.jpg> <./pics/ls7375.jpg> <./pics/tulis_DLposneg.png> <./pics
+/lisan_DLposneg.png>]
+./bare_conf.tex:631: Undefined control sequence.
+l.631 In \pic
              ~\ref{fig:ls1436}, all of the constituents forming the clause \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -778,8 +755,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:636: Undefined control sequence.
-l.636 ... other hand, the dependent clause in \pic
+./bare_conf.tex:631: Undefined control sequence.
+l.631 ... other hand, the dependent clause in \pic
                                                   ~\ref{fig:ls1460} creates ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -787,8 +764,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:640: Undefined control sequence.
-l.640 ...ation in longer sentences as seen in \pic
+./bare_conf.tex:635: Undefined control sequence.
+l.635 ...ation in longer sentences as seen in \pic
                                                   ~\ref{fig:tulisroot_DLposn...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -796,8 +773,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:640: Undefined control sequence.
-l.640 ...pic~\ref{fig:tulisroot_DLposneg} and \pic
+./bare_conf.tex:635: Undefined control sequence.
+l.635 ...pic~\ref{fig:tulisroot_DLposneg} and \pic
                                                   ~\ref{fig:lisanroot_DLposn...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -805,8 +782,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:640: Undefined control sequence.
-l.640 ...-final dependency in the spoken data \pic
+./bare_conf.tex:635: Undefined control sequence.
+l.635 ...-final dependency in the spoken data \pic
                                                   ~\ref{fig:lisanroot_DLposn...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -814,8 +791,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:640: Undefined control sequence.
-l.640 ...a \pic~\ref{fig:lisanroot_DLposneg}. \tab
+./bare_conf.tex:635: Undefined control sequence.
+l.635 ...a \pic~\ref{fig:lisanroot_DLposneg}. \tab
                                                   ~\ref{tab:DLpusatposneg} s...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -823,66 +800,66 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<pics/ls1436.jpg, id=37, 280.8894pt x 304.2567pt>
+<pics/ls1436.jpg, id=36, 280.8894pt x 304.2567pt>
 File: pics/ls1436.jpg Graphic file (type jpg)
  <use pics/ls1436.jpg>
-Package pdftex.def Info: pics/ls1436.jpg used on input line 645.
+Package pdftex.def Info: pics/ls1436.jpg used on input line 640.
 (pdftex.def)             Requested size: 129.5809pt x 140.36368pt.
 
-<pics/ls1460.jpg, id=38, 414.5889pt x 326.6604pt>
+<pics/ls1460.jpg, id=37, 414.5889pt x 326.6604pt>
 File: pics/ls1460.jpg Graphic file (type jpg)
  <use pics/ls1460.jpg>
-Package pdftex.def Info: pics/ls1460.jpg used on input line 652.
+Package pdftex.def Info: pics/ls1460.jpg used on input line 647.
 (pdftex.def)             Requested size: 176.70026pt x 139.22508pt.
 
-<pics/tulisroot_DLposneg.png, id=39, 787.94376pt x 681.54625pt>
+<pics/tulisroot_DLposneg.png, id=38, 787.94376pt x 681.54625pt>
 File: pics/tulisroot_DLposneg.png Graphic file (type png)
 
 <use pics/tulisroot_DLposneg.png>
-Package pdftex.def Info: pics/tulisroot_DLposneg.png used on input line 661.
+Package pdftex.def Info: pics/tulisroot_DLposneg.png used on input line 656.
 (pdftex.def)             Requested size: 235.60036pt x 203.77908pt.
 
-<pics/lisanroot_DLposneg.png, id=40, 801.99625pt x 687.56876pt>
+<pics/lisanroot_DLposneg.png, id=39, 801.99625pt x 687.56876pt>
 File: pics/lisanroot_DLposneg.png Graphic file (type png)
 
 <use pics/lisanroot_DLposneg.png>
-Package pdftex.def Info: pics/lisanroot_DLposneg.png used on input line 668.
+Package pdftex.def Info: pics/lisanroot_DLposneg.png used on input line 663.
 (pdftex.def)             Requested size: 235.60036pt x 201.98122pt.
 
-Underfull \hbox (badness 1708) in paragraph at lines 680--680
+Underfull \hbox (badness 1708) in paragraph at lines 675--675
 []\OT1/ptm/m/n/8 Spoken (+
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 680--680
+Underfull \hbox (badness 1708) in paragraph at lines 675--675
 []\OT1/ptm/m/n/8 Spoken (+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 696--696
+Underfull \hbox (badness 10000) in paragraph at lines 691--691
 []\OT1/ptm/m/n/8 Written
  []
 
-./bare_conf.tex:717: Undefined control sequence.
-l.717 ...428 	& 1 		& 1		& 4	 	& 1,748 	&\multirow
-                                                  {Tulis}\\
+./bare_conf.tex:712: Undefined control sequence.
+l.712 ...428 	& 1 		& 1		& 4	 	& 1,748 	&\multirow
+                                                  {Written}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:724: Undefined control sequence.
-l.724 ...482 	& 1 		& 1	 	& 4		& 1,69 	& \multirow
-                                                  {Lisan}\\
+./bare_conf.tex:719: Undefined control sequence.
+l.719 ...482 	& 1 		& 1	 	& 4		& 1,69 	& \multirow
+                                                  {Spoken}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:735: Undefined control sequence.
-l.735 ... between both dependency directions, \tab
+./bare_conf.tex:730: Undefined control sequence.
+l.730 ... between both dependency directions, \tab
                                                   ~\ref{tab:deskriptif-konst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -890,8 +867,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:735: Undefined control sequence.
-l.735 ...} shows a consistency in result with \tab
+./bare_conf.tex:730: Undefined control sequence.
+l.730 ...} shows a consistency in result with \tab
                                                   ~\ref{tab:deskriptif-konst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -899,19 +876,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[4 <./pics/ls1436.jpg> <./pics/ls1460.jpg>]
-./bare_conf.tex:745: Undefined control sequence.
-l.745 ...363	& 1 		& 1,5		& 4	 	& 1,632	&\multirow
-                                                  {6}{*}{Tulis}\\
+./bare_conf.tex:740: Undefined control sequence.
+l.740 ...363	& 1 		& 1,5		& 4	 	& 1,632	&\multirow
+                                                  {Written}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:752: Undefined control sequence.
-l.752 ...327	& 1 		& 1,5 	& 4		& 1,531	& \multirow
-                                                  {6}{*}{Lisan}\\
+./bare_conf.tex:747: Undefined control sequence.
+l.747 ...327	& 1 		& 1,5 	& 4		& 1,531	& \multirow
+                                                  {Spoken}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -919,49 +895,23 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (8.17467pt too wide) in paragraph at lines 741--760
+Overfull \hbox (7.33955pt too wide) in paragraph at lines 736--755
  [][] 
  []
 
 
-Overfull \hbox (5.63524pt too wide) in paragraph at lines 763--765
-[]\OT1/ptm/m/n/10 =========================================
- []
+LaTeX Warning: Citation `kridalaksana2002struktur' on page 4 undefined on input
+ line 844.
 
 
-Overfull \hbox (1.27513pt too wide) in paragraph at lines 763--765
-\OT1/ptm/m/n/10 ========================================== 
- []
+LaTeX Warning: Citation `sneddon2010indonesian' on page 4 undefined on input li
+ne 844.
 
 
-Overfull \hbox (5.63524pt too wide) in paragraph at lines 852--854
-[]\OT1/ptm/m/n/10 =========================================
- []
+Underfull \vbox (badness 2970) has occurred while \output is active []
 
-
-Overfull \hbox (1.27513pt too wide) in paragraph at lines 852--854
-\OT1/ptm/m/n/10 ========================================== 
- []
-
-
-LaTeX Warning: Citation `kridalaksana2002struktur' on page 5 undefined on input
- line 855.
-
-
-LaTeX Warning: Citation `sneddon2010indonesian' on page 5 undefined on input li
-ne 855.
-
-[5 <./pics/tulisroot_DLposneg.png> <./pics/lisanroot_DLposneg.png>]
-Overfull \hbox (5.63524pt too wide) in paragraph at lines 861--863
-[]\OT1/ptm/m/n/10 =========================================
- []
-
-
-Overfull \hbox (1.27513pt too wide) in paragraph at lines 861--863
-\OT1/ptm/m/n/10 ========================================== 
- []
-
-(./bare_conf.bbl)
+ [4 <./pics/ls1436.jpg>] [5 <./pics/ls1460.jpg> <./pics/tulisroot_DLposneg.png>
+ <./pics/lisanroot_DLposneg.png>] (./bare_conf.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -986,7 +936,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  2327 strings out of 492995
  37941 string characters out of 6132704
- 131403 words of memory out of 5000000
+ 144403 words of memory out of 5000000
  5855 multiletter control sequences out of 15000+600000
  40423 words of font info for 74 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1005,7 +955,7 @@ f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fon
 ts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on bare_conf.pdf (6 pages, 2164413 bytes).
+Output written on bare_conf.pdf (6 pages, 2166195 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  55 compressed objects within 1 object stream
